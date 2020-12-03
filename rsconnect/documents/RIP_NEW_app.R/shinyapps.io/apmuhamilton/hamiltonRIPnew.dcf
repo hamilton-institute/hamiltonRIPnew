@@ -1,0 +1,13 @@
+name: hamiltonRIPnew
+title: hamiltonRIPnew
+username:
+account: apmuhamilton
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3346670
+bundleId: 3939109
+url: https://apmuhamilton.shinyapps.io/hamiltonRIPnew/
+when: 1607017151.24292
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .github/workflows/updateData.yml
