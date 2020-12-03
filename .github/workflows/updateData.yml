@@ -16,6 +16,7 @@ jobs:
       - uses: r-lib/actions/setup-r@master
       - name: Install packages
         run: |
+          sudo apt-get install -y libudunits2-dev
           Rscript installing_packages.R
       - name: Update the dataset and deploy
         run: |
