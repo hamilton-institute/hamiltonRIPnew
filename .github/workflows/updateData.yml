@@ -14,9 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@master
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
       - name: Install packages
         run: |
-          sudo apt-get install -y libudunits2-dev ibproj-dev
+          sudo apt-get install -y libudunits2-dev libproj-dev
           Rscript installing_packages.R
       - name: Update the dataset and deploy
         run: |
