@@ -8,4 +8,4 @@ install.packages(
   repos = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"
 )
 
-devtools::install_github('isplayr/flipTime')
+devtools::install_github('Displayr/flipTime')
