@@ -23,6 +23,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install packages
+        run: |
           Rscript installing_packages.R
       - name: Update the dataset and deploy
         run: |
