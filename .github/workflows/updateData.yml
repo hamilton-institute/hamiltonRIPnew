@@ -13,15 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install libs
+        run: |
+          sudo add-apt-repository ppa:ubuntugis/ppa
+          sudo apt-get update
+          sudo apt-get install -y libgdal-dev libgeos-dev libproj-dev liblwgeom-dev libudunits2-dev postgis
       - uses: r-lib/actions/setup-r@master
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
       - name: Install packages
-        run: |
-          sudo add-apt-repository ppa:ubuntugis/ppa
-          sudo apt-get update
-          sudo apt-get install -y libudunits2-dev proj-bin gdal-bin
           Rscript installing_packages.R
       - name: Update the dataset and deploy
         run: |
