@@ -3,11 +3,12 @@ install.packages(
     "shinyBS", "shinyWidgets", "shinythemes", "plotly", "shinycssloaders",
     "rgdal", "leaflet", "leaflet.extras", "tigris", "spdplyr",
     "ggdendro", "scales", "shinyalert", "shinybusy", "RcppRoll",
-    "zoo", "readxl", "Jmisc", "cowplot", "survival", "reticulate", "devtools"
+    "zoo", "readxl", "Jmisc", "cowplot", "survival", "reticulate", "devtools",
+    "usethis"
   ),
   repos = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"
 )
 
-install.packages("sf")
+install.packages("sf", "rsconnect")
 
 devtools::install_github('Displayr/flipTime')
