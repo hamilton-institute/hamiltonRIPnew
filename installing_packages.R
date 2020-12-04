@@ -9,6 +9,6 @@ install.packages(
   repos = "https://packagemanager.rstudio.com/all/__linux__/bionic/latest"
 )
 
-install.packages("sf", "rsconnect")
+install.packages(c("sf", "rsconnect"))
 
 devtools::install_github('Displayr/flipTime')
