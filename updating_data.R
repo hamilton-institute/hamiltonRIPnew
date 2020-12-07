@@ -22,6 +22,7 @@ suppressPackageStartupMessages({
   library(shinycssloaders)
   library(sf)
   library(reticulate)
+  library(stringr)
 })
 
 
@@ -89,9 +90,6 @@ suppressMessages({
 })
 
 
-
-
-
 usethis::ui_todo("Saving new data...")
 # merged_rk_data = RIP_rk_aggregated_data_merged_7Sept.RData
 merged_rk_data <- town_in_rk_count
@@ -108,10 +106,11 @@ rsconnect::setAccountInfo(
   secret= args[2]
 )
 
-# files <- list.files('.')
+files <- list.files('.')
+files <- files[!str_detect(files, ".tsv$")]
 
 rsconnect::deployApp(
-  # appFiles = files,
+  appFiles = files,
   appName = 'hamiltonRIPnew',
   forceUpdate = TRUE,
   account = 'apmuhamilton',

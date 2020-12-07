@@ -30,7 +30,8 @@ load("RIP_rk_aggregated_data_merged_12Nov.RData")
 eircodes = readOGR(dsn="eircodes", layer="eircode_polygons")
 
 #Data preparation:
-ref_level <- merged_rk_data %>% filter(Year < 2020 & Year >=2015 ) %>%
+ref_level <- merged_rk_data %>%
+  filter(Year < 2020 & Year >=2015 ) %>%
   ungroup() %>%
   group_by(Group,Date) %>%
   summarize(Monthly_Notices = sum(Monthly_Notices)) %>%
