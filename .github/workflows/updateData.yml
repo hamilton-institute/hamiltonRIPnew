@@ -34,7 +34,7 @@ jobs:
           Rscript -e 'install.packages("gert")'
           Rscript -e 'install.packages("sf")'
           Rscript installing_packages.R
-          Rscript -e "install.packages("https://cran.r-project.org/src/contrib/Archive/usethis/usethis_1.6.0.tar.gz", repos=NULL, type="source")"
+          Rscript -e 'install.packages("https://cran.r-project.org/src/contrib/Archive/usethis/usethis_1.6.0.tar.gz", repos=NULL, type="source")'
           Rscript -e 'install.packages("rsconnect")'
       - name: Update the dataset and deploy
         run: |
