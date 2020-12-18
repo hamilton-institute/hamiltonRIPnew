@@ -64,11 +64,13 @@ ui <- fluidPage(theme = shinytheme("united"),
                  tabPanel("Map",
 
                           mainPanel(
+                            
+           p("NOTE: For checking region-specific excess mortality time-series you can click on the map regions."), 
+
 
           leafletOutput("view") %>% withSpinner(color="#FF4500"),
           hr(),
-          radioButtons("yscale", p("Select a region from the map and choose the comparison method to show each region's excess mortality time-series."),
-                       choices = list("Percentage" = "percent","Absolute" = "exact"),inline=TRUE),
+          
 
           width = 12)),#End of Map tabpanel
 
@@ -247,6 +249,8 @@ server <- function(input, output) {
     title = "",
     size = "l",
     footer = actionButton("close", "Close"),
+    radioButtons("yscale", p("Choose the comparison method:"),
+                       choices = list("Percentage" = "percent","Absolute" = "exact"),inline=TRUE),
     plotlyOutput("plot2") %>% withSpinner(color="#FF4500") ))
 
   })
