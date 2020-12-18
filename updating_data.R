@@ -1,5 +1,3 @@
-args <- commandArgs(trailingOnly = TRUE)
-
 usethis::ui_todo("Loading packages...")
 
 suppressPackageStartupMessages({
@@ -94,26 +92,4 @@ usethis::ui_todo("Saving new data...")
 # merged_rk_data = RIP_rk_aggregated_data_merged_7Sept.RData
 merged_rk_data <- town_in_rk_count
 save(merged_rk_data,file = "RIP_rk_aggregated_data_merged_12Nov.RData")
-
-
-# Deploying the app
-
-usethis::ui_todo("Deploying the app to shinyapps.io...")
-
-rsconnect::setAccountInfo(
-  name = 'apmuhamilton',
-  token = args[1],
-  secret= args[2]
-)
-
-files <- list.files('.')
-files <- files[!str_detect(files, ".tsv$")]
-
-rsconnect::deployApp(
-  appFiles = files,
-  appName = 'hamiltonRIPnew',
-  forceUpdate = TRUE,
-  account = 'apmuhamilton',
-  logLevel = "quiet"
-)
 

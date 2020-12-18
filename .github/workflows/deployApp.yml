@@ -1,17 +1,13 @@
 # This workflow deploys the app on push or pull request
 
-name: updateData
-
+name: deployApp
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  schedule:
-  - cron: 0 0 * * *
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   deploy:
-    name: Update datasets
+    name: Deploy app
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,9 +17,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev libgit2-dev
       - uses: r-lib/actions/setup-r@master
-      - uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
       - name: Install libgit2
         run: |
           sudo add-apt-repository ppa:cran/libgit2
@@ -38,7 +31,6 @@ jobs:
           Rscript -e 'install.packages("rsconnect")'
       - name: Update the dataset and deploy
         run: |
-          Rscript updating_data.R
           Rscript deploy.R ${{secrets.SHINYAPPS_TOKEN}} ${{secrets.SHINYAPPS_SECRET}}
       - name: Commit results
         run: |
