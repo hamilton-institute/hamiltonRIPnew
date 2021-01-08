@@ -18,7 +18,7 @@ import json
 
 
 #Year to start scraping from
-year0 = 2020
+year0 = 2021
 
 
 
@@ -79,7 +79,7 @@ output.write('%date\tID\taddress\ttown\tcounty\tall_addresses\n')
 ###########
 
 #Year range
-years = range(year0-2000,21)
+years = range(year0-2000,22)
 #Month range
 months = range(1,13)
 #Day range
