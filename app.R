@@ -27,6 +27,9 @@ rm(list = ls())
 #Reading RIP dataset + Eircodes shapefiles:
 
 load("RIP_rk_aggregated_data_merged_12Nov.RData")
+merged_rk_data = merged_rk_data %>% group_by(Group) %>% 
+  mutate(Monthly_Notices = ifelse(is.na(Monthly_Notices), Monthly_Notices[which(Month == 1 & Year == 2016)], Monthly_Notices))
+
 eircodes = readOGR(dsn="eircodes", layer="eircode_polygons")
 
 #Data preparation:
@@ -40,11 +43,12 @@ ref_level <- merged_rk_data %>%
   mutate(Ref_Level = mean(Monthly_Notices),
          Prev_Max = max(Monthly_Notices))
 
-df2020 <- merged_rk_data %>% filter(Year == 2020)
+df2020 <- merged_rk_data %>% filter(Year > 2019)
 df_ref <- ref_level %>% ungroup() %>% filter(year(Date) == 2019) %>% select(Group,DOY, Ref_Level)
 
 merged_df <- left_join(df2020, df_ref)
 merged_df <- merged_df %>% mutate(value = round(100*(Monthly_Notices - Ref_Level)/Ref_Level)) #Mortality rate change
+merged_df = na.omit(merged_df) 
 
 total <- merged_df %>% group_by(Date) %>%
   summarise(Monthly_Notices = sum(Monthly_Notices, na.rm = T), Ref_Level = sum(Ref_Level)) %>%
@@ -192,6 +196,14 @@ server <- function(input, output) {
        mutate(Ref_Level = mean(Monthly_Notices),
               Prev_Max = max(Monthly_Notices))
 
+      # Merging 2020 and one of the previous years (doesn't matter which one they have identical ref col)
+     
+     df2020 <- df3 %>% filter(Year > 2019)
+     df_ref <- ref_level %>% ungroup() %>% filter(year(Date) == 2019) %>% select(DOY, Ref_Level, Prev_Max)
+     
+     merged_df <- left_join(df2020, df_ref, "DOY")
+     merged_df <- merged_df %>% mutate(value = round(100*(Monthly_Notices - Ref_Level)/Ref_Level)) #Mortality rate change
+     
 
       x <- eircodes$RoutingKey[which(eircodes$Group == m$Group)]
       x <- knitr::combine_words(x)
@@ -199,26 +211,19 @@ server <- function(input, output) {
       plt1 <- ggplot()+
         geom_line(data = df3 ,
                   aes(x=Date,y=Monthly_Notices, linetype="2020"), color = "red")+
-        geom_line(data = ref_level ,
-                  aes(x=as.Date(DOY,origin="2020-01-01"),y=Prev_Max, linetype="Previous years max"), color ="blue") +
-        geom_line(data = ref_level,
-                  aes(x=as.Date(DOY,origin="2020-01-01"),y=Ref_Level, linetype="Previous years mean"), color ="darkblue") +
+        geom_line(data = merged_df ,
+                  aes(x=Date,y=Prev_Max, linetype="Previous years max"), color ="blue") +
+        geom_line(data = merged_df,
+                  aes(x=Date,y=Ref_Level, linetype="Previous years mean"), color ="darkblue") +
         facet_wrap(facets = vars(Group)) +
         ggtitle(paste0("Notices Posted in 2020 - Eircode: ", x)) +
         labs(x="",y="Monthly Notices") +
         theme(axis.text.x = element_text(angle = 90), legend.position = c(0.89, 0.85))  +
-        scale_x_date(date_breaks = "1 month", date_labels = "%b",limits=c(as.Date("2020-01-01"),as.Date("2020-12-01"))) +
+        scale_x_date(date_breaks = "1 month", date_labels = "%b",limits=c(as.Date("2020-01-01"),max(merged_rk_data$Date))) +
         labs(linetype = "") +
         scale_linetype_manual(values=c("solid", "dotted", "dashed")) + theme_bw()
 
 
-     # Merging 2020 and one of the previous years (doesn't matter which one they have identical ref col)
-
-     df2020 <- df3 %>% filter(Year == 2020)
-     df_ref <- ref_level %>% ungroup() %>% filter(year(Date) == 2019) %>% select(DOY, Ref_Level)
-
-     merged_df <- left_join(df2020, df_ref, "DOY")
-     merged_df <- merged_df %>% mutate(value = round(100*(Monthly_Notices - Ref_Level)/Ref_Level)) #Mortality rate change
 
      p <- merged_df %>% ggplot(aes(Date, value)) + geom_line(color = "red") + ylab("Excess postings %") +
             geom_hline(yintercept = 0, linetype="dotted") + ggtitle(paste0("Excess postings at ", m$Group, " relative to 2015-2019 mean")) +theme_bw()
