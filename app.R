@@ -27,7 +27,7 @@ rm(list = ls())
 #Reading RIP dataset + Eircodes shapefiles:
 
 load("RIP_rk_aggregated_data_merged_12Nov.RData")
-merged_rk_data = merged_rk_data %>% group_by(Group) %>% 
+merged_rk_data = merged_rk_data %>% group_by(Group) %>%
   mutate(Monthly_Notices = ifelse(is.na(Monthly_Notices), Monthly_Notices[which(Month == 1 & Year == 2016)], Monthly_Notices))
 
 eircodes = readOGR(dsn="eircodes", layer="eircode_polygons")
@@ -48,7 +48,7 @@ df_ref <- ref_level %>% ungroup() %>% filter(year(Date) == 2019) %>% select(Grou
 
 merged_df <- left_join(df2020, df_ref)
 merged_df <- merged_df %>% mutate(value = round(100*(Monthly_Notices - Ref_Level)/Ref_Level)) #Mortality rate change
-merged_df = na.omit(merged_df) 
+merged_df = na.omit(merged_df)
 
 total <- merged_df %>% group_by(Date) %>%
   summarise(Monthly_Notices = sum(Monthly_Notices, na.rm = T), Ref_Level = sum(Ref_Level)) %>%
@@ -68,13 +68,13 @@ ui <- fluidPage(theme = shinytheme("united"),
                  tabPanel("Map",
 
                           mainPanel(
-                            
-           p("NOTE: For checking region-specific excess mortality time-series you can click on the map regions."), 
+
+           p("NOTE: For checking region-specific excess mortality time-series you can click on the map regions."),
 
 
           leafletOutput("view") %>% withSpinner(color="#FF4500"),
           hr(),
-          
+
 
           width = 12)),#End of Map tabpanel
 
@@ -197,13 +197,13 @@ server <- function(input, output) {
               Prev_Max = max(Monthly_Notices))
 
       # Merging 2020 and one of the previous years (doesn't matter which one they have identical ref col)
-     
+
      df2020 <- df3 %>% filter(Year > 2019)
      df_ref <- ref_level %>% ungroup() %>% filter(year(Date) == 2019) %>% select(DOY, Ref_Level, Prev_Max)
-     
+
      merged_df <- left_join(df2020, df_ref, "DOY")
      merged_df <- merged_df %>% mutate(value = round(100*(Monthly_Notices - Ref_Level)/Ref_Level)) #Mortality rate change
-     
+
 
       x <- eircodes$RoutingKey[which(eircodes$Group == m$Group)]
       x <- knitr::combine_words(x)
