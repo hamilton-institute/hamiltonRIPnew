@@ -5,6 +5,8 @@ account: apmuhamilton
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3346670
-bundleId: 4110089
+bundleId: 4114094
 url: https://apmuhamilton.shinyapps.io/hamiltonRIPnew/
-when: 1610933750.74937
+when: 1611007524.72673
+asMultiple: FALSE
+asStatic: FALSE

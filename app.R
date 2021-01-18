@@ -136,12 +136,14 @@ server <- function(input, output) {
 
     df2 <- df2 %>% dplyr::mutate(
       pop1 = case_when(
-        as.character(df2$Group) != as.character(df2$Descriptor) ~ paste0("Excess: ", df2$value, "% at ", df2$Group, " including ", df2$Descriptor),
-        TRUE ~ paste0("Excess: ", df2$value, "% at ", df2$Group)
+        as.character(df2$Group) != as.character(df2$Descriptor) ~ paste0("Excess: ", df2$value, "% in ", stringr::str_to_title(df2$Group), " including ",
+                                                                         stringr::str_to_title(df2$Descriptor)),
+        TRUE ~ paste0("Excess: ", df2$value, "% in ", stringr::str_to_title(df2$Group))
       ),
       pop2 = case_when(
-        as.character(df2$Group) != as.character(df2$Descriptor) ~ paste0(Monthly_Notices, " at ", df2$Group, " including ", df2$Descriptor),
-        TRUE ~ paste0(Monthly_Notices, " at ", df2$Group)
+        as.character(df2$Group) != as.character(df2$Descriptor) ~ paste0(Monthly_Notices, " at ", stringr::str_to_title(df2$Group),
+                                                                         " including ", stringr::str_to_title(df2$Descriptor)),
+        TRUE ~ paste0(Monthly_Notices, " in ", stringr::str_to_title(df2$Group))
       )
     )
 
@@ -253,7 +255,7 @@ server <- function(input, output) {
         geom_line(color = "#084C95") +
         ylab("Excess postings %") +
         geom_hline(yintercept = 0, linetype = "dotted") +
-        ggtitle(paste0("Excess postings at ", m$Group, " relative to 2015-2019 mean")) +
+        ggtitle(paste0("Excess postings in ", stringr::str_to_title(m$Group), " relative to 2015-2019 mean")) +
         theme_bw()
 
       plt2 <- ggplotly(p)
