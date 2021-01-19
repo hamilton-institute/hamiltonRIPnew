@@ -149,8 +149,8 @@ server <- function(input, output) {
 
     # Create colour palette that goes through 0
     q0 <- round(ecdf(df2$value)(0),2)*100
-    rc1 <- colorRampPalette(colors = c("#084C95", "white"), space = "Lab")(q0/2)
-    rc2 <- colorRampPalette(colors = c("white", "darkred"), space = "Lab")(100-q0/2)
+    rc1 <- colorRampPalette(colors = c("#084C95", "white"), space = "Lab")(q0)
+    rc2 <- colorRampPalette(colors = c("white", "darkred"), space = "Lab")(100-q0)
 
     ## Combine the two color palettes
     rampcols <- c(rc1, rc2)

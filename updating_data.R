@@ -23,6 +23,8 @@ suppressPackageStartupMessages({
   library(sf)
   library(reticulate)
   library(stringr)
+  library(hamiltonThemes)
+  library(flipTime)
 })
 
 

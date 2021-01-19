@@ -9,3 +9,4 @@ install.packages(
 )
 
 devtools::install_github('Displayr/flipTime')
+devtools::install_github('hamilton-institute/hamiltonThemes')
