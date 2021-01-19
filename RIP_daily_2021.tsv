@@ -1,6 +1,6 @@
 %date	ID	address	town	county	all_addresses
 2021-01-1	443739		Blackrock	Dublin	['\tBlackrock\tDublin', '\tTemplemore\tTipperary']
-2021-01-1	443724	Modeligo	Ballyduff Upper	Waterford	['Modeligo\tBallyduff Upper\tWaterford', 'Modeligo\tConna\tCork']
+2021-01-1	443724	Modeligo	Conna	Cork	['Modeligo\tConna\tCork', 'Modeligo\tBallyduff Upper\tWaterford']
 2021-01-1	443770		Rush	Dublin
 2021-01-1	443743	"Glenside", Lacken	Gorey	Wexford
 2021-01-1	443729	Errity	Manorcunningham	Donegal
@@ -12,12 +12,12 @@
 2021-01-1	443732	The Paddocks	Douglas	Cork
 2021-01-1	443778		Glanmire	Cork
 2021-01-1	443763		Donnybrook	Dublin
-2021-01-1	443756	Brookside	Bailieborough	Cavan	['Brookside\tBailieborough\tCavan', 'Brookside\tCavan Town\tCavan']
+2021-01-1	443756	Brookside	Cavan Town	Cavan	['Brookside\tCavan Town\tCavan', 'Brookside\tBailieborough\tCavan']
 2021-01-1	443788	Ballymacowen	Clonakilty	Cork
-2021-01-1	443749	No1 Old Racecourse Road	Tuam	Galway	['No1 Old Racecourse Road\tTuam\tGalway', 'No1 Old Racecourse Road\tHeadford\tGalway']
-2021-01-1	443784	Minvaude, Clonmore	Hacketstown	Carlow	['Minvaude, Clonmore\tHacketstown\tCarlow', 'Minvaude, Clonmore\tTralee\tKerry']
+2021-01-1	443749	No1 Old Racecourse Road	Headford	Galway	['No1 Old Racecourse Road\tHeadford\tGalway', 'No1 Old Racecourse Road\tTuam\tGalway']
+2021-01-1	443784	Minvaude, Clonmore	Tralee	Kerry	['Minvaude, Clonmore\tTralee\tKerry', 'Minvaude, Clonmore\tHacketstown\tCarlow']
 2021-01-1	443772	High Street, Nutgrove, Tynagh	Loughrea	Galway
-2021-01-1	443798		Louisburgh	Mayo	['\tLouisburgh\tMayo', '\tEnnis\tClare', '\tLucan\tDublin']
+2021-01-1	443798		Lucan	Dublin	['\tLucan\tDublin', '\tLouisburgh\tMayo', '\tEnnis\tClare']
 2021-01-1	443747	Ferrymans Crossing	Dublin 1	Dublin
 2021-01-1	443714	Grange Barna	Thurles	Tipperary
 2021-01-1	443742		Coolock	Dublin
@@ -29,15 +29,14 @@
 2021-01-1	443748	Dunmore Road and late of Harney`s Bakery		Waterford
 2021-01-1	443745		Carrigaline	Cork
 2021-01-1	443761	Corah	Ferns	Wexford
-2021-01-1	443774		Navan Road	Dublin
-2021-01-1	443736	Loughloher	Cahir	Tipperary
+2021-01-1	443736	Loughloher	Cahir	Tipperary	['Loughloher\tCahir\tTipperary', 'Loughloher\tCahir\tTipperary']
 2021-01-1	443767	Killeen	Swinford	Mayo	['Killeen\tSwinford\tMayo', 'Killeen\tCharlestown\tMayo']
 2021-01-1	443797	Ardmore	Muff	Donegal
 2021-01-1	443799		Ovens	Cork
-2021-01-1	443794		New Ross	Wexford	['\tNew Ross\tWexford', '\tKilmuckridge\tWexford', '\t\tKilkenny', '\t\tWaterford']
+2021-01-1	443794			Waterford	['\t\tWaterford', '\tNew Ross\tWexford', '\t\tKilkenny', '\tKilmuckridge\tWexford']
 2021-01-1	443726	Loughmore Square, Killeen Castle	Dunsany	Meath	['Loughmore Square, Killeen Castle\tDunsany\tMeath', 'Loughmore Square, Killeen Castle\tNavan\tMeath']
-2021-01-1	443802	Empor	Edgeworthstown	Longford	['Empor\tEdgeworthstown\tLongford', 'Empor\tBallynacargy\tWestmeath']
-2021-01-1	443785	Lower Bellmount	Crookstown	Cork	['Lower Bellmount\tCrookstown\tCork', 'Lower Bellmount\tKilmichael\tCork']
+2021-01-1	443802	Empor	Ballynacargy	Westmeath	['Empor\tBallynacargy\tWestmeath', 'Empor\tEdgeworthstown\tLongford']
+2021-01-1	443785	Lower Bellmount	Kilmichael	Cork	['Lower Bellmount\tKilmichael\tCork', 'Lower Bellmount\tCrookstown\tCork']
 2021-01-1	443809	Deerpark	Bandon	Cork
 2021-01-1	443755	Devon Park	Galway City	Galway
 2021-01-1	443741	Shankill		Cavan
@@ -50,9 +49,9 @@
 2021-01-1	443766	Antelope Road, Mauldintown	Wexford Town	Wexford
 2021-01-1	443744	CROMANE LOWER	Cromane	Kerry
 2021-01-1	443753	1, Main Street	Castlederg	Tyrone
-2021-01-1	443793	Springvale / Cahermaculick	Ballinrobe	Mayo	['Springvale / Cahermaculick\tBallinrobe\tMayo', 'Springvale / Cahermaculick\tShrule\tMayo']
+2021-01-1	443793	Springvale / Cahermaculick	Shrule	Mayo	['Springvale / Cahermaculick\tShrule\tMayo', 'Springvale / Cahermaculick\tBallinrobe\tMayo']
 2021-01-1	443779	Waterloo	Bailieborough	Cavan
-2021-01-1	443783	The Park Retirement Village	Ballynanty	Limerick	['The Park Retirement Village\tBallynanty\tLimerick', 'The Park Retirement Village\tCastletroy\tLimerick', 'The Park Retirement Village\tEnnis\tClare']
+2021-01-1	443783	The Park Retirement Village	Ennis	Clare	['The Park Retirement Village\tEnnis\tClare', 'The Park Retirement Village\tCastletroy\tLimerick', 'The Park Retirement Village\tBallynanty\tLimerick']
 2021-01-1	443764	Derryconnor	Gortahork	Donegal
 2021-01-1	443805	Cornshamsogue	Drumshanbo	Leitrim
 2021-01-1	443765	Middletown, Glenbrien	Enniscorthy	Wexford
@@ -64,13 +63,13 @@
 2021-01-1	443752	Pass, Rathronan	Clonmel	Tipperary
 2021-01-1	443734	Moneyhore, Davidstown	Enniscorthy	Wexford
 2021-01-1	443796	Gurrane	Clondrohid	Cork
-2021-01-1	443782		Drimnagh	Dublin	['\tDrimnagh\tDublin', '\tDublin 12\tDublin']
-2021-01-1	443673	Eyeries	Beara	Cork	['Eyeries\tBeara\tCork', 'Eyeries\tBallincollig\tCork']
+2021-01-1	443782		Dublin 12	Dublin	['\tDublin 12\tDublin', '\tDrimnagh\tDublin']
+2021-01-1	443673	Eyeries	Ballincollig	Cork	['Eyeries\tBallincollig\tCork', 'Eyeries\tBeara\tCork']
 2021-01-1	443786	Glengoole Village	Thurles	Tipperary
 2021-01-1	443789	Annapurna, Lower Park	Corbally	Limerick
 2021-01-1	443800	Lightown, Drumbaragh	Kells	Meath
-2021-01-1	443738	Ashgrove	Fethard-on-sea	Wexford
 2021-01-1	443754		Artane	Dublin
+2021-01-1	443738	Ashgrove	Fethard-on-sea	Wexford
 2021-01-1	443757	Baltoney	Gortahork	Donegal
 2021-01-1	443804	Deel View	Castlemahon	Limerick
 2021-01-1	443733	Grange	Buttevant	Cork
@@ -88,30 +87,30 @@
 2021-01-2	443924	Monastery Grove	Ballybrack	Dublin	['Monastery Grove\tBallybrack\tDublin', 'Monastery Grove\tEnniskerry\tWicklow']
 2021-01-2	443790	Coolmakee	Fermoy	Cork
 2021-01-2	443880		Kilmacrennan	Donegal
-2021-01-2	443919	Crohane, Fossa	Killarney	Kerry	['Crohane, Fossa\tKillarney\tKerry', 'Crohane, Fossa\tTralee\tKerry']
 2021-01-2	443842	Old Callan Road	Kilkenny City	Kilkenny
+2021-01-2	443919	Crohane, Fossa	Tralee	Kerry	['Crohane, Fossa\tTralee\tKerry', 'Crohane, Fossa\tKillarney\tKerry']
 2021-01-2	443849	Stramatt	Virginia	Cavan
 2021-01-2	443923		Kellistown	Carlow
 2021-01-2	443864		Cork City	Cork
 2021-01-2	443870		Bray	Wicklow
 2021-01-2	443878		Howth	Dublin	['\tHowth\tDublin', '\tIrishtown\tDublin']
+2021-01-2	443866		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tWaterville\tKerry']
 2021-01-2	443828		Rochestown	Cork
-2021-01-2	443866		Waterville	Kerry	['\tWaterville\tKerry', '\tGlasnevin\tDublin']
 2021-01-2	443836	Creevagh Beg	Quin	Clare
-2021-01-2	443829	Annalee Grove and late of Farranferris Park	Farranree	Cork	['Annalee Grove and late of Farranferris Park\tFarranree\tCork', 'Annalee Grove and late of Farranferris Park\tMayfield\tCork']
+2021-01-2	443829	Annalee Grove and late of Farranferris Park	Mayfield	Cork	['Annalee Grove and late of Farranferris Park\tMayfield\tCork', 'Annalee Grove and late of Farranferris Park\tFarranree\tCork']
 2021-01-2	443862	43 High St	Ballyragget	Kilkenny
-2021-01-2	443850		Celbridge	Kildare	['\tCelbridge\tKildare', '\tBallyfermot\tDublin', '\tPalmerstown\tDublin']
+2021-01-2	443850		Ballyfermot	Dublin	['\tBallyfermot\tDublin', '\tCelbridge\tKildare', '\tPalmerstown\tDublin']
 2021-01-2	443904	Late of Hayes, Middlesex and formerly of Waddingsland	Kilrane	Wexford
 2021-01-2	443901	Ballykilty	Quin	Clare
 2021-01-2	443830	Lismore Road	Crumlin	Dublin
 2021-01-2	443871	Knockardgannon	Errill	Laois
 2021-01-2	443857	Glenegad Road, Old Bridge and ate of Abbey Road	Clonmel	Tipperary
 2021-01-2	443840	3. Fair Green	Bagenalstown	Carlow
-2021-01-2	443823	The Moat	Tinryland	Carlow	['The Moat\tTinryland\tCarlow', 'The Moat\tBaltinglass\tWicklow']
+2021-01-2	443823	The Moat	Baltinglass	Wicklow	['The Moat\tBaltinglass\tWicklow', 'The Moat\tTinryland\tCarlow']
 2021-01-2	443827	Mullacrew, Louth Village and Our Lady's Community, St. Louis Convent		Louth	["Mullacrew, Louth Village and Our Lady's Community, St. Louis Convent\t\tLouth", "Mullacrew, Louth Village and Our Lady's Community, St. Louis Convent\tMonaghan Town\tMonaghan"]
 2021-01-2	443811		Portmarnock	Dublin
 2021-01-2	443852	Gloves and formerly Bridge Street and Carnakelly	Athenry	Galway
-2021-01-2	443925	14 Silverhill, West End	Bundoran	Donegal	['14 Silverhill, West End\tBundoran\tDonegal', '14 Silverhill, West End\tBallyfermot\tDublin']
+2021-01-2	443925	14 Silverhill, West End	Ballyfermot	Dublin	['14 Silverhill, West End\tBallyfermot\tDublin', '14 Silverhill, West End\tBundoran\tDonegal']
 2021-01-2	443899		Churchtown	Dublin
 2021-01-2	443874	Creeraun, Gurteen	Ballinasloe	Galway
 2021-01-2	443848	Baynefield	Enfield	Meath
@@ -127,7 +126,7 @@
 2021-01-2	443810		Raheny	Dublin
 2021-01-2	443876		Greenhills	Dublin
 2021-01-2	443881	Tyreda	Tulla	Clare
-2021-01-2	443831	Browningstown Park	Kilgarvan	Kerry	['Browningstown Park\tKilgarvan\tKerry', 'Browningstown Park\tBallinlough\tCork']
+2021-01-2	443831	Browningstown Park	Ballinlough	Cork	['Browningstown Park\tBallinlough\tCork', 'Browningstown Park\tKilgarvan\tKerry']
 2021-01-2	443913	Spencer Street	North Strand	Dublin
 2021-01-2	443822	Beechwood	Nenagh	Tipperary
 2021-01-2	443896		Knock	Mayo
@@ -141,7 +140,7 @@
 2021-01-2	443853		Castleknock	Dublin
 2021-01-2	443894		Watergrasshill	Cork
 2021-01-2	443885		Mornington	Meath
-2021-01-2	443846	Southpark Demesne		Dublin	['Southpark Demesne\t\tDublin', 'Southpark Demesne\tCastlerea\tRoscommon', 'Southpark Demesne\tLaytown\tMeath']
+2021-01-2	443846	Southpark Demesne	Laytown	Meath	['Southpark Demesne\tLaytown\tMeath', 'Southpark Demesne\t\tDublin', 'Southpark Demesne\tCastlerea\tRoscommon']
 2021-01-2	443855	16 Whin Road, Burndennett	Strabane	Tyrone
 2021-01-2	443888	Upper Ballymacool ( Formerly Hawthorn Heights)	Letterkenny	Donegal
 2021-01-2	443638		Drogheda	Louth
@@ -157,24 +156,24 @@
 2021-01-2	443910	Killimor	Ballinasloe	Galway
 2021-01-2	443851	Dromore	Raphoe	Donegal
 2021-01-2	443886	Mount Eden Road	Gurranabraher	Cork
-2021-01-2	443758		Laytown	Meath	['\tLaytown\tMeath', '\tDrogheda\tLouth']
+2021-01-2	443758		Drogheda	Louth	['\tDrogheda\tLouth', '\tLaytown\tMeath']
 2021-01-2	443882		Knocklyon	Dublin
 2021-01-2	443906		Ballsbridge	Dublin
 2021-01-2	443891		Dalkey	Dublin
 2021-01-2	443854	Cloghers, Ballyard	Tralee	Kerry
 2021-01-2	443715	Ouragh Road	Tullow	Carlow
 2021-01-2	443872		Cappoquin	Waterford	['\tCappoquin\tWaterford', '\tRathfarnham\tDublin']
-2021-01-2	443839		Clonmel	Tipperary	['\tClonmel\tTipperary', '\tBallymacarbry\tWaterford']
+2021-01-2	443839		Ballymacarbry	Waterford	['\tBallymacarbry\tWaterford', '\tClonmel\tTipperary']
 2021-01-2	443895		Blackpool	Cork
 2021-01-2	443824		Rathfarnham	Dublin
 2021-01-2	443917	Cornagullion, Glendowan	Churchill	Donegal
+2021-01-2	443865	Higgins Park	Portlaoise	Laois	['Higgins Park\tPortlaoise\tLaois', 'Higgins Park\tBallinacurra\tLimerick']
 2021-01-2	443801	Cullenstown.	Dundalk	Louth
-2021-01-2	443865	Higgins Park	Ballinacurra	Limerick	['Higgins Park\tBallinacurra\tLimerick', 'Higgins Park\tPortlaoise\tLaois']
-2021-01-2	443900		Dundrum	Dublin	['\tDundrum\tDublin', '\tEaskey\tSligo']
+2021-01-2	443900		Easkey	Sligo	['\tEaskey\tSligo', '\tDundrum\tDublin']
 2021-01-2	443861	Spierstown	Donegal Town	Donegal
-2021-01-2	443843	Killine Nursing Home	Kinsalebeg	Waterford	['Killine Nursing Home\tKinsalebeg\tWaterford', 'Killine Nursing Home\tNewcastle West\tLimerick']
+2021-01-2	443843	Killine Nursing Home	Newcastle West	Limerick	['Killine Nursing Home\tNewcastle West\tLimerick', 'Killine Nursing Home\tKinsalebeg\tWaterford']
 2021-01-2	443889	Wainsfort Rd.	Terenure	Dublin
-2021-01-2	443813	Rathnure	Clondalkin	Dublin	['Rathnure\tClondalkin\tDublin', 'Rathnure\tEnniscorthy\tWexford']
+2021-01-2	443813	Rathnure	Enniscorthy	Wexford	['Rathnure\tEnniscorthy\tWexford', 'Rathnure\tClondalkin\tDublin']
 2021-01-2	443834	Gortagullane, Muckross	Killarney	Kerry
 2021-01-2	443816	Rusheen, Killaha West, Dromoughty	Kenmare	Kerry
 2021-01-2	443863	Airfield, Roscrea Road	Birr	Offaly
@@ -184,11 +183,12 @@
 2021-01-2	443916	Finlough	Ballinacarrow	Sligo
 2021-01-2	443884		Artane	Dublin
 2021-01-2	443912	Piercetown, Gooldscross	Cashel	Tipperary
-2021-01-2	443868		Glenageary	Dublin
 2021-01-2	443920		Celbridge	Kildare
-2021-01-2	443867	Raheen Gardens	Raheen	Limerick	['Raheen Gardens\tRaheen\tLimerick', 'Raheen Gardens\t\tClare']
-2021-01-2	443847	Newlawn	Ballyagran	Limerick	['Newlawn\tBallyagran\tLimerick', 'Newlawn\tCharleville\tCork']
+2021-01-2	443868		Glenageary	Dublin
+2021-01-2	443867	Raheen Gardens		Clare	['Raheen Gardens\t\tClare', 'Raheen Gardens\tRaheen\tLimerick']
+2021-01-2	443847	Newlawn	Charleville	Cork	['Newlawn\tCharleville\tCork', 'Newlawn\tBallyagran\tLimerick']
 2021-01-2	443821	The Bungalow Grange	Bannow	Wexford
+2021-01-2	443774		Navan Road	Dublin
 2021-01-3	443934	Thornhill	Sligo Town	Sligo	['Thornhill\tSligo Town\tSligo', 'Thornhill\tDalkey\tDublin']
 2021-01-3	444000	Railyard, Moneenroe	Kilkeel	Down	['Railyard, Moneenroe\tKilkeel\tDown', 'Railyard, Moneenroe\tCastlecomer\tKilkenny']
 2021-01-3	443977	Ballygurrihy	Donoughmore	Cork
@@ -218,9 +218,9 @@
 2021-01-3	443905	Riverside Drive	Ballina	Mayo
 2021-01-3	443931	Ballyhubbard	Youghal	Cork
 2021-01-3	443973	Croughkeale	Clogheen	Tipperary	['Croughkeale\tClogheen\tTipperary', 'Croughkeale\tClogheen\tTipperary']
-2021-01-3	444007	Devon Park, Lr. Salthill	Galway City	Galway	['Devon Park, Lr. Salthill\tGalway City\tGalway', 'Devon Park, Lr. Salthill\tDingle\tKerry']
-2021-01-3	443948	Roxboro	Roscommon Town	Roscommon	['Roxboro\tRoscommon Town\tRoscommon', 'Roxboro\tDerrane\tRoscommon', 'Roxboro\tLongford Town\tLongford']
-2021-01-3	443980		Raheny	Dublin	['\tRaheny\tDublin', '\tStamullen\tMeath', "\tSt. Margaret's\tDublin"]
+2021-01-3	444007	Devon Park, Lr. Salthill	Dingle	Kerry	['Devon Park, Lr. Salthill\tDingle\tKerry', 'Devon Park, Lr. Salthill\tGalway City\tGalway']
+2021-01-3	443948	Roxboro	Roscommon Town	Roscommon	['Roxboro\tRoscommon Town\tRoscommon', 'Roxboro\tLongford Town\tLongford', 'Roxboro\tDerrane\tRoscommon']
+2021-01-3	443980		Raheny	Dublin	['\tRaheny\tDublin', "\tSt. Margaret's\tDublin", '\tStamullen\tMeath']
 2021-01-3	444005	John’s Terrace	Birr	Offaly
 2021-01-3	443993		Raheny	Dublin
 2021-01-3	443989		Coolock	Dublin
@@ -236,14 +236,14 @@
 2021-01-3	443969		Newtownabbey	Antrim
 2021-01-3	443986		Clonshaugh	Dublin	['\tClonshaugh\tDublin', '\tCabra West\tDublin']
 2021-01-3	443999		Buncrana	Donegal	['\tBuncrana\tDonegal', '\tDerry City\tDerry']
-2021-01-3	443996	Lifford rd.	Ennis	Clare	['Lifford rd.\tEnnis\tClare', 'Lifford rd.\tClarecastle\tClare']
+2021-01-3	443996	Lifford rd.	Clarecastle	Clare	['Lifford rd.\tClarecastle\tClare', 'Lifford rd.\tEnnis\tClare']
 2021-01-3	443928	Screggan Cross	Tullamore	Offaly
 2021-01-3	443983	Caherslee	Tralee	Kerry
 2021-01-3	443984	Bridge Street	Westport	Mayo	['Bridge Street\tWestport\tMayo', 'Bridge Street\tBallinrobe\tMayo']
-2021-01-3	443967	Beagh, Creagh	Ballinasloe	Roscommon	['Beagh, Creagh\tBallinasloe\tRoscommon', 'Beagh, Creagh\tBallinasloe\tGalway']
+2021-01-3	443967	Beagh, Creagh	Ballinasloe	Galway	['Beagh, Creagh\tBallinasloe\tGalway', 'Beagh, Creagh\tBallinasloe\tRoscommon']
 2021-01-3	444001	formerly of Corner House	Ballymahon	Longford
 2021-01-3	443957	Tarelton	Macroom	Cork
-2021-01-3	443991	Knockroe	Tulsk	Roscommon	['Knockroe\tTulsk\tRoscommon', 'Knockroe\tCastlerea\tRoscommon']
+2021-01-3	443991	Knockroe	Castlerea	Roscommon	['Knockroe\tCastlerea\tRoscommon', 'Knockroe\tTulsk\tRoscommon']
 2021-01-3	443959	Tonafora	Dunmanway	Cork
 2021-01-3	443926	Seaview Terrace and Long Island	Schull	Cork
 2021-01-3	443988		Booterstown	Dublin
@@ -258,7 +258,7 @@
 2021-01-3	443976	Grallagh	Ballyvary	Mayo
 2021-01-3	443942	Kenneigh	Waterville	Kerry
 2021-01-3	444004	Derrycooley	Rahan	Offaly
-2021-01-3	443941	9 Roches Row	Drimnagh	Dublin	['9 Roches Row\tDrimnagh\tDublin', '9 Roches Row\tCobh\tCork']
+2021-01-3	443941	9 Roches Row	Cobh	Cork	['9 Roches Row\tCobh\tCork', '9 Roches Row\tDrimnagh\tDublin']
 2021-01-3	443819	Derham Park	Balbriggan	Dublin
 2021-01-3	443997	Whitford House Hotel		Wexford
 2021-01-3	442123	Cartron	Ballygar	Galway
@@ -268,13 +268,13 @@
 2021-01-4	444053	Avondale	Kinnitty	Offaly
 2021-01-4	444150	Guileen	Whitegate	Cork	['Guileen\tWhitegate\tCork', 'Guileen\tBanbridge\tDown']
 2021-01-4	444138		Terenure	Dublin	['\tTerenure\tDublin', '\tGreenhills\tDublin']
-2021-01-4	444093		The Liberties	Dublin	['\tThe Liberties\tDublin', '\tRaheny\tDublin']
+2021-01-4	444093		Raheny	Dublin	['\tRaheny\tDublin', '\tThe Liberties\tDublin']
 2021-01-4	444039	2 Tihilly, Clontarf Road	Tullamore	Offaly
 2021-01-4	444083	Woodville	Crossmolina	Mayo
 2021-01-4	443760	Ballygooney	Gathabaun	Kilkenny
 2021-01-4	444060	St Anne`s Road	Killarney	Kerry
-2021-01-4	444014		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tSutton\tDublin']
 2021-01-4	444022		Monasteraden	Sligo	['\tMonasteraden\tSligo', '\tBallaghaderreen\tRoscommon']
+2021-01-4	444014		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tSutton\tDublin']
 2021-01-4	444024	The Meelaghans ,	Tullamore	Offaly
 2021-01-4	443964	Bolabeg	Ballymore Eustace	Kildare
 2021-01-4	444063	Formerly 8 Court Square	Stradbally	Laois
@@ -283,8 +283,8 @@
 2021-01-4	444048	Whickham, Northumberland, UK /	Clahane	Clare	['Whickham, Northumberland, UK /\tClahane\tClare', 'Whickham, Northumberland, UK /\tClontarf\tDublin']
 2021-01-4	444115	Newdown, The Downs	Mullingar	Westmeath
 2021-01-4	444061	Ballytarsna	Pike Of Rushall	Laois
-2021-01-4	444149	Knockanean	Ennis	Clare	['Knockanean\tEnnis\tClare', 'Knockanean\tCooraclare\tClare']
 2021-01-4	444119		Sutton	Dublin
+2021-01-4	444149	Knockanean	Ennis	Clare	['Knockanean\tEnnis\tClare', 'Knockanean\tCooraclare\tClare']
 2021-01-4	444133	Shamrock Lawn	Douglas	Cork
 2021-01-4	443808	Dunbaken	Coolaney	Sligo	['Dunbaken\tCoolaney\tSligo', 'Dunbaken\tTempleboy\tSligo']
 2021-01-4	444008	Straduff	Ballinahown	Offaly	['Straduff\tBallinahown\tOffaly', 'Straduff\tBelmont\tOffaly']
@@ -296,7 +296,7 @@
 2021-01-4	444068		Castlebar	Mayo
 2021-01-4	444114	10 St. Colman's Square	Cobh	Cork	["10 St. Colman's Square\tCobh\tCork", "10 St. Colman's Square\tBallyclough\tCork"]
 2021-01-4	444116	Ballysimon Road	Limerick City	Limerick
-2021-01-4	444135		Foxrock	Dublin	['\tFoxrock\tDublin', '\tBlackrock\tDublin']
+2021-01-4	444135		Blackrock	Dublin	['\tBlackrock\tDublin', '\tFoxrock\tDublin']
 2021-01-4	444123	156, River Village, Monksland/ Oldtown, Clonown	Athlone	Roscommon
 2021-01-4	444132		Dalkey	Dublin	['\tDalkey\tDublin', '\tLoughlinstown\tDublin']
 2021-01-4	444122		Santry	Dublin
@@ -308,7 +308,7 @@
 2021-01-4	444096	Clara Road	Moate	Westmeath
 2021-01-4	444051		Dublin 7	Dublin	['\tDublin 7\tDublin', '\tWicklow Town\tWicklow']
 2021-01-4	443589	68 Woodlawn Park, Ballysimon Road	Limerick City	Limerick
-2021-01-4	444134		Castlerea	Roscommon	['\tCastlerea\tRoscommon', '\tFrenchpark\tRoscommon']
+2021-01-4	444134		Frenchpark	Roscommon	['\tFrenchpark\tRoscommon', '\tCastlerea\tRoscommon']
 2021-01-4	444017	Srahan	Bailieborough	Cavan
 2021-01-4	444088	Shrataggle, Porturlin	Ballina	Mayo
 2021-01-4	444056	Rectory Meadows	Edenderry	Offaly
@@ -323,13 +323,13 @@
 2021-01-4	443841	77 Charleton HIll	New Ross	Wexford
 2021-01-4	444036	Ballydermody	Fenor	Waterford
 2021-01-4	444099		Carrigaline	Cork
-2021-01-4	444113		Dundrum	Dublin
-2021-01-4	444042	Rahan	Edenderry	Kildare	['Rahan\tEdenderry\tKildare', 'Rahan\tEdenderry\tKildare', 'Rahan\tEdenderry\tOffaly']
+2021-01-4	444113		Bagenalstown	Carlow	['\tBagenalstown\tCarlow', '\tDundrum\tDublin', '\tBagenalstown\tCarlow']
+2021-01-4	444042	Rahan	Edenderry	Kildare
 2021-01-4	444100	Cosgrove Park, Moyross	Limerick City	Limerick
-2021-01-4	444058		Baldoyle	Dublin	['\tBaldoyle\tDublin', '\tPortmarnock\tDublin']
+2021-01-4	444058		Portmarnock	Dublin	['\tPortmarnock\tDublin', '\tBaldoyle\tDublin']
 2021-01-4	444010	Cahersherkin	Ennistymon	Clare
-2021-01-4	444023	Cappagh Road	Barna	Galway
 2021-01-4	444081	Kinkillue	Abbeylara	Longford
+2021-01-4	444023	Cappagh Road	Barna	Galway
 2021-01-4	444077		Glenageary	Dublin
 2021-01-4	444126	Radestown Lane	Kilkenny City	Kilkenny
 2021-01-4	444015	The Coach House, Shronell	Lattin	Tipperary
@@ -340,24 +340,24 @@
 2021-01-4	444074	New Road, Thomondgate	Limerick City	Limerick
 2021-01-4	444031			Dublin
 2021-01-4	444082	Knocktoosh	Broadford	Limerick
-2021-01-4	444098	Drumree Road	Dunboyne	Meath	['Drumree Road\tDunboyne\tMeath', 'Drumree Road\tDunshaughlin\tMeath']
+2021-01-4	444098	Drumree Road	Dunshaughlin	Meath	['Drumree Road\tDunshaughlin\tMeath', 'Drumree Road\tDunboyne\tMeath']
 2021-01-4	444040	Sliabh Breagh	Ardee	Louth
-2021-01-4	444087	Beechpark	Cahir	Tipperary	['Beechpark\tCahir\tTipperary', 'Beechpark\tKilsheelan\tTipperary']
+2021-01-4	444087	Beechpark	Kilsheelan	Tipperary	['Beechpark\tKilsheelan\tTipperary', 'Beechpark\tCahir\tTipperary']
 2021-01-4	444016		Oola	Limerick	['\tOola\tLimerick', '\tRaheny\tDublin']
 2021-01-4	444067	Knockmoyle	Tralee	Kerry	['Knockmoyle\tTralee\tKerry', 'Knockmoyle\tKillarney\tKerry']
 2021-01-4	444066	Clann Chullain Park	Dundalk	Louth
-2021-01-4	444092	Blackhorse Avenue	Dublin 7	Dublin	['Blackhorse Avenue\tDublin 7\tDublin', 'Blackhorse Avenue\tAthlone\tWestmeath']
+2021-01-4	444092	Blackhorse Avenue	Athlone	Westmeath	['Blackhorse Avenue\tAthlone\tWestmeath', 'Blackhorse Avenue\tDublin 7\tDublin']
 2021-01-4	444110	Borohan	Errill	Laois
 2021-01-4	444050	Coventry Uk/ & St Munn's Villa's	Taghmon	Wexford
 2021-01-4	444057		Riverstick	Cork
 2021-01-4	444075		Finglas	Dublin
-2021-01-4	444103		Clonaslee	Laois	['\tClonaslee\tLaois', '\tDundrum\tDublin']
+2021-01-4	444103		Dundrum	Dublin	['\tDundrum\tDublin', '\tClonaslee\tLaois']
 2021-01-4	444104	Oakwood & Lower Balina, Toames	Macroom	Cork	['Oakwood & Lower Balina, Toames\tMacroom\tCork', 'Oakwood & Lower Balina, Toames\tToames\tCork']
 2021-01-4	444033	Grovelands	Athlone	Westmeath
 2021-01-4	444137	The Hermitage	Janesboro	Limerick	['The Hermitage\tJanesboro\tLimerick', 'The Hermitage\tPortlaoise\tLaois']
 2021-01-4	444142		Ballybough	Dublin
 2021-01-4	444080		South Circular Road	Dublin
-2021-01-4	444129		Blackrock	Dublin	['\tBlackrock\tDublin', '\tBlainroe\tWicklow']
+2021-01-4	444129		Blainroe	Wicklow	['\tBlainroe\tWicklow', '\tBlackrock\tDublin']
 2021-01-4	444118		Kilbarrack	Dublin
 2021-01-4	444079	Killatee, Maudabawn	Cootehill	Cavan
 2021-01-4	443914		Skerries	Dublin	['\tSkerries\tDublin', '\tBalbriggan\tDublin']
@@ -366,7 +366,7 @@
 2021-01-4	444045		Newry	Down
 2021-01-4	444140	Moreen Avenue	Sandyford	Dublin
 2021-01-4	444012	Fintra Road	Killybegs	Donegal
-2021-01-4	444095		Bandon	Cork	['\tBandon\tCork', '\t\tLimerick']
+2021-01-4	444095			Limerick	['\t\tLimerick', '\tBandon\tCork']
 2021-01-4	444054		Finglas	Dublin	['\tFinglas\tDublin', '\tDublin 1\tDublin']
 2021-01-4	444097		Virginia	Cavan
 2021-01-4	444101		Myrtleville	Cork
@@ -374,10 +374,10 @@
 2021-01-4	443787	Alma House, Clanbrassil Street	Dundalk	Louth
 2021-01-4	444055	Mullabohy, Stonetrough	Knockbridge	Louth
 2021-01-4	444035	Late of South New Street	Dublin 8	Dublin
-2021-01-4	444127		Smithfield	Dublin	['\tSmithfield\tDublin', '\tCabra\tDublin']
+2021-01-4	444127		Cabra	Dublin	['\tCabra\tDublin', '\tSmithfield\tDublin']
 2021-01-4	444065			Dublin
 2021-01-4	444143	Ballyphilip	Killenaule	Tipperary
-2021-01-4	444072	Cloonfaughna		Roscommon	['Cloonfaughna\t\tRoscommon', 'Cloonfaughna\tBelmullet\tMayo', 'Cloonfaughna\tGlinsk\tGalway']
+2021-01-4	444072	Cloonfaughna	Glinsk	Galway	['Cloonfaughna\tGlinsk\tGalway', 'Cloonfaughna\t\tRoscommon', 'Cloonfaughna\tBelmullet\tMayo']
 2021-01-4	444147	1 Willow Drive, Cluain Ard	Cobh	Cork
 2021-01-4	444044		Navan Road	Dublin
 2021-01-4	444029	20 Burnside Park, Tempo Road	Enniskillen	Fermanagh
@@ -386,11 +386,11 @@
 2021-01-4	444125	Hill Street	Wexford Town	Wexford
 2021-01-4	444073	The Bridge	Gorey	Wexford
 2021-01-4	444078	Kilkieran Close	Hollyhill	Cork
-2021-01-4	444070		Bayside	Dublin	['\tBayside\tDublin', '\tBaldoyle\tDublin']
+2021-01-4	444070		Baldoyle	Dublin	['\tBaldoyle\tDublin', '\tBayside\tDublin']
 2021-01-4	444117		Navan Road	Dublin
 2021-01-4	443879	Clareville	Oughterard	Galway
-2021-01-4	444027		Glasnevin	Dublin
 2021-01-4	443598	Sudbury, London and formerly Knocknashammer, Mountainlodge	Cootehill	Cavan
+2021-01-4	444027		Glasnevin	Dublin
 2021-01-4	444049		Castleknock	Dublin
 2021-01-4	444030	Goladoo	Barnesmore	Donegal
 2021-01-4	444131		Raheny	Dublin
@@ -412,50 +412,50 @@
 2021-01-5	444191	Ard Connell	Ardara	Donegal
 2021-01-5	444148	Derham Park	Balbriggan	Dublin
 2021-01-5	444246		Enfield	Meath	['\tEnfield\tMeath', '\tDolphins Barn\tDublin']
-2021-01-5	444250		Greystones	Wicklow
 2021-01-5	444186	Reiska	Kilcommon	Tipperary
+2021-01-5	444250		Greystones	Wicklow
 2021-01-5	443887	Dunard Ave., & Blackhorse Ave., & formerly of Hardwicke St. Flats		Dublin
-2021-01-5	444243		Dublin 6w	Dublin	['\tDublin 6w\tDublin', '\tKimmage\tDublin']
+2021-01-5	444243		Kimmage	Dublin	['\tKimmage\tDublin', '\tDublin 6w\tDublin']
 2021-01-5	444194	Ardsbeg	Gortahork	Donegal
 2021-01-5	444251	Monksfield Grove	Clondalkin	Dublin
 2021-01-5	444227	Greenhills Est	Athlone	Westmeath	['Greenhills Est\tAthlone\tWestmeath', 'Greenhills Est\tBallina\tMayo']
 2021-01-5	444210		Poppintree	Dublin	['\tPoppintree\tDublin', '\tCrumlin\tDublin']
-2021-01-5	444195	Greenpark	Dublin 12	Dublin	['Greenpark\tDublin 12\tDublin', 'Greenpark\tArtane\tDublin']
-2021-01-5	444201	River Road	Dublin 15	Dublin	['River Road\tDublin 15\tDublin', 'River Road\tInchicore\tDublin']
+2021-01-5	444195	Greenpark	Artane	Dublin	['Greenpark\tArtane\tDublin', 'Greenpark\tDublin 12\tDublin']
+2021-01-5	444201	River Road	Inchicore	Dublin	['River Road\tInchicore\tDublin', 'River Road\tDublin 15\tDublin']
 2021-01-5	444213	Fairgreen	Dundalk	Louth
 2021-01-5	444221		Blackrock	Cork
 2021-01-5	444192	Church Street	Rathkeale	Limerick
 2021-01-5	444159	Clonard Park	Wexford Town	Wexford
 2021-01-5	444244	Greenhill Road	Garryowen	Limerick
 2021-01-5	444224	Tootenhill	Rathcoole	Dublin
-2021-01-5	444025	Cremorgan	Timahoe	Laois
 2021-01-5	444212	'Ashmore'	Carrick-on-suir	Waterford	["'Ashmore'\tCarrick-on-suir\tWaterford", "'Ashmore'\tBonmahon\tWaterford"]
+2021-01-5	444025	Cremorgan	Timahoe	Laois
 2021-01-5	444156	Ardnamullan	Clonard	Meath
 2021-01-5	443869	Castletown Road	Dundalk	Louth
-2021-01-5	444181		Ballincollig	Cork	['\tBallincollig\tCork', '\tPouladuff\tCork']
+2021-01-5	444181		Pouladuff	Cork	['\tPouladuff\tCork', '\tBallincollig\tCork']
 2021-01-5	444152	Kennedy Park	Wexford Town	Wexford
 2021-01-5	444277	Clounts	Rathmore	Kerry
-2021-01-5	444272	Knock	Ballybofey	Donegal
 2021-01-5	444183	Middle Derriscleigh	Carrigart	Donegal
+2021-01-5	444272	Knock	Ballybofey	Donegal
 2021-01-5	444208		Dundrum	Dublin	['\tDundrum\tDublin', '\tBray\tWicklow']
 2021-01-5	444168	34 Castleview	Newcastle West	Limerick
 2021-01-5	444280	Congress Terrace	Longford Town	Longford
-2021-01-5	444185		Hartstown	Dublin
 2021-01-5	444245		Lusk	Dublin
+2021-01-5	444185		Hartstown	Dublin
 2021-01-5	444254	Staplestown	Donadea	Kildare
-2021-01-5	444207		Cabra	Dublin	['\tCabra\tDublin', '\tSantry\tDublin']
 2021-01-5	444262	Lobinstown	Navan	Meath
+2021-01-5	444207		Santry	Dublin	['\tSantry\tDublin', '\tCabra\tDublin']
 2021-01-5	444164		Sallins	Kildare	['\tSallins\tKildare', '\tStillorgan\tDublin']
 2021-01-5	444211	Brooklawn	Kilconly	Galway
 2021-01-5	444222	Rathmanna	Thurles	Tipperary	['Rathmanna\tThurles\tTipperary', 'Rathmanna\tNenagh\tTipperary']
-2021-01-5	443930		Lucan	Dublin	['\tLucan\tDublin', '\tMullingar\tWestmeath']
-2021-01-5	444242	Menlo House, Monument Road	Bushypark	Galway	['Menlo House, Monument Road\tBushypark\tGalway', 'Menlo House, Monument Road\tMenlo\tGalway', 'Menlo House, Monument Road\t\tSligo']
+2021-01-5	443930		Mullingar	Westmeath	['\tMullingar\tWestmeath', '\tLucan\tDublin']
+2021-01-5	444242	Menlo House, Monument Road	Menlo	Galway	['Menlo House, Monument Road\tMenlo\tGalway', 'Menlo House, Monument Road\tBushypark\tGalway', 'Menlo House, Monument Road\t\tSligo']
 2021-01-5	444217	Station Road	Dun Laoghaire	Dublin	['Station Road\tDun Laoghaire\tDublin', 'Station Road\tCastletown Geoghegan\tWestmeath']
 2021-01-5	444270	Mulrook	Kilcolgan	Galway
 2021-01-5	444216		Monkstown	Dublin	['\tMonkstown\tDublin', '\t\tMayo']
 2021-01-5	444162	Crossard, Tooreen	Ballyhaunis	Mayo
-2021-01-5	444187	Kenilworth	Youghal	Cork
 2021-01-5	444180	Aherlow Close	Caherdavin	Limerick
+2021-01-5	444187	Kenilworth	Youghal	Cork
 2021-01-5	444271	Carrigeen, Ring	Dungarvan	Waterford
 2021-01-5	444158	Ardfoyle	Ballintemple	Cork	['Ardfoyle\tBallintemple\tCork', 'Ardfoyle\tCastlegregory\tKerry']
 2021-01-5	444198		Coill Dubh	Kildare
@@ -471,49 +471,49 @@
 2021-01-5	444154		Castleknock	Dublin
 2021-01-5	444230		Glasnevin	Dublin
 2021-01-5	444178		Fermoy	Cork	['\tFermoy\tCork', '\tBeaumont\tDublin']
-2021-01-5	444228		Donabate	Dublin	['\tDonabate\tDublin', '\tSwords\tDublin']
+2021-01-5	444228		Swords	Dublin	['\tSwords\tDublin', '\tDonabate\tDublin']
 2021-01-5	444237	College Road	Cork City	Cork
 2021-01-5	444214		Togher	Cork	['\tTogher\tCork', '\tMahon\tCork']
-2021-01-5	444220	Ratoath Estate	Cabra West	Dublin
 2021-01-5	444166	Station Road	Bennettsbridge	Kilkenny
 2021-01-5	444275	Carravilla	Hollymount	Mayo
+2021-01-5	444220	Ratoath Estate	Cabra West	Dublin
 2021-01-5	444141	Ongenstown, Bohermeen	Navan	Meath
 2021-01-5	444193		Carney	Sligo
-2021-01-5	444179	Shanabooly Road	Ballynanty	Limerick	['Shanabooly Road\tBallynanty\tLimerick', 'Shanabooly Road\tJanesboro\tLimerick']
+2021-01-5	444179	Shanabooly Road	Janesboro	Limerick	['Shanabooly Road\tJanesboro\tLimerick', 'Shanabooly Road\tBallynanty\tLimerick']
 2021-01-5	444253	Killafee	Aughavas	Leitrim
 2021-01-5	444204	Kiltrough	Drogheda	Meath
 2021-01-5	444218		Harold's Cross	Dublin
-2021-01-5	444261	Corrib Park	Newcastle	Galway	['Corrib Park\tNewcastle\tGalway', 'Corrib Park\tBohermore\tGalway']
+2021-01-5	444261	Corrib Park	Bohermore	Galway	['Corrib Park\tBohermore\tGalway', 'Corrib Park\tNewcastle\tGalway']
 2021-01-5	444157	Ummerafree, Corduff	Carrickmacross	Monaghan
 2021-01-5	444160	177 Tummery Road	Dromore	Tyrone
 2021-01-5	444260			Dublin	['\t\tDublin', '\t\tDerry']
 2021-01-5	444205		Sandymount	Dublin	['\tSandymount\tDublin', '\t\tCork']
 2021-01-5	444247	Lower Pouladuff Road	Cork City	Cork
 2021-01-5	444226	Jenkinstown	Dundalk	Louth
-2021-01-5	444240	Lannett	Dundalk	Louth	['Lannett\tDundalk\tLouth', 'Lannett\tInniskeen\tMonaghan']
+2021-01-5	444240	Lannett	Inniskeen	Monaghan	['Lannett\tInniskeen\tMonaghan', 'Lannett\tDundalk\tLouth']
 2021-01-5	444267	Letteree	Dromore	Tyrone
 2021-01-5	444151	Davitt Road North	Wexford Town	Wexford
 2021-01-5	444252	Cremore Lawn	Glasnevin	Dublin
 2021-01-5	444188		Kimmage	Dublin	['\tKimmage\tDublin', '\tDublin 12\tDublin']
-2021-01-5	444249		Douglas	Cork
 2021-01-5	444274	Woodlands Villas	Birr	Offaly
-2021-01-5	444263	Ballyvelig, Campile	Rathfarnham	Dublin	['Ballyvelig, Campile\tRathfarnham\tDublin', 'Ballyvelig, Campile\tNew Ross\tWexford']
+2021-01-5	444249		Douglas	Cork
+2021-01-5	444263	Ballyvelig, Campile	New Ross	Wexford	['Ballyvelig, Campile\tNew Ross\tWexford', 'Ballyvelig, Campile\tRathfarnham\tDublin']
 2021-01-5	444176	Ballylinane	Strand	Limerick
-2021-01-5	444006	33 Cabra	Threemilehouse	Monaghan	['33 Cabra\tThreemilehouse\tMonaghan', '33 Cabra\tScotstown\tMonaghan']
-2021-01-5	444197	Knockpogue	Waterfall	Cork
+2021-01-5	444006	33 Cabra	Scotstown	Monaghan	['33 Cabra\tScotstown\tMonaghan', '33 Cabra\tThreemilehouse\tMonaghan']
 2021-01-5	444259	Woodbrook, Glencollins Lower	Ballydesmond	Cork
+2021-01-5	444197	Knockpogue	Waterfall	Cork
+2021-01-5	444278	Shannongrove Banagher		Galway	['Shannongrove Banagher\t\tGalway', 'Shannongrove Banagher\tBanagher\tOffaly']
 2021-01-5	444169	Liscarne Court	Clondalkin	Dublin
 2021-01-5	444273	6 Dundalk Road	Newtownhamilton	Armagh
-2021-01-5	444278	Shannongrove Banagher		Galway	['Shannongrove Banagher\t\tGalway', 'Shannongrove Banagher\tBanagher\tOffaly']
-2021-01-5	444153	Ballindrait	Dromiskin	Louth	['Ballindrait\tDromiskin\tLouth', 'Ballindrait\tBunbeg\tDonegal']
-2021-01-5	444170		Tullow	Carlow	['\tTullow\tCarlow', '\tRathfarnham\tDublin']
+2021-01-5	444153	Ballindrait	Bunbeg	Donegal	['Ballindrait\tBunbeg\tDonegal', 'Ballindrait\tDromiskin\tLouth']
+2021-01-5	444170		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\tTullow\tCarlow']
 2021-01-5	444102		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\tMoylough\tGalway']
 2021-01-5	444219	Abbey Close, Abbey Park	Ferrybank	Waterford	['Abbey Close, Abbey Park\tFerrybank\tWaterford', 'Abbey Close, Abbey Park\t\tWexford']
 2021-01-5	444238	London and late of Rochestown	Cahir	Tipperary
 2021-01-5	444108	Barrettstown Lawns, Roseberry	Newbridge	Kildare
 2021-01-5	444269	The Stables, Glenville	Ardagh	Limerick
 2021-01-5	444199		Carrigaline	Cork
-2021-01-5	444258	Knockalton		Laois	['Knockalton\t\tLaois', 'Knockalton\tNenagh\tTipperary', 'Knockalton\t\tKildare']
+2021-01-5	444258	Knockalton	Nenagh	Tipperary	['Knockalton\tNenagh\tTipperary', 'Knockalton\t\tKildare', 'Knockalton\t\tLaois']
 2021-01-5	444276	Milleen, Drishanemór	Skibbereen	Cork
 2021-01-5	444202		Sallynoggin	Dublin
 2021-01-5	444174	Powers Cross	Portumna	Galway
@@ -530,10 +530,10 @@
 2021-01-5	444236	Ontario, Canada and	Douglas	Cork
 2021-01-5	444206	Silverstream	Stamullen	Meath
 2021-01-5	444175		Malahide	Dublin
-2021-01-5	444232		Killester	Dublin	['\tKillester\tDublin', '\tClontarf\tDublin']
+2021-01-5	444232		Clontarf	Dublin	['\tClontarf\tDublin', '\tKillester\tDublin']
 2021-01-5	444200	9 Rope Walk	Monaghan Town	Monaghan	['9 Rope Walk\tMonaghan Town\tMonaghan', '9 Rope Walk\tBallinode\tMonaghan']
 2021-01-5	444229		Walkinstown	Dublin	['\tWalkinstown\tDublin', '\tDublin 8\tDublin']
-2021-01-5	444265	Maple Drive		Limerick	['Maple Drive\t\tLimerick', 'Maple Drive\tBagenalstown\tCarlow']
+2021-01-5	444265	Maple Drive	Bagenalstown	Carlow	['Maple Drive\tBagenalstown\tCarlow', 'Maple Drive\t\tLimerick']
 2021-01-5	444231		Ogonnelloe	Clare
 2021-01-5	443485	Lindsay Grove	Drumcondra	Dublin	['Lindsay Grove\tDrumcondra\tDublin', 'Lindsay Grove\tGlasnevin\tDublin']
 2021-01-6	444286	`Lislea House`	Kenagh	Longford
@@ -541,15 +541,15 @@
 2021-01-6	444374	Moortown	Celbridge	Kildare
 2021-01-6	444375	Church View	Dromiskin	Louth
 2021-01-6	444362	Tonroe	Ballina	Mayo	['Tonroe\tBallina\tMayo', 'Tonroe\tMoygownagh\tMayo']
-2021-01-6	444364		Beaumont	Dublin	['\tBeaumont\tDublin', '\tBray\tWicklow']
+2021-01-6	444364		Bray	Wicklow	['\tBray\tWicklow', '\tBeaumont\tDublin']
 2021-01-6	444343	Long Orchard	Templetuohy	Tipperary
 2021-01-6	444370		Dalkey	Dublin	['\tDalkey\tDublin', '\tDrogheda\tLouth']
 2021-01-6	444396	Banff Lodge, Maypark Lane	Waterford City	Waterford
 2021-01-6	444289	Cashelnagore	Gortahork	Donegal
 2021-01-6	444334		Kill	Kildare
+2021-01-6	444315		Drogheda	Louth
 2021-01-6	444361		Moone	Kildare
 2021-01-6	444290	Kingsbury, London and formerly of	Sneem	Kerry
-2021-01-6	444315		Drogheda	Louth
 2021-01-6	444400	Formerly of Ceadarwood Park	Dundalk	Louth
 2021-01-6	444339	Shanavoola, Ballysaggart	Lismore	Waterford	['Shanavoola, Ballysaggart\tLismore\tWaterford', 'Shanavoola, Ballysaggart\tBallysaggart\tWaterford']
 2021-01-6	444285	The Buildings, Courtwood	Ballybrittas	Laois
@@ -563,7 +563,7 @@
 2021-01-6	444327		Dundrum	Dublin
 2021-01-6	444326		Donaghmede	Dublin
 2021-01-6	444342	Late of Niagara Falls, New York & Boyces Street	Cork City	Cork
-2021-01-6	444393	Brideswell	Athlone	Roscommon	['Brideswell\tAthlone\tRoscommon', 'Brideswell\tAthlone\tWestmeath']
+2021-01-6	444393	Brideswell	Athlone	Westmeath	['Brideswell\tAthlone\tWestmeath', 'Brideswell\tAthlone\tRoscommon']
 2021-01-6	444376	The Cascade, Gleninchaquin, Tuosist	Kenmare	Kerry
 2021-01-6	444351	Ballymacowen	Ballincollig	Cork	['Ballymacowen\tBallincollig\tCork', 'Ballymacowen\tClonakilty\tCork']
 2021-01-6	444338	the Holy Ghost Residential Home, Cork Road  and formerly Market Street	Tramore	Waterford
@@ -591,7 +591,7 @@
 2021-01-6	444282	Ballyminion	Longford Town	Longford
 2021-01-6	444324	Oakview	Tralee	Kerry
 2021-01-6	444336	61, Caseyville	Waterford City	Waterford	['61, Caseyville\tWaterford City\tWaterford', '61, Caseyville\tDungarvan\tWaterford']
-2021-01-6	444041	Dalcassian Downs	Glasnevin	Dublin	['Dalcassian Downs\tGlasnevin\tDublin', 'Dalcassian Downs\tRathangan\tKildare']
+2021-01-6	444041	Dalcassian Downs	Rathangan	Kildare	['Dalcassian Downs\tRathangan\tKildare', 'Dalcassian Downs\tGlasnevin\tDublin']
 2021-01-6	444389		Blackrock	Dublin	['\tBlackrock\tDublin', '\tGlasnevin\tDublin']
 2021-01-6	444388	Acres	Dunmanway	Cork
 2021-01-6	444309	9 Conway Pk	Mullaghbawn	Armagh
@@ -633,19 +633,19 @@
 2021-01-6	444397	Castledonovan	Drimoleague	Cork
 2021-01-6	444359		Artane	Dublin	['\tArtane\tDublin', '\tClonee\tDublin', '\tCobh\tCork']
 2021-01-6	444297	Slievenamon Close	Fethard	Tipperary
-2021-01-6	444373	Wallingstown	Little Island	Cork	['Wallingstown\tLittle Island\tCork', 'Wallingstown\tKilbrittain\tCork']
-2021-01-6	444356	Foyle Park	Kilfinane	Limerick	['Foyle Park\tKilfinane\tLimerick', 'Foyle Park\tShannon\tClare']
-2021-01-6	444293		Carpenterstown	Dublin	['\tCarpenterstown\tDublin', '\tRathmore\tKerry']
-2021-01-6	444307	Raheen, Rosbercon	New Ross	Kilkenny	['Raheen, Rosbercon\tNew Ross\tKilkenny', 'Raheen, Rosbercon\tNew Ross\tWexford']
-2021-01-6	444264		Greystones	Wicklow	['\tGreystones\tWicklow', '\t\tTipperary']
+2021-01-6	444373	Wallingstown	Kilbrittain	Cork	['Wallingstown\tKilbrittain\tCork', 'Wallingstown\tLittle Island\tCork']
+2021-01-6	444307	Raheen, Rosbercon	New Ross	Wexford	['Raheen, Rosbercon\tNew Ross\tWexford', 'Raheen, Rosbercon\tNew Ross\tKilkenny']
+2021-01-6	444356	Foyle Park	Shannon	Clare	['Foyle Park\tShannon\tClare', 'Foyle Park\tKilfinane\tLimerick']
+2021-01-6	444293		Rathmore	Kerry	['\tRathmore\tKerry', '\tCarpenterstown\tDublin']
+2021-01-6	444264			Tipperary	['\t\tTipperary', '\tGreystones\tWicklow']
 2021-01-6	444318		Belfast	Antrim	['\tBelfast\tAntrim', '\tMount Merrion\tDublin']
 2021-01-6	444321	Clonsilla	Gorey	Wexford
 2021-01-6	444302		Sandyford	Dublin
-2021-01-6	444353		Inchicore	Dublin	['\tInchicore\tDublin', '\t\tWexford', '\tRaheny\tDublin']
+2021-01-6	444353		Raheny	Dublin	['\tRaheny\tDublin', '\t\tWexford', '\tInchicore\tDublin']
 2021-01-6	444287	Maudlin Rd	Kells	Meath
 2021-01-6	444369	Lisnagroobe	Ballinlough	Roscommon
 2021-01-6	444312	Corlican	Killurin	Wexford
-2021-01-6	444313		Churchtown	Dublin	['\tChurchtown\tDublin', '\tSantry\tDublin']
+2021-01-6	444313		Santry	Dublin	['\tSantry\tDublin', '\tChurchtown\tDublin']
 2021-01-6	444349		Malahide	Dublin
 2021-01-6	444395	Kilinahinch	Moate	Westmeath
 2021-01-6	444322		Dun Laoghaire	Dublin	['\tDun Laoghaire\tDublin', '\tBray\tWicklow']
@@ -653,11 +653,11 @@
 2021-01-6	443358	St. Joseph`s Avenue	Donegal Town	Donegal
 2021-01-6	444316		Drogheda	Louth
 2021-01-6	444381	Tonroe	Ardrahan	Galway
-2021-01-6	444331	56 St. Stephen`s Park	Castleisland	Kerry	['56 St. Stephen`s Park\tCastleisland\tKerry', '56 St. Stephen`s Park\tAbbeyfeale\tLimerick']
+2021-01-6	444331	56 St. Stephen`s Park	Abbeyfeale	Limerick	['56 St. Stephen`s Park\tAbbeyfeale\tLimerick', '56 St. Stephen`s Park\tCastleisland\tKerry']
 2021-01-6	444385	Michaelschurch	Ballycallan	Kilkenny
 2021-01-6	444296	4 Townparks	Ballyhaise	Cavan
-2021-01-6	444128		Inchicore	Dublin	['\tInchicore\tDublin', '\tRathfarnham\tDublin']
-2021-01-6	444283	Gortnaclohy	Glandore	Cork	['Gortnaclohy\tGlandore\tCork', 'Gortnaclohy\tSkibbereen\tCork']
+2021-01-6	444128		Inchicore	Dublin	['\tInchicore\tDublin', '\tInchicore\tDublin']
+2021-01-6	444283	Gortnaclohy	Skibbereen	Cork	['Gortnaclohy\tSkibbereen\tCork', 'Gortnaclohy\tGlandore\tCork']
 2021-01-6	444384	New Road	Birr	Offaly
 2021-01-7	444488		Killinick	Wexford
 2021-01-7	444496	Birmingham, U.K. and Upper Tullig	Kilflynn	Kerry
@@ -695,7 +695,7 @@
 2021-01-7	444436	Ballysimon Crescent	Ballysimon	Limerick
 2021-01-7	444441		Cabinteely	Dublin
 2021-01-7	444457	Tomdarragh	Roundwood	Wicklow
-2021-01-7	444358		Mountrath	Laois	['\tMountrath\tLaois', '\tDrimnagh\tDublin']
+2021-01-7	444358		Drimnagh	Dublin	['\tDrimnagh\tDublin', '\tMountrath\tLaois']
 2021-01-7	444508	Carrowmacbrine, Rathlee	Easkey	Sligo
 2021-01-7	444530		Portmarnock	Dublin	['\tPortmarnock\tDublin', '\tKnockbridge\tLouth']
 2021-01-7	444521	Oldcastle, Ahenny		Tipperary
@@ -705,7 +705,7 @@
 2021-01-7	444509		Dublin 8	Dublin	['\tDublin 8\tDublin', '\tKnocklyon\tDublin']
 2021-01-7	444416		Shannonbridge	Offaly
 2021-01-7	444431	Creeny, Milltown	Belturbet	Cavan
-2021-01-7	444454	3 Lower Cork St.	Mitchelstown	Cork	['3 Lower Cork St.\tMitchelstown\tCork', '3 Lower Cork St.\tAherlow\tTipperary']
+2021-01-7	444454	3 Lower Cork St.	Aherlow	Tipperary	['3 Lower Cork St.\tAherlow\tTipperary', '3 Lower Cork St.\tMitchelstown\tCork']
 2021-01-7	444472	The Lane, Knockenduff	Tramore	Waterford
 2021-01-7	444469		Milltown	Dublin
 2021-01-7	444485	Pacelli Road	Naas	Kildare
@@ -715,9 +715,9 @@
 2021-01-7	444502		Drogheda	Louth
 2021-01-7	444495	Glebe, Morrough	Rahan	Offaly
 2021-01-7	444475	17 Bryngwayn Rd., Newport, Wales and formerly 9 St. Mary's Avenue	Urlingford	Kilkenny
-2021-01-7	444458		Dublin 1	Dublin	['\tDublin 1\tDublin', '\tFettercairn\tDublin']
+2021-01-7	444458		Fettercairn	Dublin	['\tFettercairn\tDublin', '\tDublin 1\tDublin']
 2021-01-7	444464	Castleholdings, Ashbury	Roscrea	Tipperary
-2021-01-7	444417	Yeats Heights	Carrick	Donegal	['Yeats Heights\tCarrick\tDonegal', 'Yeats Heights\t\tSligo']
+2021-01-7	444417	Yeats Heights		Sligo	['Yeats Heights\t\tSligo', 'Yeats Heights\tCarrick\tDonegal']
 2021-01-7	444460	Dromore	Letterkenny	Donegal
 2021-01-7	444497	Graigue	Adare	Limerick
 2021-01-7	444433	Ballyorley House, Boolavogue	Enniscorthy	Wexford
@@ -726,27 +726,27 @@
 2021-01-7	444037	Cushlawn Park	Killinarden	Dublin	['Cushlawn Park\tKillinarden\tDublin', 'Cushlawn Park\tCrumlin\tDublin']
 2021-01-7	444527	Irish St.	Enniscorthy	Wexford
 2021-01-7	444418	Castlebar Road	Westport	Mayo
-2021-01-7	444404		Kilmacanogue	Wicklow	['\tKilmacanogue\tWicklow', '\tKiltimagh\tMayo', '\tBray\tWicklow']
+2021-01-7	444404		Bray	Wicklow	['\tBray\tWicklow', '\tKiltimagh\tMayo', '\tKilmacanogue\tWicklow']
 2021-01-7	444498	Desart	Cuffesgrange	Kilkenny
-2021-01-7	444480		Dublin 8	Dublin	['\tDublin 8\tDublin', '\tEnniskillen\tFermanagh']
-2021-01-7	444448	Lisdarn Heights & Derryvackney, Milltown	Cavan Town	Cavan	['Lisdarn Heights & Derryvackney, Milltown\tCavan Town\tCavan', 'Lisdarn Heights & Derryvackney, Milltown\tBailieborough\tCavan']
+2021-01-7	444480		Enniskillen	Fermanagh	['\tEnniskillen\tFermanagh', '\tDublin 8\tDublin']
+2021-01-7	444448	Lisdarn Heights & Derryvackney, Milltown	Bailieborough	Cavan	['Lisdarn Heights & Derryvackney, Milltown\tBailieborough\tCavan', 'Lisdarn Heights & Derryvackney, Milltown\tCavan Town\tCavan']
 2021-01-7	444467	Devon Park	Salthill	Galway
 2021-01-7	444437	Gortagullane, Muckross and late of New Lane (St Anthony`s Place), College Street	Killarney	Kerry
-2021-01-7	444484		Ballinteer	Dublin
 2021-01-7	444492	Kill, Kiltormer	Ballinasloe	Galway
 2021-01-7	444425		Newbridge	Kildare
+2021-01-7	444484		Ballinteer	Dublin
 2021-01-7	444409	No. 40, Loch Mor Avenue	Ballybay	Monaghan
 2021-01-7	444447		Ballinteer	Dublin
 2021-01-7	444517	Manor Estate	Dublin 12	Dublin
 2021-01-7	444481	Mullaghduff	Ballyconnell	Cavan
 2021-01-7	444491	Rochestown	Cahir	Tipperary
-2021-01-7	444489	Malahide Rd	Dublin 5	Dublin	['Malahide Rd\tDublin 5\tDublin', 'Malahide Rd\tClonsilla\tDublin']
+2021-01-7	444489	Malahide Rd	Clonsilla	Dublin	['Malahide Rd\tClonsilla\tDublin', 'Malahide Rd\tDublin 5\tDublin']
 2021-01-7	444412	No. 6 Antardan, Killenagh	Gorey	Wexford
 2021-01-7	444427		Donabate	Dublin
 2021-01-7	444360		Loughshinny	Dublin
 2021-01-7	444471	Church view and formerly of Abbey St.	Ballinrobe	Mayo
+2021-01-7	444422		Rooskey	Roscommon	['\tRooskey\tRoscommon', '\tFour-mile-house\tRoscommon']
 2021-01-7	444430	formerly "The Shop", Littleton	Thurles	Tipperary
-2021-01-7	444422		Four-mile-house	Roscommon	['\tFour-mile-house\tRoscommon', '\tRooskey\tRoscommon']
 2021-01-7	444435	Lr. Grattan Park	Greystones	Wicklow
 2021-01-7	444407		Inchicore	Dublin
 2021-01-7	444423		Coolock	Dublin	['\tCoolock\tDublin', '\tDrumcondra\tDublin']
@@ -756,7 +756,7 @@
 2021-01-7	444443	Deerpark	Athenry	Galway
 2021-01-7	444483	St. Nessan Street	Cork City	Cork
 2021-01-7	444533	Portside	Rosslare Harbour	Wexford
-2021-01-7	444478		Knocklyon	Dublin	['\tKnocklyon\tDublin', '\tDundalk\tLouth']
+2021-01-7	444478		Dundalk	Louth	['\tDundalk\tLouth', '\tKnocklyon\tDublin']
 2021-01-7	444387	Castleboy, Kilchreest	Loughrea	Galway	['Castleboy, Kilchreest\tLoughrea\tGalway', 'Castleboy, Kilchreest\tSandymount\tDublin']
 2021-01-7	444476	Burgess	Blackrock	Cork	['Burgess\tBlackrock\tCork', 'Burgess\tKilleagh\tCork']
 2021-01-7	444525	Rathorpe House	Tubber	Clare
@@ -769,7 +769,7 @@
 2021-01-7	444413	Drumcooley		Kildare	['Drumcooley\t\tKildare', 'Drumcooley\tEdenderry\tOffaly']
 2021-01-7	444445	Derrylin Road	Lisnaskea	Fermanagh
 2021-01-7	444532	Ardnacloghy and late of Borlin	Bantry	Cork
-2021-01-7	444461	Alexian Brothers Community		Dublin	['Alexian Brothers Community\t\tDublin', 'Alexian Brothers Community\tBantry\tCork']
+2021-01-7	444461	Alexian Brothers Community	Bantry	Cork	['Alexian Brothers Community\tBantry\tCork', 'Alexian Brothers Community\t\tDublin']
 2021-01-7	444459	Mount Sion	Ferrybank	Waterford
 2021-01-7	444486	"Scurmore House"	Enniscrone	Sligo	['"Scurmore House"\tEnniscrone\tSligo', '"Scurmore House"\tBallina\tMayo']
 2021-01-7	444490	Carrigduff & formerly Kilmshall	Bunclody	Wexford
@@ -796,33 +796,33 @@
 2021-01-8	444647	Curragh Close	Lisselton	Kerry	['Curragh Close\tLisselton\tKerry', 'Curragh Close\tListowel\tKerry']
 2021-01-8	444622	Healy Tce.	Ballina	Mayo
 2021-01-8	444557		Dublin 2	Dublin
-2021-01-8	444610	Cathedral View	Ballinagare	Roscommon	['Cathedral View\tBallinagare\tRoscommon', 'Cathedral View\tElphin\tRoscommon']
+2021-01-8	444610	Cathedral View	Elphin	Roscommon	['Cathedral View\tElphin\tRoscommon', 'Cathedral View\tBallinagare\tRoscommon']
 2021-01-8	444559	Drumanure	Carrigallen	Leitrim
 2021-01-8	444567		Croom	Limerick
 2021-01-8	444617	TULLIGMORE	Killorglin	Kerry
 2021-01-8	444645		Kilcoole	Wicklow
-2021-01-8	444576		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\tRosmuc\tGalway']
+2021-01-8	444576		Rosmuc	Galway	['\tRosmuc\tGalway', '\tRathfarnham\tDublin']
 2021-01-8	444607	Ahane / Monagormley	Kilkerrin	Galway
 2021-01-8	444624		Cork City	Cork
-2021-01-8	444577		Blanchardstown	Dublin	['\tBlanchardstown\tDublin', '\tThe Ward\tDublin']
-2021-01-8	444615		Finglas	Dublin	['\tFinglas\tDublin', '\tSantry\tDublin']
+2021-01-8	444577		The Ward	Dublin	['\tThe Ward\tDublin', '\tBlanchardstown\tDublin']
+2021-01-8	444615		Santry	Dublin	['\tSantry\tDublin', '\tFinglas\tDublin']
 2021-01-8	444560	Tangavane, Edeninfagh	Glenties	Donegal
-2021-01-8	444554	The Oaks, Milltown Rd	Rathfarnham	Dublin	['The Oaks, Milltown Rd\tRathfarnham\tDublin', 'The Oaks, Milltown Rd\tAshbourne\tMeath']
+2021-01-8	444554	The Oaks, Milltown Rd	Ashbourne	Meath	['The Oaks, Milltown Rd\tAshbourne\tMeath', 'The Oaks, Milltown Rd\tRathfarnham\tDublin']
 2021-01-8	444578	Harpurs Lane	Portlaoise	Laois
 2021-01-8	444633	Lehina	Lislevane	Cork
-2021-01-8	444569	Cameron Estate	East Wall	Dublin	['Cameron Estate\tEast Wall\tDublin', 'Cameron Estate\tRaheny\tDublin']
+2021-01-8	444569	Cameron Estate	Raheny	Dublin	['Cameron Estate\tRaheny\tDublin', 'Cameron Estate\tEast Wall\tDublin']
 2021-01-8	444487	Clancoolbeg	Bandon	Cork
 2021-01-8	444561	Lr Bride Street	Wexford Town	Wexford
-2021-01-8	444593	Cahir Road	Mungret	Limerick
 2021-01-8	444594		Ballyfermot	Dublin
+2021-01-8	444593	Cahir Road	Mungret	Limerick
 2021-01-8	444541	Mercer Street Upper		Dublin
 2021-01-8	444446	Canon Street	Kells	Meath
 2021-01-8	444642	Bengerstown	Lobinstown	Meath
 2021-01-8	444555		Drumcondra	Dublin
-2021-01-8	444625		Dartry	Dublin	['\tDartry\tDublin', '\tSummerhill\tMeath']
+2021-01-8	444625		Summerhill	Meath	['\tSummerhill\tMeath', '\tDartry\tDublin']
 2021-01-8	444602	Clavinstown	Navan	Meath	['Clavinstown\tNavan\tMeath', 'Clavinstown\tDrumree\tMeath']
-2021-01-8	444544	Brook Lodge, Old Mills	Leixlip	Kildare	['Brook Lodge, Old Mills\tLeixlip\tKildare', 'Brook Lodge, Old Mills\tStradbally\tLaois']
-2021-01-8	444553	An Slí, Toberona, Bellewsbridge	Dundalk	Louth	['An Slí, Toberona, Bellewsbridge\tDundalk\tLouth', 'An Slí, Toberona, Bellewsbridge\tTrim\tMeath']
+2021-01-8	444544	Brook Lodge, Old Mills	Stradbally	Laois	['Brook Lodge, Old Mills\tStradbally\tLaois', 'Brook Lodge, Old Mills\tLeixlip\tKildare']
+2021-01-8	444553	An Slí, Toberona, Bellewsbridge	Trim	Meath	['An Slí, Toberona, Bellewsbridge\tTrim\tMeath', 'An Slí, Toberona, Bellewsbridge\tDundalk\tLouth']
 2021-01-8	444590	Larganhugh	Rossinver	Leitrim
 2021-01-8	444570	Kilfenora Road	Kimmage	Dublin
 2021-01-8	444614		Blackrock	Cork
@@ -830,8 +830,8 @@
 2021-01-8	444635		Castlemahon	Limerick	['\tCastlemahon\tLimerick', '\tNewcastle West\tLimerick']
 2021-01-8	444581	19 Highfield Close	Monaghan Town	Monaghan
 2021-01-8	444538	Moneen	Castlebar	Mayo
-2021-01-8	444565	Glenosheen	Kilfinane	Limerick	['Glenosheen\tKilfinane\tLimerick', 'Glenosheen\tArdpatrick\tLimerick']
-2021-01-8	444618		Firhouse	Dublin	['\tFirhouse\tDublin', '\tEnniscrone\tSligo']
+2021-01-8	444565	Glenosheen	Ardpatrick	Limerick	['Glenosheen\tArdpatrick\tLimerick', 'Glenosheen\tKilfinane\tLimerick']
+2021-01-8	444618		Enniscrone	Sligo	['\tEnniscrone\tSligo', '\tFirhouse\tDublin']
 2021-01-8	444651	Pilgrim Hill	Kilmorna	Kerry
 2021-01-8	444641	Esker Monastery	Athenry	Galway	['Esker Monastery\tAthenry\tGalway', 'Esker Monastery\tPortumna\tGalway']
 2021-01-8	444583	Meenenare	Duagh	Kerry
@@ -845,7 +845,7 @@
 2021-01-8	444640		Rathnew	Wicklow
 2021-01-8	444597		Clondalkin	Dublin	['\tClondalkin\tDublin', '\tBallyfermot\tDublin']
 2021-01-8	444536	Milltown	Dingle	Kerry
-2021-01-8	444644	Lamberton Grove	Rosslare Harbour	Wexford	['Lamberton Grove\tRosslare Harbour\tWexford', 'Lamberton Grove\tArklow\tWicklow']
+2021-01-8	444644	Lamberton Grove	Arklow	Wicklow	['Lamberton Grove\tArklow\tWicklow', 'Lamberton Grove\tRosslare Harbour\tWexford']
 2021-01-8	444587	Elm Park	Clonmel	Tipperary
 2021-01-8	444626	Ozanam Street & formerly of Upper Yellow Road	Waterford City	Waterford
 2021-01-8	444545		Ballincollig	Cork	['\tBallincollig\tCork', '\tBandon\tCork']
@@ -863,27 +863,27 @@
 2021-01-8	444547		Raheny	Dublin
 2021-01-8	444600		Drogheda	Louth
 2021-01-8	444605	3 Liskey Road	Strabane	Tyrone
-2021-01-8	444609		Ranelagh	Dublin	['\tRanelagh\tDublin', '\tTerenure\tDublin']
+2021-01-8	444609		Terenure	Dublin	['\tTerenure\tDublin', '\tRanelagh\tDublin']
 2021-01-8	444612	Knockatlowig	Rossmore	Cork
 2021-01-8	444619		Raheny	Dublin
 2021-01-8	444596	Lisminton	Ballintra	Donegal
 2021-01-8	444613	Killarda	Lisselton	Kerry
-2021-01-8	444539	Twickenham	Ballycumber	Offaly	['Twickenham\tBallycumber\tOffaly', 'Twickenham\tPullough\tOffaly']
+2021-01-8	444539	Twickenham	Pullough	Offaly	['Twickenham\tPullough\tOffaly', 'Twickenham\tBallycumber\tOffaly']
 2021-01-8	444579	29 Ros Ard	Athlone	Roscommon
 2021-01-8	444573	Inchacombe	Anglesboro	Limerick
-2021-01-8	444562	15 Chanterlands & formerly Sunnyside	Castledermot	Kildare	['15 Chanterlands & formerly Sunnyside\tCastledermot\tKildare', '15 Chanterlands & formerly Sunnyside\tAthy\tKildare']
+2021-01-8	444562	15 Chanterlands & formerly Sunnyside	Athy	Kildare	['15 Chanterlands & formerly Sunnyside\tAthy\tKildare', '15 Chanterlands & formerly Sunnyside\tCastledermot\tKildare']
 2021-01-8	444638	Two-Mile-Borris	Thurles	Tipperary
 2021-01-8	444535	Well Brae	Falcarragh	Donegal
-2021-01-8	444586		Dublin 7	Dublin	['\tDublin 7\tDublin', '\tClonee\tDublin']
-2021-01-8	444552	Clarinwood	Rathmore	Kerry	['Clarinwood\tRathmore\tKerry', 'Clarinwood\tKillarney\tKerry']
+2021-01-8	444586		Clonee	Dublin	['\tClonee\tDublin', '\tDublin 7\tDublin']
 2021-01-8	444621	Cloonfinglas	Bansha	Tipperary	['Cloonfinglas\tBansha\tTipperary', 'Cloonfinglas\tRoscrea\tTipperary']
+2021-01-8	444552	Clarinwood	Rathmore	Kerry	['Clarinwood\tRathmore\tKerry', 'Clarinwood\tKillarney\tKerry']
 2021-01-8	444572	Seskin View Avenue, Old Bawn	Dublin 24	Dublin
 2021-01-8	444493		Clontarf	Dublin
 2021-01-8	444606	Ballinoe	Whites Cross	Cork
 2021-01-8	444563	Lynn Court, Lynn Road	Mullingar	Westmeath
 2021-01-8	444601	Moyglare Road	Maynooth	Kildare
-2021-01-8	444649	Oakdene, Cahirdown	Listowel	Kerry
 2021-01-8	444584	Pine Grove	Tramore	Waterford
+2021-01-8	444649	Oakdene, Cahirdown	Listowel	Kerry
 2021-01-8	444631			Dublin
 2021-01-8	444643	Bru Na Sionna	Shannon	Clare
 2021-01-8	444636	Rockpark Avenue	Tralee	Kerry
@@ -908,11 +908,11 @@
 2021-01-9	444744	St Anne`s Terrace	Kilfinane	Limerick
 2021-01-9	444629	Mackenna	Aherlow	Tipperary
 2021-01-9	444718	Greenwood Estate and formerly of Hartland's Avenue	Cork City	Cork
-2021-01-9	444687	6 Abbey Close	Tullow	Carlow
 2021-01-9	444758	Blanketnook	Newtowncunningham	Donegal
+2021-01-9	444687	6 Abbey Close	Tullow	Carlow
 2021-01-9	444704	Emlagh	Fuerty	Roscommon
 2021-01-9	444703		Blackrock	Dublin	['\tBlackrock\tDublin', '\tRaheny\tDublin']
-2021-01-9	444724		Glangevlin	Cavan	['\tGlangevlin\tCavan', '\tDunboyne\tMeath']
+2021-01-9	444724		Dunboyne	Meath	['\tDunboyne\tMeath', '\tGlangevlin\tCavan']
 2021-01-9	444663	Cuan Aoibhinn, Pollagh, Keel	Achill Island	Mayo
 2021-01-9	444650	Carrowkeel	Ballintubber	Roscommon	['Carrowkeel\tBallintubber\tRoscommon', 'Carrowkeel\tCastlerea\tRoscommon']
 2021-01-9	444685	Burnchurch	Cuffesgrange	Kilkenny
@@ -926,8 +926,8 @@
 2021-01-9	444701	Rennies	Nohoval	Cork
 2021-01-9	444684	Talbot Avenue, Prospect	Limerick City	Limerick
 2021-01-9	444667	Moatview Court	Priorswood	Dublin
-2021-01-9	444712	58 Hazelwood	Liscannor	Clare	['58 Hazelwood\tLiscannor\tClare', '58 Hazelwood\tEnnis\tClare']
-2021-01-9	444666		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tDrumcondra\tDublin']
+2021-01-9	444712	58 Hazelwood	Ennis	Clare	['58 Hazelwood\tEnnis\tClare', '58 Hazelwood\tLiscannor\tClare']
+2021-01-9	444666		Drumcondra	Dublin	['\tDrumcondra\tDublin', '\tGlasnevin\tDublin']
 2021-01-9	444648	Harris Hill	Kilcock	Kildare	['Harris Hill\tKilcock\tKildare', 'Harris Hill\tKilcock\tMeath']
 2021-01-9	444673		Midleton	Cork	['\tMidleton\tCork', '\tRostellan\tCork']
 2021-01-9	444736	Ballyard	Carrigtwohill	Cork	['Ballyard\tCarrigtwohill\tCork', 'Ballyard\tCastlelyons\tCork']
@@ -937,16 +937,16 @@
 2021-01-9	444682		Raheny	Dublin
 2021-01-9	444681	Lenamore	Ballylongford	Kerry
 2021-01-9	444683		Blackrock	Dublin
-2021-01-9	444757	Killelton	Stradbally	Waterford
 2021-01-9	444700	Knockbrandon, Craanford	Gorey	Wexford
+2021-01-9	444757	Killelton	Stradbally	Waterford
 2021-01-9	444749	Trasternagh	Moylough	Galway
 2021-01-9	444677		Adare	Limerick
 2021-01-9	444668	Tomgarrow	Adamstown	Wexford
-2021-01-9	444653	River Crescent, Rosehill	Ballymun	Dublin	['River Crescent, Rosehill\tBallymun\tDublin', 'River Crescent, Rosehill\tMullagh\tCavan']
+2021-01-9	444653	River Crescent, Rosehill	Mullagh	Cavan	['River Crescent, Rosehill\tMullagh\tCavan', 'River Crescent, Rosehill\tBallymun\tDublin']
 2021-01-9	444722	Dunedin Park	Monkstown	Dublin
-2021-01-9	444729		Dublin 8	Dublin	['\tDublin 8\tDublin', '\tKilcock\tKildare', '\tMitchelstown\tCork']
-2021-01-9	444710		Killeagh	Cork
+2021-01-9	444729		Dublin 8	Dublin	['\tDublin 8\tDublin', '\tMitchelstown\tCork', '\tKilcock\tKildare']
 2021-01-9	444693	Tivoli Heights	Clonmel	Tipperary
+2021-01-9	444710		Killeagh	Cork
 2021-01-9	444696	"Ard na Laoi", Fort Road	Gorey	Wexford
 2021-01-9	444730		Nenagh	Tipperary	['\tNenagh\tTipperary', '\tKilkenny City\tKilkenny']
 2021-01-9	444754	Chiswick, London &	Courtmacsherry	Cork
@@ -959,11 +959,11 @@
 2021-01-9	444698	Ballydaly	Millstreet	Cork
 2021-01-9	444737	Keeraunmore	Ballyconneely	Galway
 2021-01-9	444656	24, Lissadell Park	Carrick-on-suir	Tipperary
-2021-01-9	444679		Cabra	Dublin	['\tCabra\tDublin', '\tNavan Road\tDublin']
-2021-01-9	444294	7134 Valley Ave, Philadelphia, PA 19128 U.S.A. and late of Upper Castle Street	Enniscorthy	Wexford	['7134 Valley Ave, Philadelphia, PA 19128 U.S.A. and late of Upper Castle Street\tEnniscorthy\tWexford', '7134 Valley Ave, Philadelphia, PA 19128 U.S.A. and late of Upper Castle Street\tTralee\tKerry']
+2021-01-9	444679		Navan Road	Dublin	['\tNavan Road\tDublin', '\tCabra\tDublin']
+2021-01-9	444294	7134 Valley Ave, Philadelphia, PA 19128 U.S.A. and late of Upper Castle Street	Tralee	Kerry	['7134 Valley Ave, Philadelphia, PA 19128 U.S.A. and late of Upper Castle Street\tTralee\tKerry', '7134 Valley Ave, Philadelphia, PA 19128 U.S.A. and late of Upper Castle Street\tEnniscorthy\tWexford']
 2021-01-9	444680	Dominic Street	Kilkenny City	Kilkenny
 2021-01-9	444753	No 5, Mill Rd	Kinlough	Leitrim
-2021-01-9	444728			Kilkenny	['\t\tKilkenny', '\tDundrum\tDublin']
+2021-01-9	444728		Dundrum	Dublin	['\tDundrum\tDublin', '\t\tKilkenny']
 2021-01-9	444637		Timahoe	Laois	['\tTimahoe\tLaois', '\tTallaght\tDublin']
 2021-01-9	444732	Altinure	Corlough	Cavan
 2021-01-9	444675		Innishannon	Cork
@@ -971,9 +971,9 @@
 2021-01-9	444740	Carterstown	Monasterboice	Louth
 2021-01-9	444694	Church Place	Lurgan	Armagh
 2021-01-9	444752	Nolan`s Lawn	Enniscorthy	Wexford
-2021-01-9	444723	Townspark	Ardee	Louth	['Townspark\tArdee\tLouth', 'Townspark\t\tCavan']
-2021-01-9	443708			Limerick	['\t\tLimerick', '\t\tDublin']
-2021-01-9	444734	KNOCKANEACOOLTEEN	Firies	Kerry	['KNOCKANEACOOLTEEN\tFiries\tKerry', 'KNOCKANEACOOLTEEN\tTralee\tKerry']
+2021-01-9	444723	Townspark		Cavan	['Townspark\t\tCavan', 'Townspark\tArdee\tLouth']
+2021-01-9	443708			Dublin	['\t\tDublin', '\t\tLimerick']
+2021-01-9	444734	KNOCKANEACOOLTEEN	Tralee	Kerry	['KNOCKANEACOOLTEEN\tTralee\tKerry', 'KNOCKANEACOOLTEEN\tFiries\tKerry']
 2021-01-9	444661		Shankill	Dublin	['\tShankill\tDublin', '\tCoolock\tDublin']
 2021-01-9	444719		Greystones	Wicklow
 2021-01-9	444725		Irishtown	Mayo
@@ -981,7 +981,7 @@
 2021-01-9	444713		Firhouse	Dublin	['\tFirhouse\tDublin', '\tDundrum\tDublin']
 2021-01-9	444714		Rathfarnham	Dublin
 2021-01-9	444720	Beheenaugh	Knocknagoshel	Kerry
-2021-01-9	444731		Finglas South	Dublin	['\tFinglas South\tDublin', '\tCabra West\tDublin']
+2021-01-9	444731		Cabra West	Dublin	['\tCabra West\tDublin', '\tFinglas South\tDublin']
 2021-01-9	444756	Bavan	Omeath	Louth
 2021-01-9	444664		Ramsgrange	Wexford
 2021-01-9	444699		Terenure	Dublin
@@ -997,16 +997,16 @@
 2021-01-9	444702	Griffith Place	Waterford City	Waterford
 2021-01-9	444727		Ballyphehane	Cork
 2021-01-9	444628		Skerries	Dublin
-2021-01-9	444711			Cork	['\t\tCork', '\tDerry City\tDerry']
+2021-01-9	444711		Derry City	Derry	['\tDerry City\tDerry', '\t\tCork']
 2021-01-9	444688		Terenure	Dublin	['\tTerenure\tDublin', '\tDundrum\tDublin']
 2021-01-9	444669		Bettystown	Meath
 2021-01-9	435330	Colecott, Ballough	Lusk	Dublin
 2021-01-9	444021	Melbourne, Florida formerly Killahy	Tullaroan	Kilkenny
-2021-01-9	444716	Shanaway	Nenagh	Tipperary	['Shanaway\tNenagh\tTipperary', 'Shanaway\tMiltown Malbay\tClare']
+2021-01-9	444716	Shanaway	Miltown Malbay	Clare	['Shanaway\tMiltown Malbay\tClare', 'Shanaway\tNenagh\tTipperary']
 2021-01-9	444735	Inches	Rathmore	Kerry
-2021-01-9	444759	Monksfield Pk, Bealnamulla	Athlone	Westmeath	['Monksfield Pk, Bealnamulla\tAthlone\tWestmeath', 'Monksfield Pk, Bealnamulla\tAthlone\tRoscommon']
-2021-01-9	444755	Station Road, Manulla	Belcarra	Mayo	['Station Road, Manulla\tBelcarra\tMayo', 'Station Road, Manulla\tClaremorris\tMayo']
+2021-01-9	444759	Monksfield Pk, Bealnamulla	Athlone	Roscommon	['Monksfield Pk, Bealnamulla\tAthlone\tRoscommon', 'Monksfield Pk, Bealnamulla\tAthlone\tWestmeath']
 2021-01-9	444741	Marymount	Castlecomer	Kilkenny
+2021-01-9	444755	Station Road, Manulla	Belcarra	Mayo	['Station Road, Manulla\tBelcarra\tMayo', 'Station Road, Manulla\tClaremorris\tMayo']
 2021-01-9	444672	Clancy Park	Ennis	Clare
 2021-01-10	444800	Lower Aghada	Aghada	Cork
 2021-01-10	444842	Kilready	Castlemahon	Limerick
@@ -1019,22 +1019,22 @@
 2021-01-10	444760	Raford, Kiltullagh	Athenry	Galway	['Raford, Kiltullagh\tAthenry\tGalway', 'Raford, Kiltullagh\tAhascragh\tGalway']
 2021-01-10	444768	Patrick Street	Strabane	Tyrone
 2021-01-10	444763	1234 St Evin`s Park	Monasterevin	Kildare
-2021-01-10	444791		Enniskeane	Cork
 2021-01-10	444869		Kilmihil	Clare
+2021-01-10	444791		Enniskeane	Cork
 2021-01-10	444822		Menlo	Galway
 2021-01-10	444857	Highfield Avenue	Arklow	Wicklow	['Highfield Avenue\tArklow\tWicklow', 'Highfield Avenue\tFermoy\tCork']
 2021-01-10	444804	Liam Healy Road	Farranree	Cork
 2021-01-10	444843		Toomevara	Tipperary	['\tToomevara\tTipperary', '\tBallinteer\tDublin']
 2021-01-10	444802	Meeltrane	Knock	Mayo
 2021-01-10	444852		Blackrock	Dublin
-2021-01-10	444836	Doire Mholing	Monamolin	Wexford
 2021-01-10	444849		Moylough	Galway
+2021-01-10	444836	Doire Mholing	Monamolin	Wexford
 2021-01-10	444830	`Evergreen`, Kildare Road	Athy	Kildare
 2021-01-10	444820	The Wooden Tavern, Tomard	Leighlinbridge	Carlow
 2021-01-10	444789	18, Meelmore Drive, Strathroy	Omagh	Tyrone
 2021-01-10	444786	Bannaghbane	Stranooden	Monaghan
 2021-01-10	444788	Whitegate, Edenburt	Virginia	Cavan
-2021-01-10	444777	Michael Collins Square	Cloyne	Cork	['Michael Collins Square\tCloyne\tCork', 'Michael Collins Square\tMidleton\tCork']
+2021-01-10	444777	Michael Collins Square	Midleton	Cork	['Michael Collins Square\tMidleton\tCork', 'Michael Collins Square\tCloyne\tCork']
 2021-01-10	444818	Baltimore Lawn	Douglas	Cork	['Baltimore Lawn\tDouglas\tCork', 'Baltimore Lawn\t\tSligo']
 2021-01-10	444845	Monkstown, Barne	Clonmel	Tipperary
 2021-01-10	444833	Ryefield	Virginia	Cavan
@@ -1045,8 +1045,8 @@
 2021-01-10	444659	Desert	Clonakilty	Cork
 2021-01-10	444765	Whitepark	Curraghboy	Roscommon
 2021-01-10	444819	Cloonkeen	Athenry	Galway
-2021-01-10	444726	Ascot Terrace, O’Connell Avenue	Limerick City	Limerick	['Ascot Terrace, O’Connell Avenue\tLimerick City\tLimerick', 'Ascot Terrace, O’Connell Avenue\tCappamore\tLimerick']
-2021-01-10	444826		Kilmacud	Dublin	['\tKilmacud\tDublin', '\t\tDonegal']
+2021-01-10	444726	Ascot Terrace, O’Connell Avenue	Cappamore	Limerick	['Ascot Terrace, O’Connell Avenue\tCappamore\tLimerick', 'Ascot Terrace, O’Connell Avenue\tLimerick City\tLimerick']
+2021-01-10	444826			Donegal	['\t\tDonegal', '\tKilmacud\tDublin']
 2021-01-10	444824	Couneraugh	Glenbeigh	Kerry
 2021-01-10	444813	Pilmore	Youghal	Cork
 2021-01-10	444817	Grange	Douglas	Cork
@@ -1059,10 +1059,10 @@
 2021-01-10	444796	3 Mulroy View	Carrigart	Donegal
 2021-01-10	444864	Ballinlough, Facefield	Claremorris	Mayo
 2021-01-10	444867	Ford-De-Fyne	Naul	Dublin
-2021-01-10	444773	Glandore Road	Clontarf	Dublin	['Glandore Road\tClontarf\tDublin', 'Glandore Road\tDublin 9\tDublin']
+2021-01-10	444773	Glandore Road	Dublin 9	Dublin	['Glandore Road\tDublin 9\tDublin', 'Glandore Road\tClontarf\tDublin']
 2021-01-10	444866	Cleggernagh, Rathconrath	Mullingar	Westmeath	['Cleggernagh, Rathconrath\tMullingar\tWestmeath', 'Cleggernagh, Rathconrath\tWestport\tMayo']
-2021-01-10	444871	Croshea House	Edgeworthstown	Longford	['Croshea House\tEdgeworthstown\tLongford', 'Croshea House\tRathowen\tWestmeath']
-2021-01-10	444809	Baskinagh	Inniskeen	Louth	['Baskinagh\tInniskeen\tLouth', 'Baskinagh\tAthboy\tMeath']
+2021-01-10	444871	Croshea House	Rathowen	Westmeath	['Croshea House\tRathowen\tWestmeath', 'Croshea House\tEdgeworthstown\tLongford']
+2021-01-10	444809	Baskinagh	Athboy	Meath	['Baskinagh\tAthboy\tMeath', 'Baskinagh\tInniskeen\tLouth']
 2021-01-10	444790	Corkamore	Templeboy	Sligo
 2021-01-10	444775	Bridge Street	Abbeyfeale	Limerick
 2021-01-10	444848	Millcastle	Castlepollard	Westmeath
@@ -1092,7 +1092,7 @@
 2021-01-10	444805	3 St. John`s Terrace, Caim	Enniscorthy	Wexford
 2021-01-10	444814	Melbourn Road	Knockanure	Kerry	['Melbourn Road\tKnockanure\tKerry', 'Melbourn Road\tBishopstown\tCork']
 2021-01-10	444828	Ballysheehan	Mallow	Cork	['Ballysheehan\tMallow\tCork', 'Ballysheehan\tCastletownroche\tCork']
-2021-01-10	444834	Portobello, Croghan	Boyle	Roscommon	['Portobello, Croghan\tBoyle\tRoscommon', 'Portobello, Croghan\tGurteen\tSligo']
+2021-01-10	444834	Portobello, Croghan	Gurteen	Sligo	['Portobello, Croghan\tGurteen\tSligo', 'Portobello, Croghan\tBoyle\tRoscommon']
 2021-01-10	444770		Wilton	Cork	['\tWilton\tCork', '\tFarranree\tCork']
 2021-01-10	444794	Connolly Park & formerly Glenegad Road	Clonmel	Tipperary
 2021-01-10	444835	Old Spa Road	Clonmel	Tipperary
@@ -1124,7 +1124,7 @@
 2021-01-11	444951	Churchlands	Tubbercurry	Sligo	['Churchlands\tTubbercurry\tSligo', 'Churchlands\tBray\tWicklow']
 2021-01-11	445013	Aughafadda	The Neale	Mayo
 2021-01-11	444895	"Glenogue", Charleville Road	Tullamore	Offaly
-2021-01-11	444877	Bellview	Kilmallock	Limerick	['Bellview\tKilmallock\tLimerick', 'Bellview\tNewmarket\tCork']
+2021-01-11	444877	Bellview	Newmarket	Cork	['Bellview\tNewmarket\tCork', 'Bellview\tKilmallock\tLimerick']
 2021-01-11	444799	Beechwood Grove	Sixmilebridge	Clare
 2021-01-11	444972	Gladree	Belmullet	Mayo
 2021-01-11	444949		Sallynoggin	Dublin
@@ -1138,23 +1138,23 @@
 2021-01-11	445027	Cappagh South	Mountrath	Laois
 2021-01-11	444925	Fergus Lawn, Tulla Road	Ennis	Clare
 2021-01-11	444882	Sarida, Ballymagan	Buncrana	Donegal
-2021-01-11	444955	Kilglass	Mitchelstown	Cork	['Kilglass\tMitchelstown\tCork', 'Kilglass\tAnglesboro\tLimerick']
 2021-01-11	444937	Rossnasunsogue	Glengarriff	Cork
+2021-01-11	444955	Kilglass	Mitchelstown	Cork	['Kilglass\tMitchelstown\tCork', 'Kilglass\tAnglesboro\tLimerick']
 2021-01-11	444947	Portnason	Ballyshannon	Donegal	['Portnason\tBallyshannon\tDonegal', 'Portnason\tMacroom\tCork']
 2021-01-11	445011	3 Hillview	Carnew	Wicklow	['3 Hillview\tCarnew\tWicklow', '3 Hillview\tHacketstown\tCarlow']
 2021-01-11	444953		Coolock	Dublin
 2021-01-11	444971	`Mispah`, North Circular Road	Limerick City	Limerick
 2021-01-11	444978		Kilmallock	Limerick
-2021-01-11	444919	Knockroe	Jenkinstown	Kilkenny
 2021-01-11	445002	Highlake	Ballymacurley	Roscommon
+2021-01-11	444919	Knockroe	Jenkinstown	Kilkenny
 2021-01-11	444950	Ballyhagen	Durrow	Laois	['Ballyhagen\tDurrow\tLaois', 'Ballyhagen\tCarbury\tKildare']
 2021-01-11	445001	Cosmona	Loughrea	Galway
 2021-01-11	444943	Doyle`s Bar, Duffry Hill	Enniscorthy	Wexford
 2021-01-11	444974		Tallaght	Dublin
 2021-01-11	444988		Ballincollig	Cork
 2021-01-11	444977		Santry	Dublin
-2021-01-11	444887			Dublin	['\t\tDublin', '\tBallina\tMayo']
-2021-01-11	444897		Donnycarney	Dublin	['\tDonnycarney\tDublin', '\tSwords\tDublin']
+2021-01-11	444887		Ballina	Mayo	['\tBallina\tMayo', '\t\tDublin']
+2021-01-11	444897		Swords	Dublin	['\tSwords\tDublin', '\tDonnycarney\tDublin']
 2021-01-11	444914	Ballyvadd	Portlaw	Waterford
 2021-01-11	444999	Tarmon	Castlerea	Roscommon
 2021-01-11	444922	Noonans Road	Cork City	Cork
@@ -1171,17 +1171,17 @@
 2021-01-11	445020	6, Park Terrace	Sion Mills	Tyrone
 2021-01-11	444909	Abhainn Gleann, Tobersool Lane	Balbriggan	Dublin
 2021-01-11	445018	Lee Estate, Island Road	Limerick City	Limerick
-2021-01-11	444942	Carrownaboney	Coolaney	Sligo	['Carrownaboney\tCoolaney\tSligo', 'Carrownaboney\tBunninadden\tSligo']
+2021-01-11	444942	Carrownaboney	Bunninadden	Sligo	['Carrownaboney\tBunninadden\tSligo', 'Carrownaboney\tCoolaney\tSligo']
 2021-01-11	444929		Swords	Dublin
-2021-01-11	444936	Ballyvaloo	Duncormick	Wexford	['Ballyvaloo\tDuncormick\tWexford', 'Ballyvaloo\tBlackwater\tWexford']
+2021-01-11	444936	Ballyvaloo	Blackwater	Wexford	['Ballyvaloo\tBlackwater\tWexford', 'Ballyvaloo\tDuncormick\tWexford']
 2021-01-11	444996		Navan Road	Dublin
-2021-01-11	444893		Ballincollig	Cork	['\tBallincollig\tCork', '\tFreemount\tCork']
+2021-01-11	444893		Freemount	Cork	['\tFreemount\tCork', '\tBallincollig\tCork']
 2021-01-11	444980		Finglas East	Dublin
 2021-01-11	444881	Barronstown	Tullow	Carlow	['Barronstown\tTullow\tCarlow', 'Barronstown\tGrangecon\tWicklow']
 2021-01-11	444985		Ballinlough	Cork
 2021-01-11	444964		Swords	Dublin
 2021-01-11	444916		Poppintree	Dublin
-2021-01-11	444940		Foxford	Mayo	['\tFoxford\tMayo', '\tRathfarnham\tDublin']
+2021-01-11	444940		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\tFoxford\tMayo']
 2021-01-11	445010	Lackafinna	Cong	Mayo
 2021-01-11	444889		Bray	Wicklow
 2021-01-11	444963		Baldoyle	Dublin
@@ -1208,41 +1208,41 @@
 2021-01-11	444810		Coolock	Dublin
 2021-01-11	445028		Shrule	Mayo
 2021-01-11	444883	Clonbrown	Portarlington	Offaly	['Clonbrown\tPortarlington\tOffaly', 'Clonbrown\tClonbullogue\tOffaly']
-2021-01-11	444939		Kilmacanogue	Wicklow	['\tKilmacanogue\tWicklow', '\tCarrickmines\tDublin']
+2021-01-11	444939		Carrickmines	Dublin	['\tCarrickmines\tDublin', '\tKilmacanogue\tWicklow']
 2021-01-11	444941		Foxrock	Dublin
 2021-01-11	445021	Waterloo	Bailieborough	Cavan
 2021-01-11	444884		Terenure	Dublin
 2021-01-11	444787	Bohergloss	Freshford	Kilkenny
 2021-01-11	444885		Donabate	Dublin
-2021-01-11	444991		Milltown	Dublin	['\tMilltown\tDublin', '\tInishmore\tGalway']
+2021-01-11	444991		Inishmore	Galway	['\tInishmore\tGalway', '\tMilltown\tDublin']
 2021-01-11	444998	Farrahy Road	Kildorrery	Cork
-2021-01-11	444968	O'Connell Gardens	Sandymount	Dublin
 2021-01-11	444505	28 The Green	Clara	Offaly	['28 The Green\tClara\tOffaly', '28 The Green\tMoate\tWestmeath']
+2021-01-11	444968	O'Connell Gardens	Sandymount	Dublin
 2021-01-11	444994	Bridge St., Ballylongford and	Moyvane	Kerry
-2021-01-11	444973	Upper Drakestown Lane, Smarmore	Ardee	Louth
-2021-01-11	444956	Coolowen	Blarney	Cork
 2021-01-11	444832	Bellewsbridge Road	Dundalk	Louth
+2021-01-11	444956	Coolowen	Blarney	Cork
+2021-01-11	444973	Upper Drakestown Lane, Smarmore	Ardee	Louth
 2021-01-11	444917	Ballyrune	Kildimo	Limerick
 2021-01-11	444932	St Olivers Park	Ratoath	Meath
 2021-01-11	444957		Glanmire	Cork	['\tGlanmire\tCork', '\tLucan\tDublin']
-2021-01-11	444890		Raheny	Dublin	['\tRaheny\tDublin', '\tDrumcondra\tDublin']
+2021-01-11	444890		Drumcondra	Dublin	['\tDrumcondra\tDublin', '\tRaheny\tDublin']
 2021-01-11	444706		Priorswood	Dublin
 2021-01-11	444997	Killenure	Ballybrittas	Laois
 2021-01-11	444910		Walkinstown	Dublin	['\tWalkinstown\tDublin', '\tTallaght\tDublin']
-2021-01-11	444924	Tomriland	Roundwood	Wicklow	['Tomriland\tRoundwood\tWicklow', 'Tomriland\tNewcastle\tWicklow']
-2021-01-11	444966	Athenry Road	Tuam	Galway
+2021-01-11	444924	Tomriland	Newcastle	Wicklow	['Tomriland\tNewcastle\tWicklow', 'Tomriland\tRoundwood\tWicklow']
 2021-01-11	444904		Raheny	Dublin
+2021-01-11	444966	Athenry Road	Tuam	Galway
 2021-01-11	444965	Lower Killeens	Killarney	Kerry	['Lower Killeens\tKillarney\tKerry', 'Lower Killeens\tBlarney\tCork']
-2021-01-11	444912		Lucan	Dublin	['\tLucan\tDublin', '\tLeixlip\tKildare']
+2021-01-11	444912		Leixlip	Kildare	['\tLeixlip\tKildare', '\tLucan\tDublin']
 2021-01-11	445012	Crostera West	Glengarriff	Cork
-2021-01-11	445003	Lackaroe	Kenmare	Kerry
 2021-01-11	444952	Tom Barry Way	Clonakilty	Cork
+2021-01-11	445003	Lackaroe	Kenmare	Kerry
 2021-01-11	444806		Ballinteer	Dublin
 2021-01-11	444918		Blackrock	Dublin
 2021-01-11	444854		Drogheda	Louth
 2021-01-11	444571		Whitehall	Dublin
 2021-01-11	444986		Ovens	Cork
-2021-01-11	444992	'Millgrove', Spa Road		Kilkenny	["'Millgrove', Spa Road\t\tKilkenny", "'Millgrove', Spa Road\tClonmel\tTipperary"]
+2021-01-11	444992	'Millgrove', Spa Road	Clonmel	Tipperary	["'Millgrove', Spa Road\tClonmel\tTipperary", "'Millgrove', Spa Road\t\tKilkenny"]
 2021-01-11	444879	Bank Place	New Ross	Wexford	['Bank Place\tNew Ross\tWexford', 'Bank Place\tTipperary Town\tTipperary']
 2021-01-11	444896		Sandyford	Dublin
 2021-01-11	445017	Misterin	Adamstown	Wexford
@@ -1261,19 +1261,19 @@
 2021-01-11	444876	Crover, Broomfield	Castleblayney	Monaghan
 2021-01-11	444915		Howth	Dublin	['\tHowth\tDublin', '\tBelfast\tAntrim']
 2021-01-11	444982	Iona Road	Drumcondra	Dublin
-2021-01-11	444898		Blackrock	Dublin	['\tBlackrock\tDublin', '\tThurles\tTipperary']
-2021-01-11	444934	Carnageehy	Milltown	Galway	['Carnageehy\tMilltown\tGalway', 'Carnageehy\tMullingar\tWestmeath']
+2021-01-11	444898		Thurles	Tipperary	['\tThurles\tTipperary', '\tBlackrock\tDublin']
+2021-01-11	444934	Carnageehy	Mullingar	Westmeath	['Carnageehy\tMullingar\tWestmeath', 'Carnageehy\tMilltown\tGalway']
 2021-01-11	444961		Drogheda	Louth
 2021-01-11	444870	Lake Road	Moate	Westmeath
-2021-01-11	444960		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tCastlebar\tMayo']
+2021-01-11	444960		Castlebar	Mayo	['\tCastlebar\tMayo', '\tGlasnevin\tDublin']
 2021-01-11	444903	Kilmona House	Grenagh	Cork
-2021-01-11	444899		Tallaght	Dublin	['\tTallaght\tDublin', '\tDublin 12\tDublin']
+2021-01-11	444899		Dublin 12	Dublin	['\tDublin 12\tDublin', '\tTallaght\tDublin']
 2021-01-11	445007	High Street	Graiguenamanagh	Kilkenny
 2021-01-11	444928		Dundrum	Dublin
-2021-01-11	444958	Stonepark, Cloonloo via	Gurteen	Sligo	['Stonepark, Cloonloo via\tGurteen\tSligo', 'Stonepark, Cloonloo via\tBoyle\tRoscommon', 'Stonepark, Cloonloo via\tBoyle\tSligo']
+2021-01-11	444958	Stonepark, Cloonloo via	Boyle	Roscommon	['Stonepark, Cloonloo via\tBoyle\tRoscommon', 'Stonepark, Cloonloo via\tGurteen\tSligo', 'Stonepark, Cloonloo via\tBoyle\tSligo']
 2021-01-11	444888		Athy	Kildare	['\tAthy\tKildare', '\tRathgar\tDublin']
 2021-01-12	445149		Clontarf	Dublin
-2021-01-12	445051	Tallagh Hill	Belmullet	Mayo	['Tallagh Hill\tBelmullet\tMayo', 'Tallagh Hill\tLongford Town\tLongford']
+2021-01-12	445051	Tallagh Hill	Longford Town	Longford	['Tallagh Hill\tLongford Town\tLongford', 'Tallagh Hill\tBelmullet\tMayo']
 2021-01-12	445052		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tKilbaha\tClare']
 2021-01-12	445158	Kilclooney	Kilmacthomas	Waterford
 2021-01-12	445134	Mt. Nebo Avenue	Gurranabraher	Cork
@@ -1284,7 +1284,7 @@
 2021-01-12	445196	Cuchalainn Terrace	Carrickmacross	Monaghan
 2021-01-12	445130			Dublin
 2021-01-12	445023	Townspark	Navan	Meath
-2021-01-12	445085		Shankill	Dublin	['\tShankill\tDublin', '\tBallinteer\tDublin']
+2021-01-12	445085		Ballinteer	Dublin	['\tBallinteer\tDublin', '\tShankill\tDublin']
 2021-01-12	445169		Drumshanbo	Leitrim	['\tDrumshanbo\tLeitrim', '\tCarrigtwohill\tCork']
 2021-01-12	445144	Clonfert	Newmarket	Cork
 2021-01-12	445145	Hayestown	Rush	Dublin
@@ -1292,26 +1292,26 @@
 2021-01-12	445167	James Connolly Park	Tipperary Town	Tipperary	['James Connolly Park\tTipperary Town\tTipperary', 'James Connolly Park\tCappawhite\tTipperary']
 2021-01-12	445193	Killeaney		Kildare	['Killeaney\t\tKildare', 'Killeaney\tKilcloon\tMeath']
 2021-01-12	445117	Massford	Castlecomer	Kilkenny
-2021-01-12	445076		Ballinlough	Cork	['\tBallinlough\tCork', '\tCourtmacsherry\tCork', '\tGlasthule\tDublin']
-2021-01-12	445004	Kilmantain park	Bray	Wicklow	['Kilmantain park\tBray\tWicklow', 'Kilmantain park\tSandymount\tDublin']
-2021-01-12	445104	St. Brigid's Place	Portlaoise	Laois	["St. Brigid's Place\tPortlaoise\tLaois", "St. Brigid's Place\tBallinakill\tLaois"]
+2021-01-12	445076		Ballinlough	Cork	['\tBallinlough\tCork', '\tGlasthule\tDublin', '\tCourtmacsherry\tCork']
+2021-01-12	445004	Kilmantain park	Sandymount	Dublin	['Kilmantain park\tSandymount\tDublin', 'Kilmantain park\tBray\tWicklow']
+2021-01-12	445104	St. Brigid's Place	Ballinakill	Laois	["St. Brigid's Place\tBallinakill\tLaois", "St. Brigid's Place\tPortlaoise\tLaois"]
 2021-01-12	445148	Gorey Hill Upper, Gorey and late of 92 Main Street	Gorey	Wexford
 2021-01-12	445188	Clonhaston	Enniscorthy	Wexford
 2021-01-12	445105		Grange	Waterford
-2021-01-12	445043	98 Ballycolman Estate	Newtownstewart	Tyrone	['98 Ballycolman Estate\tNewtownstewart\tTyrone', '98 Ballycolman Estate\tStrabane\tTyrone']
+2021-01-12	445043	98 Ballycolman Estate	Strabane	Tyrone	['98 Ballycolman Estate\tStrabane\tTyrone', '98 Ballycolman Estate\tNewtownstewart\tTyrone']
 2021-01-12	445068		Mungret	Limerick
 2021-01-12	445032		Drimnagh	Dublin
 2021-01-12	445138	Horeswood	Campile	Wexford
 2021-01-12	445141	Floodhall	Knocktopher	Kilkenny
-2021-01-12	445129		Clonshaugh	Dublin
 2021-01-12	445125	Constitution Hill	Dublin 7	Dublin
+2021-01-12	445129		Clonshaugh	Dublin
 2021-01-12	445058	Coolfin	Abbey	Galway
 2021-01-12	445096	Knockasartnett	Drimnagh	Dublin	['Knockasartnett\tDrimnagh\tDublin', 'Knockasartnett\tKillarney\tKerry', 'Knockasartnett\tListowel\tKerry']
 2021-01-12	445163	Rossmore Drive	Templeogue	Dublin
 2021-01-12	445029	St. Joseph's Park	Nenagh	Tipperary	["St. Joseph's Park\tNenagh\tTipperary", "St. Joseph's Park\tMoneygall\tOffaly"]
 2021-01-12	445159	Ballinamanagh, Kilcummin	Killarney	Kerry
-2021-01-12	445113	Stonebridge		Waterford	['Stonebridge\t\tWaterford', 'Stonebridge\tRatoath\tMeath', 'Stonebridge\tCastleknock\tDublin']
-2021-01-12	445067		Dublin 15	Dublin	['\tDublin 15\tDublin', '\t\tMeath']
+2021-01-12	445113	Stonebridge	Castleknock	Dublin	['Stonebridge\tCastleknock\tDublin', 'Stonebridge\tRatoath\tMeath', 'Stonebridge\t\tWaterford']
+2021-01-12	445067			Meath	['\t\tMeath', '\tDublin 15\tDublin']
 2021-01-12	445079	Bianconi Drive	Clonmel	Tipperary
 2021-01-12	445161		Raheny	Dublin	['\tRaheny\tDublin', '\tDrumcondra\tDublin']
 2021-01-12	445049	Tallaghan	Ballinagare	Roscommon
@@ -1321,7 +1321,7 @@
 2021-01-12	445073	Fairhill	Tuam	Galway	['Fairhill\tTuam\tGalway', 'Fairhill\tMenlough\tGalway']
 2021-01-12	445103	Ardmore	Timoleague	Cork
 2021-01-12	445181	The Moyne	Enniscorthy	Wexford
-2021-01-12	444938		Achill	Mayo	['\tAchill\tMayo', '\tCreeslough\tDonegal']
+2021-01-12	444938		Creeslough	Donegal	['\tCreeslough\tDonegal', '\tAchill\tMayo']
 2021-01-12	445176	Cross Boyd, Binghamstown	Belmullet	Mayo
 2021-01-12	445071		Raheny	Dublin
 2021-01-12	445180	Sandyford Village	Sandyford	Dublin
@@ -1330,45 +1330,45 @@
 2021-01-12	445044		Terenure	Dublin
 2021-01-12	445089		Clondalkin	Dublin	['\tClondalkin\tDublin', '\tRathfarnham\tDublin']
 2021-01-12	445160		Drogheda	Louth
-2021-01-12	445065		Bray	Wicklow	['\tBray\tWicklow', '\tCahir\tTipperary', '\tBallina\tMayo']
+2021-01-12	445065		Cahir	Tipperary	['\tCahir\tTipperary', '\tBallina\tMayo', '\tBray\tWicklow']
 2021-01-12	445055		Nobber	Meath	['\tNobber\tMeath', '\tFinglas\tDublin']
 2021-01-12	445035	Gurranabraher Road	Gurranabraher	Cork
-2021-01-12	445179	Cloonfower	Ballinlough	Roscommon	['Cloonfower\tBallinlough\tRoscommon', 'Cloonfower\tCastlerea\tRoscommon']
+2021-01-12	445179	Cloonfower	Castlerea	Roscommon	['Cloonfower\tCastlerea\tRoscommon', 'Cloonfower\tBallinlough\tRoscommon']
 2021-01-12	445088		Glenageary	Dublin
 2021-01-12	445056	Clonattin	Gorey	Wexford
 2021-01-12	445094		Craughwell	Galway
 2021-01-12	445098	Cover Hill	Newmarket-on-fergus	Clare
+2021-01-12	445075		Templeogue	Dublin	['\tTempleogue\tDublin', '\tPerrystown\tDublin']
 2021-01-12	445063	Coventry England and Rooghaun, Liscarney	Westport	Mayo
-2021-01-12	445075		Perrystown	Dublin	['\tPerrystown\tDublin', '\tTempleogue\tDublin']
 2021-01-12	445061	Newcastle	Castlepollard	Westmeath
+2021-01-12	445165		Rathmines	Dublin	['\tRathmines\tDublin', '\tDublin 9\tDublin']
 2021-01-12	445053	Drimneen	Claremorris	Mayo
-2021-01-12	445165		Dublin 9	Dublin	['\tDublin 9\tDublin', '\tRathmines\tDublin']
-2021-01-12	445116		Buttevant	Cork	['\tButtevant\tCork', '\tMayfield\tCork']
+2021-01-12	445116		Mayfield	Cork	['\tMayfield\tCork', '\tButtevant\tCork']
 2021-01-12	444689	Allenwood South	Allenwood	Kildare
 2021-01-12	445137		Palmerstown	Dublin
 2021-01-12	445178	Villierstown	Cappoquin	Waterford
-2021-01-12	445151		Crumlin	Dublin	['\tCrumlin\tDublin', '\tKilmainham\tDublin']
+2021-01-12	445151		Kilmainham	Dublin	['\tKilmainham\tDublin', '\tCrumlin\tDublin']
 2021-01-12	444739	Islands	Williamstown	Galway
 2021-01-12	445143	Shanakeela, Recess	Connemara	Galway
 2021-01-12	445087	Birch Building`s, Captains Place, St. Agnes Avenue	Drimnagh	Dublin	['Birch Building`s, Captains Place, St. Agnes Avenue\tDrimnagh\tDublin', 'Birch Building`s, Captains Place, St. Agnes Avenue\tCrumlin\tDublin']
 2021-01-12	445162		Knock	Mayo
 2021-01-12	445135	Lalors Mills	Portlaoise	Laois
 2021-01-12	445109	Abbert Demesne, Abbert	Abbeyknockmoy	Galway
-2021-01-12	445139		Kilmeedy	Limerick	['\tKilmeedy\tLimerick', '\tLimerick City\tLimerick']
+2021-01-12	445139		Limerick City	Limerick	['\tLimerick City\tLimerick', '\tKilmeedy\tLimerick']
 2021-01-12	445037	Bantry Park Road	Fairhill	Cork
 2021-01-12	445086	17 Belgium Square	Monaghan Town	Monaghan
-2021-01-12	445146	Newport Road	Cootehill	Cavan	['Newport Road\tCootehill\tCavan', 'Newport Road\tCastlebar\tMayo']
+2021-01-12	445146	Newport Road	Castlebar	Mayo	['Newport Road\tCastlebar\tMayo', 'Newport Road\tCootehill\tCavan']
 2021-01-12	445164		Cork City	Cork	['\tCork City\tCork', '\tBlackrock\tDublin']
 2021-01-12	445182		Newry	Down
 2021-01-12	445128	Cloonlara Crescent	Finglas South	Dublin
 2021-01-12	445069		Clonee	Dublin
 2021-01-12	445120	Kilwarden, Castlewarden	Rathcoole	Dublin	['Kilwarden, Castlewarden\tRathcoole\tDublin', 'Kilwarden, Castlewarden\t\tKildare']
-2021-01-12	445062		Arva	Cavan	['\tArva\tCavan', '\t\tDublin']
+2021-01-12	445062			Dublin	['\t\tDublin', '\tArva\tCavan']
 2021-01-12	445126		Glasnevin	Dublin
 2021-01-12	445170	Cootehill Road	Shercock	Cavan
 2021-01-12	445046	Milestown	Castlebellingham	Louth
-2021-01-12	445070		Lixnaw	Kerry	['\tLixnaw\tKerry', '\tFinglas East\tDublin']
-2021-01-12	445195	Knocklaughta	Ballintubber	Roscommon	['Knocklaughta\tBallintubber\tRoscommon', 'Knocklaughta\tCastlerea\tRoscommon']
+2021-01-12	445070		Finglas East	Dublin	['\tFinglas East\tDublin', '\tLixnaw\tKerry']
+2021-01-12	445195	Knocklaughta	Castlerea	Roscommon	['Knocklaughta\tCastlerea\tRoscommon', 'Knocklaughta\tBallintubber\tRoscommon']
 2021-01-12	445110	Hallsbridge	Athlone	Westmeath	['Hallsbridge\tAthlone\tWestmeath', 'Hallsbridge\tAthlone\tRoscommon']
 2021-01-12	445122	Togher Road	Cork City	Cork
 2021-01-12	445189	Aghagaw	Smithborough	Monaghan
@@ -1377,41 +1377,41 @@
 2021-01-12	445095	Bothaul, Meelick	Swinford	Mayo
 2021-01-12	445131	Cuan Iosa	Ballymote	Sligo
 2021-01-12	445064		Rush	Dublin	['\tRush\tDublin', '\tLusk\tDublin']
-2021-01-12	445014	Glasboloie	Ballintra	Donegal	['Glasboloie\tBallintra\tDonegal', 'Glasboloie\tStranorlar\tDonegal']
+2021-01-12	445014	Glasboloie	Stranorlar	Donegal	['Glasboloie\tStranorlar\tDonegal', 'Glasboloie\tBallintra\tDonegal']
 2021-01-12	445173	Skeaghbeg	Headford	Galway	['Skeaghbeg\tHeadford\tGalway', 'Skeaghbeg\tKnock\tMayo']
 2021-01-12	445050	Coolkill	Kilnaleck	Cavan
 2021-01-12	445084	Wardstown	Athboy	Meath
-2021-01-12	445054		Belfast	Antrim	['\tBelfast\tAntrim', '\tArklow\tWicklow', '\tRathmines\tDublin']
+2021-01-12	445054		Rathmines	Dublin	['\tRathmines\tDublin', '\tBelfast\tAntrim', '\tArklow\tWicklow']
 2021-01-12	445114		Blackwater	Wexford
 2021-01-12	445048	Corrarybeg	Carrickroe	Monaghan
 2021-01-12	445006	8 Towerhill	Borrisokane	Tipperary
 2021-01-12	445077	Pinewood Lawn, Abbeyside	Dungarvan	Waterford
 2021-01-12	445066	St. Patrick`s Park	Carrick-on-shannon	Leitrim
-2021-01-12	444861		Kingscourt	Meath	['\tKingscourt\tMeath', '\tKingscourt\tCavan', '\tGort\tGalway']
-2021-01-12	445080	St Helen`s Villas	Cahirciveen	Kerry	['St Helen`s Villas\tCahirciveen\tKerry', 'St Helen`s Villas\tBooterstown\tDublin']
+2021-01-12	444861		Kingscourt	Cavan	['\tKingscourt\tCavan', '\tGort\tGalway', '\tKingscourt\tMeath']
 2021-01-12	445030	Dooneen	Castleisland	Kerry
+2021-01-12	445080	St Helen`s Villas	Booterstown	Dublin	['St Helen`s Villas\tBooterstown\tDublin', 'St Helen`s Villas\tCahirciveen\tKerry']
 2021-01-12	445186	Fr. Murray Park	Dundalk	Louth
 2021-01-12	445081	Friarstown	Clondalkin	Dublin	['Friarstown\tClondalkin\tDublin', 'Friarstown\tGrange\tLimerick']
 2021-01-12	445112	Ballydanielmore	Cobh	Cork
 2021-01-12	445093	Clontarf Place, O`Connell Avenue	Limerick City	Limerick
-2021-01-12	445185		Tralee	Kerry
 2021-01-12	445099	Glenthorn Road	Dublin Hill	Cork
+2021-01-12	445185		Tralee	Kerry
 2021-01-12	445140	Dunmasc	Athlone	Westmeath	['Dunmasc\tAthlone\tWestmeath', 'Dunmasc\tPortlaoise\tLaois']
 2021-01-12	445183	Tubbertoureen	Moyvane	Kerry
-2021-01-12	445036		Ballyferriter	Kerry	['\tBallyferriter\tKerry', '\tGlasheen\tCork']
+2021-01-12	445036		Glasheen	Cork	['\tGlasheen\tCork', '\tBallyferriter\tKerry']
 2021-01-12	445119	Derrymore	Lahinch	Clare
 2021-01-12	445111		Raheny	Dublin
 2021-01-12	445154	Glendale Lawn, Old Singland Road	Limerick City	Limerick
 2021-01-12	445040	2 Melmount Villas	Strabane	Tyrone
 2021-01-12	445171		Mitchelstown	Cork	['\tMitchelstown\tCork', '\tCastleknock\tDublin']
-2021-01-12	445123		Dublin 15	Dublin	['\tDublin 15\tDublin', '\tSlane\tMeath']
+2021-01-12	445123		Slane	Meath	['\tSlane\tMeath', '\tDublin 15\tDublin']
 2021-01-12	445039	Reen	Killorglin	Kerry
 2021-01-12	445124	Knockenaugh	Ardfert	Kerry
 2021-01-12	445150	Lisduff	Whitechurch	Cork
-2021-01-12	445045		Dalkey	Dublin	['\tDalkey\tDublin', '\tBallybrack\tDublin']
 2021-01-12	445133	33 Drumgoold Villas	Enniscorthy	Wexford
-2021-01-12	445031	Weavers Square	Baltinglass	Wicklow	['Weavers Square\tBaltinglass\tWicklow', 'Weavers Square\tAran Islands\tGalway']
-2021-01-12	445147		Kilbarrack	Dublin	['\tKilbarrack\tDublin', '\tCoolock\tDublin']
+2021-01-12	445045		Ballybrack	Dublin	['\tBallybrack\tDublin', '\tDalkey\tDublin']
+2021-01-12	445031	Weavers Square	Aran Islands	Galway	['Weavers Square\tAran Islands\tGalway', 'Weavers Square\tBaltinglass\tWicklow']
+2021-01-12	445147		Coolock	Dublin	['\tCoolock\tDublin', '\tKilbarrack\tDublin']
 2021-01-12	445097		Sandyford	Dublin
 2021-01-12	445041	Late of Greeves Park	Strabane	Tyrone
 2021-01-12	445127	Mornington Way	Trim	Meath
@@ -1465,16 +1465,16 @@
 2021-01-13	445294	Pine Grove	Charlestown	Mayo
 2021-01-13	445326		Clontarf	Dublin
 2021-01-13	445298		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tBaldoyle\tDublin']
-2021-01-13	445310	Shannamore Park	Dungarvan	Waterford	['Shannamore Park\tDungarvan\tWaterford', 'Shannamore Park\tClareview\tLimerick']
+2021-01-13	445310	Shannamore Park	Clareview	Limerick	['Shannamore Park\tClareview\tLimerick', 'Shannamore Park\tDungarvan\tWaterford']
 2021-01-13	445205	Pound Cross	Crookstown	Cork	['Pound Cross\tCrookstown\tCork', 'Pound Cross\tPassage West\tCork']
 2021-01-13	445220	Claggan	Portsalon	Donegal
 2021-01-13	445286		Lusk	Dublin
 2021-01-13	445210	Truskey West & Leaclian	Barna	Galway
-2021-01-13	445331	Hawthorn Drive	Tullow	Carlow	['Hawthorn Drive\tTullow\tCarlow', 'Hawthorn Drive\tOld Leighlin\tCarlow']
 2021-01-13	445240	Greaghlane, Corduff	Carrickmacross	Monaghan
+2021-01-13	445331	Hawthorn Drive	Old Leighlin	Carlow	['Hawthorn Drive\tOld Leighlin\tCarlow', 'Hawthorn Drive\tTullow\tCarlow']
 2021-01-13	445349	13 Rathview	Crossmaglen	Armagh
 2021-01-13	445289	Main Street	Borris-in-ossory	Laois	['Main Street\tBorris-in-ossory\tLaois', 'Main Street\tPike Of Rushall\tLaois']
-2021-01-13	445236	Woodvale		Kerry	['Woodvale\t\tKerry', 'Woodvale\tFoynes\tLimerick', 'Woodvale\t\tDublin']
+2021-01-13	445236	Woodvale	Foynes	Limerick	['Woodvale\tFoynes\tLimerick', 'Woodvale\t\tDublin', 'Woodvale\t\tKerry']
 2021-01-13	445300		Goatstown	Dublin
 2021-01-13	445356	Monagreana, Monamolin	Gorey	Wexford
 2021-01-13	445247	Bohermeen	Navan	Meath
@@ -1496,28 +1496,28 @@
 2021-01-13	445255		Drumcondra	Dublin
 2021-01-13	445324	Creggane	Ballycroy	Mayo
 2021-01-13	445280	Beechmount	Rathdowney	Laois
-2021-01-13	445233		Ferrybank	Waterford	['\tFerrybank\tWaterford', '\t\tCork']
 2021-01-13	445239	Grange	Corrandulla	Galway
+2021-01-13	445233			Cork	['\t\tCork', '\tFerrybank\tWaterford']
 2021-01-13	445226		Knocklyon	Dublin
-2021-01-13	444981	Skyvalley	Taughmaconnell	Roscommon	['Skyvalley\tTaughmaconnell\tRoscommon', 'Skyvalley\tLixnaw\tKerry']
+2021-01-13	444981	Skyvalley	Lixnaw	Kerry	['Skyvalley\tLixnaw\tKerry', 'Skyvalley\tTaughmaconnell\tRoscommon']
 2021-01-13	445224		Mayfield	Cork
 2021-01-13	445319	30 Foynes Court	Longford Town	Longford
-2021-01-13	445296	Isserkelly, Kilchreest	Loughrea	Galway	['Isserkelly, Kilchreest\tLoughrea\tGalway', 'Isserkelly, Kilchreest\tTubber\tClare']
+2021-01-13	445296	Isserkelly, Kilchreest	Tubber	Clare	['Isserkelly, Kilchreest\tTubber\tClare', 'Isserkelly, Kilchreest\tLoughrea\tGalway']
 2021-01-13	445287	1, Lissan Drive	Omagh	Tyrone
 2021-01-13	445293	Main Street	Ballintogher	Sligo
 2021-01-13	445339		Mulranny	Mayo
 2021-01-13	445259	Loughboy	Kilkenny City	Kilkenny
 2021-01-13	445230		Fairhill	Cork
-2021-01-13	445275	Formerly Toomore, Ruan	Galway City	Galway	['Formerly Toomore, Ruan\tGalway City\tGalway', 'Formerly Toomore, Ruan\tEnnis\tClare']
+2021-01-13	445275	Formerly Toomore, Ruan	Ennis	Clare	['Formerly Toomore, Ruan\tEnnis\tClare', 'Formerly Toomore, Ruan\tGalway City\tGalway']
 2021-01-13	445264		Dundrum	Dublin
 2021-01-13	445241	Greenacre Court, Knocklyon	Dublin 16	Dublin
 2021-01-13	445351	Castletaylor	Monaghan Town	Monaghan	['Castletaylor\tMonaghan Town\tMonaghan', 'Castletaylor\tArdrahan\tGalway']
 2021-01-13	445316	Cloonbane	Doneraile	Cork	['Cloonbane\tDoneraile\tCork', 'Cloonbane\tDoneraile\tCork']
 2021-01-13	445321	St Mary`s Terrace	Ramelton	Donegal
 2021-01-13	445271	Hants, England/Doon	Strokestown	Roscommon
-2021-01-13	445267	Loretto, Hill of Berries	Athlone	Roscommon	['Loretto, Hill of Berries\tAthlone\tRoscommon', 'Loretto, Hill of Berries\tAthlone\tWestmeath']
+2021-01-13	445267	Loretto, Hill of Berries	Athlone	Westmeath	['Loretto, Hill of Berries\tAthlone\tWestmeath', 'Loretto, Hill of Berries\tAthlone\tRoscommon']
 2021-01-13	445290	Sylaun	Dunmore	Galway
-2021-01-13	445235		Howth	Dublin	['\tHowth\tDublin', '\tDonaghmede\tDublin']
+2021-01-13	445235		Donaghmede	Dublin	['\tDonaghmede\tDublin', '\tHowth\tDublin']
 2021-01-13	445295		Kilmeedy	Limerick	['\tKilmeedy\tLimerick', '\tFeohanagh\tLimerick']
 2021-01-13	445283		Cork City	Cork
 2021-01-13	445198	Farmleigh	Enniscorthy	Wexford
@@ -1538,7 +1538,7 @@
 2021-01-13	445252	The Weir, Castlecomer Road	Kilkenny City	Kilkenny
 2021-01-13	445282		Foxrock	Dublin	['\tFoxrock\tDublin', '\tMooncoin\tKilkenny']
 2021-01-13	445329	Middlequarter	Newcastle	Tipperary	['Middlequarter\tNewcastle\tTipperary', 'Middlequarter\tClonmel\tTipperary']
-2021-01-13	445237	No.2 Dr Mc Closkey Crescent	Ballina	Mayo	['No.2 Dr Mc Closkey Crescent\tBallina\tMayo', 'No.2 Dr Mc Closkey Crescent\tGlenties\tDonegal']
+2021-01-13	445237	No.2 Dr Mc Closkey Crescent	Glenties	Donegal	['No.2 Dr Mc Closkey Crescent\tGlenties\tDonegal', 'No.2 Dr Mc Closkey Crescent\tBallina\tMayo']
 2021-01-13	445266	Mount Rivers, Carhan Road	Cahersiveen	Kerry	['Mount Rivers, Carhan Road\tCahersiveen\tKerry', 'Mount Rivers, Carhan Road\tDonoughmore\tCork']
 2021-01-13	445318	Seville Place and formerly of Clarence Street	Dublin 1	Dublin
 2021-01-13	445301	Little Kilpeacon	Crecora	Limerick	['Little Kilpeacon\tCrecora\tLimerick', 'Little Kilpeacon\tCappamore\tLimerick']
@@ -1575,8 +1575,8 @@
 2021-01-13	445299		Cork City	Cork	['\tCork City\tCork', '\tLismore\tWaterford']
 2021-01-13	445276		Howth	Dublin
 2021-01-13	445256	Ballymore	Camolin	Wexford
-2021-01-13	445251	Tullihinell North	Ballylongford	Kerry	['Tullihinell North\tBallylongford\tKerry', 'Tullihinell North\tEnnistymon\tClare']
 2021-01-13	445297	7 Alexander Place	Strabane	Tyrone
+2021-01-13	445251	Tullihinell North	Ennistymon	Clare	['Tullihinell North\tEnnistymon\tClare', 'Tullihinell North\tBallylongford\tKerry']
 2021-01-13	445292	Port	Bawnboy	Cavan
 2021-01-13	445317	Clounreask	Askeaton	Limerick
 2021-01-13	445219	Morrisson`s Road	Waterford City	Waterford
@@ -1588,18 +1588,18 @@
 2021-01-13	445204		Beaumont	Dublin
 2021-01-13	445217		Ballyconnell	Cavan
 2021-01-13	445214	Kennedy Park	Wexford Town	Wexford
-2021-01-13	445323		Crumlin	Dublin	['\tCrumlin\tDublin', '\tKimmage\tDublin', '\t\tWexford']
+2021-01-13	445323			Wexford	['\t\tWexford', '\tKimmage\tDublin', '\tCrumlin\tDublin']
 2021-01-13	445343		Clogherhead	Louth
-2021-01-13	445288	Avondale Drive	Limerick City	Limerick	['Avondale Drive\tLimerick City\tLimerick', 'Avondale Drive\tRingsend\tDublin', 'Avondale Drive\tGreystones\tLimerick']
+2021-01-13	445288	Avondale Drive	Ringsend	Dublin	['Avondale Drive\tRingsend\tDublin', 'Avondale Drive\tLimerick City\tLimerick', 'Avondale Drive\tGreystones\tLimerick']
 2021-01-13	445212	Clooncalliga	Moylough	Galway
 2021-01-13	445330		Kilmore West	Dublin
 2021-01-13	445216		Grangecon	Wicklow
-2021-01-13	445279		Fintown	Donegal	['\tFintown\tDonegal', '\tDublin 15\tDublin']
+2021-01-13	445279		Dublin 15	Dublin	['\tDublin 15\tDublin', '\tFintown\tDonegal']
 2021-01-13	445222	Fitzgibbon Court	Dublin 1	Dublin
 2021-01-13	445284	Greengates	Blackrock	Louth
 2021-01-13	445302		Bray	Wicklow
 2021-01-13	445281	Formerly of Idle, Bradford UK and Late of Silversprings	Clonmel	Tipperary
-2021-01-13	445278		Cabra	Dublin	['\tCabra\tDublin', '\tCabra\tDublin']
+2021-01-13	445278		Glasnevin North	Dublin	['\tGlasnevin North\tDublin', '\tCabra\tDublin']
 2021-01-13	444526	Late of Glenahulla	Mitchelstown	Cork
 2021-01-14	445442		Clondalkin	Dublin
 2021-01-14	445427	Convent Street	Abbeyfeale	Limerick
@@ -1607,29 +1607,29 @@
 2021-01-14	445090		Drogheda	Louth
 2021-01-14	445463	"Glenisle" Hillbrook	Gorey	Wexford
 2021-01-14	445456		Passage West	Cork
-2021-01-14	445476	Ballybrown	Newcastle West	Limerick	['Ballybrown\tNewcastle West\tLimerick', 'Ballybrown\tClarina\tLimerick', 'Ballybrown\tKilgarvan\tKerry']
-2021-01-14	445452		Swords	Dublin	['\tSwords\tDublin', '\tDublin 1\tDublin']
+2021-01-14	445476	Ballybrown	Kilgarvan	Kerry	['Ballybrown\tKilgarvan\tKerry', 'Ballybrown\tNewcastle West\tLimerick', 'Ballybrown\tClarina\tLimerick']
+2021-01-14	445452		Dublin 1	Dublin	['\tDublin 1\tDublin', '\tSwords\tDublin']
 2021-01-14	445429		Drumcondra	Dublin
 2021-01-14	445358	Rathsallagh Park	Shankill	Dublin
-2021-01-14	445371	Maddens Buildings	Blackpool	Cork	['Maddens Buildings\tBlackpool\tCork', 'Maddens Buildings\tFarranree\tCork']
 2021-01-14	445461	Lisorty	Aughnacliffe	Longford
+2021-01-14	445371	Maddens Buildings	Farranree	Cork	['Maddens Buildings\tFarranree\tCork', 'Maddens Buildings\tBlackpool\tCork']
 2021-01-14	445211		Terenure	Dublin
 2021-01-14	445430	Upper Purt	Abbeyfeale	Limerick
-2021-01-14	445365	Killaheen Reens	Newcastle West	Limerick	['Killaheen Reens\tNewcastle West\tLimerick', 'Killaheen Reens\tArdagh\tLimerick']
+2021-01-14	445365	Killaheen Reens	Ardagh	Limerick	['Killaheen Reens\tArdagh\tLimerick', 'Killaheen Reens\tNewcastle West\tLimerick']
 2021-01-14	445457		Kilmore West	Dublin
-2021-01-14	445472	Cré-Dubh	Swords	Dublin	['Cré-Dubh\tSwords\tDublin', 'Cré-Dubh\tSpiddal\tGalway']
-2021-01-14	444905	Court	Monamolin	Wexford
 2021-01-14	445397		Raheny	Dublin
+2021-01-14	444905	Court	Monamolin	Wexford
+2021-01-14	445472	Cré-Dubh	Swords	Dublin	['Cré-Dubh\tSwords\tDublin', 'Cré-Dubh\tSpiddal\tGalway']
 2021-01-14	445479	Gortearagh	Boherbue	Cork	['Gortearagh\tBoherbue\tCork', 'Gortearagh\tBrosna\tKerry']
 2021-01-14	445480		Sandymount	Dublin	['\tSandymount\tDublin', '\tBallingeary\tCork']
-2021-01-14	445360		Donaghmede	Dublin	['\tDonaghmede\tDublin', '\tCooley\tLouth']
 2021-01-14	445393	Hill Street	Dublin 1	Dublin
+2021-01-14	445360		Donaghmede	Dublin	['\tDonaghmede\tDublin', '\tCooley\tLouth']
 2021-01-14	445401	St. Flannan`s Terrace	Limerick City	Limerick	['St. Flannan`s Terrace\tLimerick City\tLimerick', 'St. Flannan`s Terrace\tCastleconnell\tLimerick']
 2021-01-14	445459		Coolock	Dublin
 2021-01-14	445418	Tullyduff	Kilmaine	Mayo
 2021-01-14	445447		Cork City	Cork	['\tCork City\tCork', '\tCrosshaven\tCork']
 2021-01-14	445369	Brookville Avenue	Clareview	Limerick
-2021-01-14	445391		Blackrock	Cork	['\tBlackrock\tCork', '\tThe Glen\tCork']
+2021-01-14	445391		The Glen	Cork	['\tThe Glen\tCork', '\tBlackrock\tCork']
 2021-01-14	445363	Shankhill, Ballyheelan	Kilnaleck	Cavan
 2021-01-14	445428	Cavanakill Road	Belleeks	Armagh
 2021-01-14	445482	Ballyboy	Manorhamilton	Leitrim
@@ -1643,11 +1643,11 @@
 2021-01-14	445403	St. Eithne Road	Cabra	Dublin
 2021-01-14	445396	Rathbawn Road	Castlebar	Mayo
 2021-01-14	445467	Emerson Avenue	Salthill	Galway
-2021-01-14	445420	Eyre St.	Newbridge	Kildare	['Eyre St.\tNewbridge\tKildare', 'Eyre St.\tTimolin\tKildare']
+2021-01-14	445420	Eyre St.	Timolin	Kildare	['Eyre St.\tTimolin\tKildare', 'Eyre St.\tNewbridge\tKildare']
 2021-01-14	445373	Swilly Road	Cabra West	Dublin
 2021-01-14	445443		Celbridge	Kildare	['\tCelbridge\tKildare', '\tMaynooth\tKildare']
 2021-01-14	445421	Chestnut Lodge, Callaghane, Co.		Waterford
-2021-01-14	445408			Cavan	['\t\tCavan', '\tDonnybrook\tDublin']
+2021-01-14	445408		Donnybrook	Dublin	['\tDonnybrook\tDublin', '\t\tCavan']
 2021-01-14	445402	London, England and his family was formerly of 33 Temple Street	Dromahair	Leitrim	['London, England and his family was formerly of 33 Temple Street\tDromahair\tLeitrim', 'London, England and his family was formerly of 33 Temple Street\tSligo Town\tSligo']
 2021-01-14	445361		Carrigaline	Cork
 2021-01-14	445386		Carraig Na Bhfear	Cork	['\tCarraig Na Bhfear\tCork', '\tRylane\tCork']
@@ -1657,8 +1657,652 @@
 2021-01-14	445440			Dublin
 2021-01-14	445434	Tudor Lawn	Craanford	Wexford	['Tudor Lawn\tCraanford\tWexford', 'Tudor Lawn\tNewcastle\tGalway']
 2021-01-14	445426		Kinsale	Cork
-2021-01-14	445378	Kenley	Model Farm Road	Cork	['Kenley\tModel Farm Road\tCork', 'Kenley\tKilnamartyra\tCork']
+2021-01-14	445378	Kenley	Kilnamartyra	Cork	['Kenley\tKilnamartyra\tCork', 'Kenley\tModel Farm Road\tCork']
 2021-01-14	445392	Elm Road	Togher	Cork
 2021-01-14	445449	Mount Olive Park	Kilbarrack	Dublin
-2021-01-14	445201		Lucan	Dublin	['\tLucan\tDublin', '\tLismore\tWaterford']
-2021-01-14	445377	Carrowreagh, Taughmaconnell	Ballinasloe	Galway
+2021-01-14	445201		Lismore	Waterford	['\tLismore\tWaterford', '\tLucan\tDublin']
+2021-01-14	445377	Carrowreagh, Taughmaconnell	Ballinasloe	Galway	['Carrowreagh, Taughmaconnell\tBallinasloe\tGalway', 'Carrowreagh, Taughmaconnell\tBallinasloe\tRoscommon']
+2021-01-14	445417	Beechwood House, Nursing Home	Newcastle West	Limerick	['Beechwood House, Nursing Home\tNewcastle West\tLimerick', 'Beechwood House, Nursing Home\tLimerick City\tLimerick']
+2021-01-14	445477	Robertstown	Shanagolden	Limerick
+2021-01-14	445444	Garrymorris	Carrick-on-suir	Tipperary
+2021-01-14	445475	Calhame, Mountain Top	Letterkenny	Donegal
+2021-01-14	445409		Donard	Wicklow
+2021-01-14	445473	Mowlam Nursing Home	Waterford City	Waterford	['Mowlam Nursing Home\tWaterford City\tWaterford', 'Mowlam Nursing Home\tCurraglass\tCork']
+2021-01-14	445415	Convent of Mercy	Callan	Kilkenny	['Convent of Mercy\tCallan\tKilkenny', 'Convent of Mercy\tInch Island\tDonegal']
+2021-01-14	445410	Gortskeddia	Moygownagh	Mayo	['Gortskeddia\tMoygownagh\tMayo', 'Gortskeddia\tCrossmolina\tMayo']
+2021-01-14	445387	Kilbride North	Tramore	Waterford
+2021-01-14	445355	Ardenteggle	Killeshin	Carlow	['Ardenteggle\tKilleshin\tCarlow', 'Ardenteggle\tKilleshin\tLaois', 'Ardenteggle\tScreen\tWexford']
+2021-01-14	445431		Bansha	Tipperary
+2021-01-14	445362		Donnycarney	Dublin	['\tDonnycarney\tDublin', '\tMalahide\tDublin', '\tBettystown\tMeath']
+2021-01-14	445441	Doogra, Corriga	Carrigallen	Leitrim
+2021-01-14	445468	Páirc Mhuire	Bagenalstown	Carlow
+2021-01-14	445451		Crumlin	Dublin
+2021-01-14	445437			Meath	['\t\tMeath', '\tDonaghmede\tDublin']
+2021-01-14	445381	Hand St.	Drogheda	Louth
+2021-01-14	445438	Tinnalinton	Ballyragget	Kilkenny
+2021-01-14	445399	Chestnut Grove	Leixlip	Kildare	['Chestnut Grove\tLeixlip\tKildare', 'Chestnut Grove\t\tWexford', 'Chestnut Grove\tCelbridge\tKildare']
+2021-01-14	445375	Dernaroy Rd	Dromintee	Armagh
+2021-01-14	445474		Kells	Meath	['\tKells\tMeath', '\tSwords\tDublin']
+2021-01-14	445460	Deshure	Terelton	Cork
+2021-01-14	445470	Furnaceland Gardens	Swanlinbar	Cavan
+2021-01-14	445453	Great View Chinese, Main Street	Drimoleague	Cork
+2021-01-14	445405		Moycullen	Galway	['\tMoycullen\tGalway', '\tRaheny\tDublin']
+2021-01-14	444266	Farnbeg	Ballina	Mayo	['Farnbeg\tBallina\tMayo', 'Farnbeg\tCastlerea\tRoscommon', 'Farnbeg\tStrokestown\tRoscommon']
+2021-01-14	445424		Kiltyclogher	Leitrim	['\tKiltyclogher\tLeitrim', '\tRamelton\tDonegal']
+2021-01-14	445412	Rathellen	Leighlinbridge	Carlow
+2021-01-14	445359	Marian Park	Dundalk	Louth
+2021-01-14	445422		Leopardstown	Dublin
+2021-01-14	445394	Moheroon	Carron	Clare
+2021-01-14	445384	Belgrove	Cobh	Cork
+2021-01-14	445466	Knockanroe, Dysart, and late of letterkelly,	Inagh	Clare
+2021-01-14	445303		Dundrum	Dublin
+2021-01-14	445413		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tCavan Town\tCavan']
+2021-01-14	445416	Dromgower, Horse and Jockey	Thurles	Tipperary
+2021-01-14	445404	Grennanstown	Athboy	Meath
+2021-01-14	445423	Poulnagun	Ennis	Clare	['Poulnagun\tEnnis\tClare', 'Poulnagun\tLisdoonvarna\tClare']
+2021-01-14	445407	Corker	Gort	Galway	['Corker\tGort\tGalway', 'Corker\tCorrandulla\tGalway']
+2021-01-14	445389		Killinarden	Dublin
+2021-01-14	445380	Tíorabháin	Ballyferriter	Kerry
+2021-01-14	445376	Drewscourt	Ballyagran	Limerick
+2021-01-14	445370	Belgard Downs	Rochestown	Cork
+2021-01-14	445366		Doneraile	Cork	['\tDoneraile\tCork', '\t\tLimerick']
+2021-01-14	445372	Belleville, Barretts Park and Longstone Drive	New Ross	Wexford
+2021-01-14	445454		Tallaght	Dublin
+2021-01-14	445462	Knockananlig	Castleisland	Kerry
+2021-01-14	445478	Drumcliffe rd.	Ennis	Clare
+2021-01-14	445385	The Lake, Lorrha	Nenagh	Tipperary
+2021-01-14	445483	Derrygeeraghan, Milltown	Belturbet	Cavan
+2021-01-14	445390		Passage West	Cork	['\tPassage West\tCork', '\tBandon\tCork']
+2021-01-14	445400	The Spa	Tralee	Kerry
+2021-01-14	445484	Ballagh	Menlough	Galway
+2021-01-14	445436		Fenor	Waterford
+2021-01-14	445432		Portarlington	Laois	['\tPortarlington\tLaois', '\tSkerries\tDublin']
+2021-01-14	445398	New Street	Dublin 8	Dublin
+2021-01-14	445270	Durhamstown, Bohermeen	Navan	Meath
+2021-01-14	445411		Churchtown	Dublin
+2021-01-14	445450		Poppintree	Dublin	['\tPoppintree\tDublin', '\tCabra West\tDublin']
+2021-01-14	445471		Watergrasshill	Cork	['\tWatergrasshill\tCork', '\tBallingeary\tCork']
+2021-01-14	445382	St Columba Terrace, Bohernanave	Thurles	Tipperary
+2021-01-14	445469	Driney and Cuiltyboe	Loughglynn	Roscommon
+2021-01-14	445455		Rush	Dublin
+2021-01-14	445464	Churchview, Caragh	Naas	Kildare	['Churchview, Caragh\tNaas\tKildare', 'Churchview, Caragh\tNavan\tMeath']
+2021-01-14	445034		Foxford	Mayo	['\tFoxford\tMayo', '\tRathfarnham\tDublin']
+2021-01-14	445364		Dunboyne	Meath	['\tDunboyne\tMeath', '\tInchicore\tDublin']
+2021-01-14	445406	23 Fr Sheehy Terrace	Clogheen	Tipperary
+2021-01-14	445445	Montpelier	Navan	Meath	['Montpelier\tNavan\tMeath', 'Montpelier\tAthenry\tGalway']
+2021-01-14	445379	Carrickbarr	Laghey	Donegal
+2021-01-14	445313	Shalom, Lacknalooha	Doneraile	Cork	['Shalom, Lacknalooha\tDoneraile\tCork', 'Shalom, Lacknalooha\tMallow\tCork']
+2021-01-14	445465	Mullaun	Keadue	Roscommon
+2021-01-14	445383	Flesk Grove	Beaumont	Dublin	['Flesk Grove\tBeaumont\tDublin', 'Flesk Grove\tKillarney\tKerry']
+2021-01-15	445589	Caim	Enniscorthy	Wexford
+2021-01-15	445515	Canon Lilis Avenue	Dublin 1	Dublin
+2021-01-15	445613	Welling, Kent & Morette	Emo	Laois
+2021-01-15	445638	Gort na Smol, Ardgaoithe/Miltown Britton Lisronagh	Clonmel	Tipperary
+2021-01-15	445547	Derrynagran	Clonberne	Galway
+2021-01-15	445584		Dunboyne	Meath	['\tDunboyne\tMeath', '\t\tCavan']
+2021-01-15	445630	Mountain View	Tubbercurry	Sligo	['Mountain View\tTubbercurry\tSligo', 'Mountain View\tLaghey\tDonegal']
+2021-01-15	445498		Cabinteely	Dublin
+2021-01-15	445633	Shraheen	Foxford	Mayo
+2021-01-15	445566		Santry	Dublin
+2021-01-15	445488	Annaghmare	Cullyhanna	Armagh
+2021-01-15	445503	Togher Road	Togher	Cork
+2021-01-15	445594	Lough Gur	Bruff	Limerick
+2021-01-15	445588	Redemptorists		Dublin	['Redemptorists\t\tDublin', 'Redemptorists\tMitchelstown\tCork', 'Redemptorists\t\tLimerick']
+2021-01-15	445527	Slievekeale Road, formerly of Lismore Park.	Waterford City	Waterford
+2021-01-15	445631	McHugh Avenue	Mervue	Galway
+2021-01-15	445636		Drogheda	Louth
+2021-01-15	445500		Rialto	Dublin
+2021-01-15	445518	Cahermaculick	Shrule	Mayo
+2021-01-15	445623	Abbey View	Clarecastle	Clare	['Abbey View\tClarecastle\tClare', 'Abbey View\tBallyjamesduff\tCavan']
+2021-01-15	444900		Duleek	Meath	['\tDuleek\tMeath', '\tCashel\tTipperary']
+2021-01-15	445558	Ard Easmuinn	Carndonagh	Donegal	['Ard Easmuinn\tCarndonagh\tDonegal', 'Ard Easmuinn\tDundalk\tLouth']
+2021-01-15	445606	5 Townparks	Convoy	Donegal
+2021-01-15	445634	Barrack Street	Belmullet	Mayo	['Barrack Street\tBelmullet\tMayo', 'Barrack Street\tBlacksod\tMayo']
+2021-01-15	445609	Brocca	Clonaslee	Laois
+2021-01-15	445632		Artane	Dublin
+2021-01-15	445505		Ballinlough	Cork
+2021-01-15	445496	Fr Matthew Terrace	Thomastown	Tipperary
+2021-01-15	445626	6 Fr Mc Fadden Terrace, Creggan	Crossmaglen	Armagh
+2021-01-15	445611	James` Street	Birr	Offaly	['James` Street\tBirr\tOffaly', 'James` Street\tWestport\tMayo']
+2021-01-15	445595	The Bush	Kinsale	Cork	['The Bush\tKinsale\tCork', 'The Bush\tYoughal\tCork']
+2021-01-15	445521		Cabra West	Dublin	['\tCabra West\tDublin', '\tDublin 24\tDublin']
+2021-01-15	445620		Mount Merrion	Dublin	['\tMount Merrion\tDublin', '\tBallinamore Bridge\tGalway']
+2021-01-15	445458	Coniker	Durrow	Offaly	['Coniker\tDurrow\tOffaly', 'Coniker\tWalkinstown\tDublin']
+2021-01-15	445544		Portmarnock	Dublin
+2021-01-15	445580	Loughill, Creagh	Ballinasloe	Galway	['Loughill, Creagh\tBallinasloe\tGalway', 'Loughill, Creagh\tBallinasloe\tRoscommon']
+2021-01-15	445637	Corrageen, Rathnure	Enniscorthy	Wexford
+2021-01-15	445579	Pearse House		Dublin
+2021-01-15	445502	Moorefield Park	Newbridge	Kildare
+2021-01-15	445497		Valleymount	Wicklow
+2021-01-15	445567	Dungar	Roscrea	Offaly	['Dungar\tRoscrea\tOffaly', 'Dungar\tRoscrea\tTipperary']
+2021-01-15	445639		Bellewstown	Meath	['\tBellewstown\tMeath', '\tSwinford\tMayo']
+2021-01-15	445514	Mt. Nebo Avenue	Gurranabraher	Cork
+2021-01-15	445627	Kilmichael House, Ballygarrett	Gorey	Wexford
+2021-01-15	445501		Mullingar	Westmeath	['\tMullingar\tWestmeath', '\tLucan\tDublin']
+2021-01-15	445642		Clogheen	Tipperary
+2021-01-15	445545	Furrymoyle East	Barna	Galway	['Furrymoyle East\tBarna\tGalway', 'Furrymoyle East\tDunmanway\tCork']
+2021-01-15	445562	Halftate, Coolderry	Carrickmacross	Monaghan
+2021-01-15	445570			Kerry	['\t\tKerry', '\tBallsbridge\tDublin']
+2021-01-15	445516	Southpark	Castlerea	Roscommon
+2021-01-15	445599	Late of 66 Healy Tce.	Ballina	Mayo
+2021-01-15	445529		Passage West	Cork
+2021-01-15	445563	Darogue	Ballymahon	Longford
+2021-01-15	445555	17 Beech Road, Rivercourt	Carlow Town	Carlow
+2021-01-15	445493	Rossgier	Lifford	Donegal
+2021-01-15	445641		Kilcullen	Kildare
+2021-01-15	445541	Glenagross, Cappantymore	Meelick	Clare
+2021-01-15	445602		Sandycove	Dublin
+2021-01-15	445600		Clonskeagh	Dublin
+2021-01-15	445491	Ballinagrana	Carrick-on-suir	Tipperary
+2021-01-15	445604	Cross East	Cross	Mayo
+2021-01-15	445511			Dublin
+2021-01-15	445506	98 Dominick Place	Waterford City	Waterford
+2021-01-15	445537	Loughneill	Crookstown	Cork	['Loughneill\tCrookstown\tCork', 'Loughneill\tInchigeela\tCork']
+2021-01-15	445573	Richmond Park	Limerick City	Limerick	['Richmond Park\tLimerick City\tLimerick', 'Richmond Park\tCorbally\tLimerick']
+2021-01-15	445607	Meadowlands	Tralee	Kerry
+2021-01-15	445334	Ballybeg	Currow	Kerry
+2021-01-15	445571	Highfield, Ennis Road	Limerick City	Limerick
+2021-01-15	445510		Finglas	Dublin
+2021-01-15	445526	Whitestrand Road	Galway City	Galway
+2021-01-15	445528	Mullagh	Inniskeen	Monaghan	['Mullagh\tInniskeen\tMonaghan', 'Mullagh\tSkibbereen\tCork']
+2021-01-15	445509	Glenaleamy, Powerstown	Clonmel	Tipperary
+2021-01-15	445581	Deerpark Road	Mount Merrion	Dublin	['Deerpark Road\tMount Merrion\tDublin', 'Deerpark Road\tTaughmaconnell\tRoscommon']
+2021-01-15	445542		Innishannon	Cork
+2021-01-15	445560	Portaliffe Beg	Killeshandra	Cavan
+2021-01-15	445568	Coolbunia	Faithlegg	Waterford
+2021-01-15	445546		Drogheda	Louth
+2021-01-15	445565		Thurles	Tipperary	['\tThurles\tTipperary', '\tDrumcondra\tDublin']
+2021-01-15	445534		Crosshaven	Cork
+2021-01-15	445556	Coolbawn (formerly The Big Tree)	Ferns	Wexford
+2021-01-15	445540	Ballinahallen, Scarawalsh	Enniscorthy	Wexford
+2021-01-15	445522		Lucan	Dublin
+2021-01-15	445601		Terenure	Dublin
+2021-01-15	445519	Tycor Avenue and late of Shortcourse	Waterford City	Waterford
+2021-01-15	445532	Dun Na Mara Drive	Renmore	Galway
+2021-01-15	445572		Clondalkin	Dublin
+2021-01-15	445598	St. Mary's Road	Ladysbridge	Cork	["St. Mary's Road\tLadysbridge\tCork", "St. Mary's Road\tEdenderry\tOffaly"]
+2021-01-15	445549	Larchwood Avenue	Caherdavin	Limerick
+2021-01-15	445513	Kilnamonagh	Collooney	Sligo
+2021-01-15	445624	St. Gerard's, Sandy Lane	Blackrock	Louth
+2021-01-15	445564	Parksgrove	Dunnamaggin	Kilkenny	['Parksgrove\tDunnamaggin\tKilkenny', 'Parksgrove\tLisdowney\tKilkenny']
+2021-01-15	445622	Gortaroe Lodge, Gortaroe		Dublin	['Gortaroe Lodge, Gortaroe\t\tDublin', 'Gortaroe Lodge, Gortaroe\tWestport\tMayo']
+2021-01-15	445499		Tallaght	Dublin
+2021-01-15	445621	Clouna	Ennistymon	Clare
+2021-01-15	445490	The Plunkett Home, Boyle and late  of Smutternagh, Knockvicar	Boyle	Roscommon
+2021-01-15	445577	Carrownanagh	Kilshanny	Clare
+2021-01-15	445551		Kimmage Manor	Dublin
+2021-01-15	445520	Castleview	Dunkineely	Donegal
+2021-01-15	445643	50 Ballycolman Estate	Strabane	Tyrone
+2021-01-15	445487	Dock Road	Limerick City	Limerick	['Dock Road\tLimerick City\tLimerick', 'Dock Road\tBirr\tOffaly']
+2021-01-15	445617	5 The Cottages, Church Brae	Fahan	Donegal
+2021-01-15	445495		Bray	Wicklow	['\tBray\tWicklow', '\tAvoca\tWicklow']
+2021-01-15	445582	Drogheda Street	Balbriggan	Dublin
+2021-01-15	445578	Blackacre	Tuam	Galway
+2021-01-15	445612	Formerly of  St. John`s Park	Waterford City	Waterford
+2021-01-15	445646	25, Hospital Road	Castlederg	Tyrone
+2021-01-15	445531	Conagher	Milltown	Galway
+2021-01-15	445561		Dalkey	Dublin
+2021-01-15	445590	Avonree St John’s road	Wexford Town	Wexford
+2021-01-15	445538		Leopardstown	Dublin
+2021-01-15	445591	Coolalough	Hospital	Limerick	['Coolalough\tHospital\tLimerick', 'Coolalough\tDoon\tLimerick']
+2021-01-15	445507		Stillorgan	Dublin
+2021-01-15	445486		Derrynoose	Armagh	['\tDerrynoose\tArmagh', '\tMiddletown\tArmagh']
+2021-01-15	445508	formerly  Wogansfield	Leixlip	Kildare
+2021-01-15	445559	Hillside	Glasheen	Cork
+2021-01-15	445512		Togher	Cork
+2021-01-15	445576	Marian Crescent, Camolin	Enniscorthy	Wexford
+2021-01-15	445374	Barleyhill	Bohola	Mayo
+2021-01-15	445554		Coolock	Dublin
+2021-01-15	445523	Killowen	Kenmare	Kerry
+2021-01-15	445575		Donnybrook	Dublin
+2021-01-15	445504		Foynes	Limerick
+2021-01-15	445596		Bray	Wicklow
+2021-01-15	445553	Ballycreen	Ring	Waterford	['Ballycreen\tRing\tWaterford', 'Ballycreen\tDungarvan\tWaterford']
+2021-01-15	445645	Ballinastraw, Glenbrien	Enniscorthy	Wexford
+2021-01-15	445592		Booterstown	Dublin
+2021-01-15	445610	Ballinasilogue, Ballycanew	Crumlin	Dublin	['Ballinasilogue, Ballycanew\tCrumlin\tDublin', 'Ballinasilogue, Ballycanew\tGorey\tWexford']
+2021-01-15	445533	Limerick Rd.	Ennis	Clare
+2021-01-15	445557	Castleblagh	Ballyhooly	Cork
+2021-01-15	445615		Whitegate	Cork	['\tWhitegate\tCork', '\tCloyne\tCork']
+2021-01-15	445439	34 Station Court	Portarlington	Laois
+2021-01-15	445524		Drumcondra	Dublin	['\tDrumcondra\tDublin', '\tSkerries\tDublin']
+2021-01-15	445640	Carrick Road	Boyle	Roscommon
+2021-01-15	445492	Ballydine	Kilsheelan	Tipperary
+2021-01-15	445569	Larchfield	Kilkenny City	Kilkenny
+2021-01-15	445489	Kilcotty	Crossabeg	Wexford	['Kilcotty\tCrossabeg\tWexford', 'Kilcotty\tEnniscorthy\tWexford']
+2021-01-15	445618	Monksfield Heights	Clondalkin	Dublin
+2021-01-15	444798	Munny	Bandon	Cork	['Munny\tBandon\tCork', 'Munny\tGorey\tWexford', 'Munny\tTinahely\tWicklow']
+2021-01-15	445550		Tallaght	Dublin
+2021-01-15	445597	The Hill	Kilmacthomas	Waterford
+2021-01-15	445628	Rafee	Headford	Galway
+2021-01-15	445525		Drogheda	Louth	['\tDrogheda\tLouth', '\t\tTyrone']
+2021-01-15	445517	Gortaclob	Doolin	Clare
+2021-01-15	445585	Pierce Court	Clonskeagh	Dublin	['Pierce Court\tClonskeagh\tDublin', 'Pierce Court\tWexford Town\tWexford']
+2021-01-15	445530	Springvale	Ballinrobe	Mayo
+2021-01-15	445593		Enniskerry	Wicklow	['\tEnniskerry\tWicklow', '\tGreystones\tWicklow']
+2021-01-15	445583		Howth	Dublin
+2021-01-15	445535	Bowden`s Court & formerly of The Lodge, Golf Links	Castlecomer	Kilkenny
+2021-01-15	445619	Loughanstown	Delvin	Westmeath
+2021-01-15	445629	Ballinacourty	Dungarvan	Waterford
+2021-01-15	445625	Shamrock Hill	Clonmel	Tipperary
+2021-01-15	445586	Derryfinneen	Renanirree	Cork
+2021-01-15	445481	Barrack Street	Bantry	Cork
+2021-01-15	445587		Tallaght	Dublin	['\tTallaght\tDublin', '\tFinglas\tDublin']
+2021-01-15	445603		Swords	Dublin
+2021-01-15	445574		Coachford	Cork	['\tCoachford\tCork', '\tDouglas\tCork']
+2021-01-15	445543	St. John`s Park	Waterford City	Waterford
+2021-01-15	445548	Fairyfield	Parteen	Clare	['Fairyfield\tParteen\tClare', 'Fairyfield\tFarranshone\tLimerick']
+2021-01-15	445494	Ballintubber	Carrigtwohill	Cork
+2021-01-16	445748	Kilruane, Lisacul	Ballaghaderreen	Roscommon	['Kilruane, Lisacul\tBallaghaderreen\tRoscommon', 'Kilruane, Lisacul\tKilmovee\tMayo', 'Kilruane, Lisacul\tCastlerea\tRoscommon']
+2021-01-16	445714	Woodlawn Drive	Clarina	Limerick	['Woodlawn Drive\tClarina\tLimerick', 'Woodlawn Drive\tDooradoyle\tLimerick']
+2021-01-16	445707			Limerick	['\t\tLimerick', '\t\tClare']
+2021-01-16	445687	Ardmore Park	Ballybeg	Waterford
+2021-01-16	445757		Ballyferriter	Kerry
+2021-01-16	445692	Kilcoran Park	Youghal	Cork
+2021-01-16	445733	Well Road	Douglas	Cork	['Well Road\tDouglas\tCork', 'Well Road\tNewmarket\tCork']
+2021-01-16	445674		Lusk	Dublin	['\tLusk\tDublin', '\tRaheny\tDublin']
+2021-01-16	445771	Tuckmill Lower	Baltinglass	Wicklow
+2021-01-16	445753		Dublin 4	Dublin
+2021-01-16	445652	Treenbeg	Portmarnock	Dublin	['Treenbeg\tPortmarnock\tDublin', 'Treenbeg\tNewport\tMayo']
+2021-01-16	445715		Midleton	Cork	['\tMidleton\tCork', '\tCarrigtwohill\tCork']
+2021-01-16	445732	Glenview	Castlepollard	Westmeath
+2021-01-16	445729	Glassaghbeg	Cloghan	Donegal
+2021-01-16	445684	Adare Park	Coolock	Dublin
+2021-01-16	445765	Clonmore	Kildalkey	Meath	['Clonmore\tKildalkey\tMeath', 'Clonmore\t\tTipperary']
+2021-01-16	445647	Girroga Heights, Gort Road	Ennis	Clare
+2021-01-16	445685	Drumberagh, Laragh	Castleblayney	Monaghan	['Drumberagh, Laragh\tCastleblayney\tMonaghan', 'Drumberagh, Laragh\tBallymena\tAntrim']
+2021-01-16	445654		Ballyfermot	Dublin
+2021-01-16	445683	Boreenatra	Dungarvan	Waterford
+2021-01-16	445664	Derravaragh Road	Terenure	Dublin	['Derravaragh Road\tTerenure\tDublin', 'Derravaragh Road\tGreenhills\tDublin']
+2021-01-16	445690	Granaghan More	Newmarket-on-fergus	Clare
+2021-01-16	445761	Ardsbeg	Gortahork	Donegal
+2021-01-16	445668	Harristown	Rathdowney	Laois
+2021-01-16	445677	Kiskeam North	Kiskeam	Cork
+2021-01-16	445768	Lambtown	Ardee	Louth
+2021-01-16	445744		Santry	Dublin
+2021-01-16	445709	Baile Eamonn	Carrick	Donegal	['Baile Eamonn\tCarrick\tDonegal', 'Baile Eamonn\tSpiddal\tGalway']
+2021-01-16	445743		Tralee	Kerry
+2021-01-16	445635	Brookdale & Younggrove	Midleton	Cork
+2021-01-16	445726		Milltown	Dublin	['\tMilltown\tDublin', '\tPortumna\tGalway']
+2021-01-16	445665	St John Sq	Portlaoise	Laois
+2021-01-16	445539	Florence Road	Bray	Wicklow
+2021-01-16	445704	Coolnaleen	Camolin	Wexford
+2021-01-16	445670	Knockanree	Avoca	Wicklow
+2021-01-16	445701		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tDublin 1\tDublin']
+2021-01-16	445682	Bolton Abbey	Moone	Kildare
+2021-01-16	445756	Kings Hill	Westport	Mayo
+2021-01-16	445769	Cushinstown	Foulksmills	Wexford
+2021-01-16	445708	Connolly Road	Ballyphehane	Cork
+2021-01-16	445657	Kildavin	Murrintown	Wexford
+2021-01-16	445751		Malahide	Dublin	['\tMalahide\tDublin', '\tClaremorris\tMayo']
+2021-01-16	445693	Clarke Road, Cork Road and Waterford Nursing Home	Waterford City	Waterford
+2021-01-16	445706	Killeenreendowney Avenue	Friars Walk	Cork
+2021-01-16	445695	Kerins` Park	Tralee	Kerry
+2021-01-16	445723	Gardenhill	Castleconnell	Limerick
+2021-01-16	445736		Clontarf	Dublin
+2021-01-16	445758	Stranacorkra, Derrybeg	Gweedore	Donegal
+2021-01-16	445653	Ballinasig	Dingle	Kerry	['Ballinasig\tDingle\tKerry', 'Ballinasig\tDublin 6w\tDublin']
+2021-01-16	445721		Cabra	Dublin
+2021-01-16	445716	Drumlish	Elphin	Roscommon
+2021-01-16	445747		Cork City	Cork
+2021-01-16	445740	Poleberry	Waterford City	Waterford
+2021-01-16	445663	Clooncunore	Newbridge	Galway
+2021-01-16	445724	Green Street	Callan	Kilkenny
+2021-01-16	445698	Tullig, Killarney and formerly of Station House	Templemore	Tipperary	['Tullig, Killarney and formerly of Station House\tTemplemore\tTipperary', 'Tullig, Killarney and formerly of Station House\tKillarney\tKerry']
+2021-01-16	445679	leitrim sliverstream	Tyholland	Monaghan
+2021-01-16	445734		Kenmare	Kerry
+2021-01-16	445764		Headford	Galway
+2021-01-16	445755	Prospect	Athenry	Galway
+2021-01-16	445650	Lislanahan	Kilnaboy	Clare	['Lislanahan\tKilnaboy\tClare', 'Lislanahan\tKilkee\tClare']
+2021-01-16	445749		Clontarf	Dublin
+2021-01-16	445739		Celbridge	Kildare
+2021-01-16	445717	Drumgossatt, Magheracloone	Carrickmacross	Monaghan
+2021-01-16	445648	Cornamuckla	Moylough	Galway	['Cornamuckla\tMoylough\tGalway', 'Cornamuckla\tBallymoe\tGalway', 'Cornamuckla\t\tRoscommon']
+2021-01-16	445656	1 Mount Pleasent, Artigarvan	Strabane	Tyrone
+2021-01-16	445731	Bennetts Church	Ballymacarbry	Waterford	['Bennetts Church\tBallymacarbry\tWaterford', 'Bennetts Church\tNavan\tMeath']
+2021-01-16	445696	Mizen Court, Marina Village	Arklow	Wicklow
+2021-01-16	445675	Cullen & Dooneen	Millstreet	Cork
+2021-01-16	445737		Dun Laoghaire	Dublin
+2021-01-16	445689	Killean	Newry	Armagh
+2021-01-16	445694	Curragh Rua	Lanesborough	Longford	['Curragh Rua\tLanesborough\tLongford', 'Curragh Rua\tSummerhill\tMeath']
+2021-01-16	445719	Cladagh, Dooniver	Achill Island	Mayo
+2021-01-16	445720	330 Beechmount Drive	Dundalk	Louth
+2021-01-16	445697		Castleknock	Dublin	['\tCastleknock\tDublin', '\tCarrick-on-shannon\tLeitrim']
+2021-01-16	445770	Croagh	Dunkineely	Donegal
+2021-01-16	445742	Kiltartan & Raheen	Gort	Galway
+2021-01-16	445691		Kinsale	Cork
+2021-01-16	445741	Dungar	Roscrea	Offaly
+2021-01-16	445713		Killucan	Westmeath
+2021-01-16	445730	Strand Road	Bunbeg	Donegal
+2021-01-16	445710	Green Road.	Dromiskin	Louth
+2021-01-16	445745		Coolock	Dublin
+2021-01-16	445699	John St South		Dublin
+2021-01-16	445659	Aughrim Court, Aughrim Street	Dublin 7	Dublin	['Aughrim Court, Aughrim Street\tDublin 7\tDublin', 'Aughrim Court, Aughrim Street\t\tWaterford']
+2021-01-16	445672	Mohober	Mullinahone	Tipperary	['Mohober\tMullinahone\tTipperary', 'Mohober\tCallan\tKilkenny']
+2021-01-16	445725		Kinsale	Cork
+2021-01-16	445651	Hawley Park	Tralee	Kerry	['Hawley Park\tTralee\tKerry', 'Hawley Park\tCahersiveen\tKerry']
+2021-01-16	445735		Rathfarnham	Dublin	['\tRathfarnham\tDublin', '\tClogheen\tTipperary']
+2021-01-16	445616		Lucan	Dublin	['\tLucan\tDublin', '\tDrumsna\tLeitrim']
+2021-01-16	445655	Gortagullane, Muckross	Killarney	Kerry
+2021-01-16	445763	'St. Anne's', Upper William St.	Athy	Kildare	["'St. Anne's', Upper William St.\tAthy\tKildare", "'St. Anne's', Upper William St.\tCavan Town\tCavan"]
+2021-01-16	445649		Goatstown	Dublin
+2021-01-16	445738	Botanic Road and late of St. Declans Road	Ballyphehane	Cork
+2021-01-16	445702		Clonmel	Tipperary	['\tClonmel\tTipperary', '\tCahersiveen\tKerry', '\tTerenure\tDublin']
+2021-01-16	445662	Kilmacahill	Paulstown	Kilkenny
+2021-01-16	445658		Kilmurry	Cork	['\tKilmurry\tCork', '\tYoughal\tCork']
+2021-01-16	445669	Green Road	Kilmallock	Limerick
+2021-01-16	445681		Rylane	Cork	['\tRylane\tCork', '\tBallintemple\tCork']
+2021-01-16	445673	Gearha, Beaufort	Killarney	Kerry
+2021-01-16	445712	1226 Timolin, Ballitore	Athy	Kildare
+2021-01-16	445705	Ardoley House, Ardoley	Westport	Mayo
+2021-01-16	445760	Glosha	Rathdowney	Laois
+2021-01-16	445700	Garán	Parteen	Clare	['Garán\tParteen\tClare', 'Garán\t\tLimerick']
+2021-01-16	445766	Auscurra	Dunmore East	Waterford
+2021-01-16	445667		Prosperous	Kildare
+2021-01-16	445750	Clos Ard	Bohermore	Galway
+2021-01-16	445718	Sliabh Coimeálta, Monroe	Newtown	Tipperary	['Sliabh Coimeálta, Monroe\tNewtown\tTipperary', 'Sliabh Coimeálta, Monroe\tNewport\tTipperary']
+2021-01-16	445680		Malahide	Dublin	['\tMalahide\tDublin', '\tClonakilty\tCork']
+2021-01-16	445711		Fairhill	Cork
+2021-01-16	445686	Norwood Park	Cobh	Cork
+2021-01-16	445666	Graffa, Ballyline	Ballylongford	Kerry
+2021-01-16	445772	Ballinacurragh	Kilmacow	Kilkenny	['Ballinacurragh\tKilmacow\tKilkenny', 'Ballinacurragh\tMooncoin\tKilkenny']
+2021-01-16	445688		Mahon	Cork
+2021-01-16	445727	Arus Bun Caise	Rahoon	Galway
+2021-01-16	445767	Marian Square	Fermoy	Cork
+2021-01-16	445759	Mounterown	Maam	Galway
+2021-01-16	445536	Hillside Road	Greystones	Wicklow
+2021-01-16	445671	4 St. Patricks Square	Cobh	Cork
+2021-01-16	445660		Dun Laoghaire	Dublin
+2021-01-17	445855	Mullabrack	Smithborough	Monaghan
+2021-01-17	445807		Bandon	Cork
+2021-01-17	445878	Coill Sáile	Kilkieran	Galway
+2021-01-17	445874		Ballinlough	Cork
+2021-01-17	445818		Castleknock	Dublin
+2021-01-17	445847	Cuddagh	Castletown	Laois
+2021-01-17	445859		Malahide	Dublin	['\tMalahide\tDublin', '\tWicklow Town\tWicklow']
+2021-01-17	445799		Ballincollig	Cork
+2021-01-17	445797	Ardnagowna	Knockvicar	Roscommon	['Ardnagowna\tKnockvicar\tRoscommon', 'Ardnagowna\tElphin\tRoscommon']
+2021-01-17	445783	Model Village	Dripsey	Cork
+2021-01-17	445853	Ballymacphilip	Ballyhooly	Cork
+2021-01-17	445849	2 Church Road	Borrisokane	Tipperary
+2021-01-17	445821	Henry Street	Limerick City	Limerick
+2021-01-17	445806		Model Farm Road	Cork
+2021-01-17	445817	29 The Meadows	Irvinestown	Fermanagh
+2021-01-17	445830			Cork	['\t\tCork', '\t\tDublin']
+2021-01-17	445777	Tornabratley	Clonmany	Donegal
+2021-01-17	445823	Old Greenfield	Donadea	Kildare	['Old Greenfield\tDonadea\tKildare', 'Old Greenfield\tMaynooth\tKildare']
+2021-01-17	445883	Lakeview House, 29 Main Street	Belcoo	Fermanagh
+2021-01-17	445754	Central Avenue, Parnell Park.	Dundalk	Louth
+2021-01-17	445834	Cuba Avenue	Banagher	Offaly
+2021-01-17	445856	Kirkstown	Letterkenny	Donegal
+2021-01-17	445819		Schull	Cork	['\tSchull\tCork', '\t\tDublin']
+2021-01-17	445876	6 John Street	Sligo Town	Sligo
+2021-01-17	445869	6 Thomas Terrace	Dungarvan	Waterford
+2021-01-17	445846	Ballyellen	Goresbridge	Kilkenny
+2021-01-17	445796	Carrnagruckane, Lisacul	Castlerea	Roscommon	['Carrnagruckane, Lisacul\tCastlerea\tRoscommon', 'Carrnagruckane, Lisacul\tBallaghaderreen\tRoscommon']
+2021-01-17	445867	New House,Woodford	Listowel	Kerry
+2021-01-17	445880	St Michael`s Terrace & formerly of Main Street	Arklow	Wicklow
+2021-01-17	445884	Leggagh	Castletown Kilpatrick	Meath
+2021-01-17	445825	Gortanure	Dunmanway	Cork
+2021-01-17	445860	Barrack street	Charlestown	Mayo
+2021-01-17	445858	late of Greencastle Road	Bonnybrook	Dublin
+2021-01-17	445795	Woodlands Grove	Athlone	Westmeath
+2021-01-17	445775	Castldhyde and Liam Mac Gearilt place	Fermoy	Cork
+2021-01-17	445788	Fitzgerald Place	Rosbrien	Limerick
+2021-01-17	445840	Rossbracken	Shannon	Clare
+2021-01-17	445828	Carrickanass, Carrowmore-Lacken	Ballina	Mayo
+2021-01-17	445798	College Wood	Clonroche	Wexford	['College Wood\tClonroche\tWexford', 'College Wood\tMallow\tCork']
+2021-01-17	445774	205 Monaghan road	Armagh City	Armagh
+2021-01-17	445838		Stillorgan	Dublin
+2021-01-17	445813	Cliggin	Doon	Limerick
+2021-01-17	445850	Lisnakella	Oola	Limerick
+2021-01-17	445808	Radharc Na Mara	Strandhill	Sligo	['Radharc Na Mara\tStrandhill\tSligo', 'Radharc Na Mara\tGlencolmcille\tDonegal']
+2021-01-17	445789		Bandon	Cork
+2021-01-17	445833	Upper Athea	Athea	Limerick
+2021-01-17	445792	Corah, Ballycarney	Enniscorthy	Wexford
+2021-01-17	445784	Newtown	Hill-of-down	Meath
+2021-01-17	445793	Assumption Place	Kilkenny City	Kilkenny
+2021-01-17	445837	Derrynagooley	Castlebar	Mayo
+2021-01-17	445865	Upper William Street	Rathdrum	Wicklow	['Upper William Street\tRathdrum\tWicklow', 'Upper William Street\tWexford Town\tWexford']
+2021-01-17	445844		Blackrock	Dublin	['\tBlackrock\tDublin', '\tMonkstown\tDublin']
+2021-01-17	445776	'Kitty's Cottage', Forenaught West	Castlehaven	Cork
+2021-01-17	445780	Friarstown	Dromahair	Leitrim
+2021-01-17	445870	Barnan, Rhode	Tullamore	Offaly
+2021-01-17	445848	Gneeves	Boherbue	Cork
+2021-01-17	445810			Tipperary	['\t\tTipperary', '\t\tSligo', '\tNewry\tDown', '\t\tLouth']
+2021-01-17	445826	Cois na hAbhainn, Clogh	Castlecomer	Kilkenny
+2021-01-17	445822	Behy	Boyle	Roscommon	['Behy\tBoyle\tRoscommon', 'Behy\tGurteen\tSligo']
+2021-01-17	445811	Faltagh, Swanns Cross	Aghabog	Monaghan
+2021-01-17	445831	Oyster Bay	Rosses Point	Sligo
+2021-01-17	445803	Cavanagh	Ballyconnell	Cavan
+2021-01-17	445835	Clashdrumsmith	Emly	Tipperary
+2021-01-17	445877	Galtee View ( formerly of shanbally ,Clogheen )	Ballyporeen	Tipperary
+2021-01-17	445843	Moanreagh	Tipperary Town	Tipperary
+2021-01-17	445781	A native of Cuilmore, Drummin	Westport	Mayo
+2021-01-17	445841	80 Moore Street	Aughnacloy	Tyrone
+2021-01-17	445881	Five Road Ends	Carrigans	Donegal
+2021-01-17	445868		Balbriggan	Dublin
+2021-01-17	445871	Timicat	Glenamaddy	Galway	['Timicat\tGlenamaddy\tGalway', 'Timicat\tKilkerrin\tGalway']
+2021-01-17	445785	52 John F Kennedy Park		Down	['52 John F Kennedy Park\t\tDown', '52 John F Kennedy Park\tBessbrook\tArmagh']
+2021-01-17	445787		Oranmore	Galway	['\tOranmore\tGalway', '\tGalway City\tGalway', '\t\tMayo']
+2021-01-17	445805	Galtee Drive, O`Malley Park	Kileely	Limerick	['Galtee Drive, O`Malley Park\tKileely\tLimerick', 'Galtee Drive, O`Malley Park\tLimerick City\tLimerick']
+2021-01-17	445827	The Way Inn, Tonragee	Achill	Mayo
+2021-01-17	445824	Middle Parish and Great William O`Brien Street	Blackpool	Cork
+2021-01-17	445879	TJ Murphy Place	Waterfall	Cork	['TJ Murphy Place\tWaterfall\tCork', 'TJ Murphy Place\tDunmanway\tCork']
+2021-01-17	445800	Station Road	Mallow	Cork	['Station Road\tMallow\tCork', 'Station Road\tButtevant\tCork']
+2021-01-17	445790	Ballyleague	Castlebar	Mayo	['Ballyleague\tCastlebar\tMayo', 'Ballyleague\tLanesboro\tLongford']
+2021-01-17	445875	Ballyshanny, Village View	Kilfenora	Clare
+2021-01-17	445809	1 Bridge Street	Cahersiveen	Kerry
+2021-01-17	445857		Glenbrook	Cork
+2021-01-17	445866	Norwood Park	Cobh	Cork	['Norwood Park\tCobh\tCork', 'Norwood Park\tRingaskiddy\tCork']
+2021-01-17	445773	Killavoy	Banteer	Cork
+2021-01-17	445802	Ballinagarde	Ballyneety	Limerick
+2021-01-17	445839	2 St John`s Park	Cullyhanna	Armagh
+2021-01-17	445829	Leeds, England formerly Pullathomas	Belmullet	Mayo	['Leeds, England formerly Pullathomas\tBelmullet\tMayo', 'Leeds, England formerly Pullathomas\tLouisburgh\tMayo']
+2021-01-17	445804	Glascarn	Ratoath	Meath
+2021-01-17	445851		Poppintree	Dublin
+2021-01-17	445794	Ballybeg Park	Dunmore East	Waterford	['Ballybeg Park\tDunmore East\tWaterford', 'Ballybeg Park\tBallybeg\tWaterford']
+2021-01-17	445836	Thurstianstown	Slane	Meath	['Thurstianstown\tSlane\tMeath', 'Thurstianstown\tBallyfinane\tKerry']
+2021-01-17	445863	Corodoagh, Tunnyduff	Bailieborough	Cavan
+2021-01-17	445791	London and formerly of Ballaugh Cross	Killarney	Kerry
+2021-01-17	445832	Garryduff, Campile	New Ross	Wexford	['Garryduff, Campile\tNew Ross\tWexford', 'Garryduff, Campile\t\tKilkenny']
+2021-01-17	445801	Poleberry		Waterford
+2021-01-17	445816	Ballybeg Court	Ballybeg	Waterford
+2021-01-17	445854	44 Woodview	Freshford	Kilkenny
+2021-01-17	445862	Greagh	Scotstown	Monaghan
+2021-01-17	445786	Ballyboe	Kilmacrennan	Donegal
+2021-01-17	445864	Edmond Rice Close & formerly of Belmont	Cobh	Cork
+2021-01-17	445778	Cashel	Boyle	Roscommon
+2021-01-17	445779	50 Cluin Barron	Ballyshannon	Donegal
+2021-01-17	445873	Laragh	Maynooth	Kildare
+2021-01-17	445814		Bonmahon	Waterford	['\tBonmahon\tWaterford', '\tWaterford City\tWaterford']
+2021-01-17	445820	3 Hill Top	Rockcorry	Monaghan
+2021-01-17	445815		Shankill	Dublin	['\tShankill\tDublin', '\tMallow\tCork']
+2021-01-18	445944		Ringsend	Dublin	['\tRingsend\tDublin', '\tKilcoole\tWicklow']
+2021-01-18	445933	Elly, Clogher	Belmullet	Mayo
+2021-01-18	446008	17 Castle Ave	Bigwood	Kilkenny	['17 Castle Ave\tBigwood\tKilkenny', '17 Castle Ave\tThomastown\tKilkenny']
+2021-01-18	445962		Ringsend	Dublin	['\tRingsend\tDublin', '\tBallyfermot\tDublin']
+2021-01-18	445964	Mountnorris		Armagh
+2021-01-18	445985	Congress Place	Waterford City	Waterford
+2021-01-18	445997	Late of London, Upton and	Bandon	Cork
+2021-01-18	446022	Water Lane	Bohermore	Galway
+2021-01-18	445917		Mayfield	Cork
+2021-01-18	445897	Sandybrook, Glenbough	Screen	Wexford
+2021-01-18	445762	Knocknenaugh	Kiskeam	Cork
+2021-01-18	445852	Barrowmount	Goresbridge	Kilkenny
+2021-01-18	445948	16 Ardnalee Park	Strabane	Tyrone
+2021-01-18	445900	Brigidine Convent	Tullow	Carlow
+2021-01-18	445947	Leitir Burca, Ballymoneen Road	Knocknacarra	Galway
+2021-01-18	445988	Granville Street, McGee House		Dublin	['Granville Street, McGee House\t\tDublin', 'Granville Street, McGee House\tBailieborough\tCavan']
+2021-01-18	445952		Rathfarnham	Dublin
+2021-01-18	445986	Decies Avenue, Lismore Lawn	Grangemockler	Tipperary	['Decies Avenue, Lismore Lawn\tGrangemockler\tTipperary', 'Decies Avenue, Lismore Lawn\tWaterford City\tWaterford']
+2021-01-18	445958		Ennis	Clare
+2021-01-18	445956		Foxrock	Dublin
+2021-01-18	445980		Boreenmanna Road	Cork
+2021-01-18	445959		Skerries	Dublin	['\tSkerries\tDublin', '\tCabra\tDublin']
+2021-01-18	445981	Lakeside Park	Newbridge	Kildare
+2021-01-18	445970	Glencarra, Cork Road	Waterford City	Waterford
+2021-01-18	445989	Glenville	Waterford City	Waterford	['Glenville\tWaterford City\tWaterford', 'Glenville\t\tOffaly']
+2021-01-18	445861	late of Leo Fitzgerald House	Dublin 2	Dublin
+2021-01-18	445902		Drogheda	Meath
+2021-01-18	445918	Clonattin Road	Gorey	Wexford
+2021-01-18	446001	52Windsor Avenue	Lurgan	Armagh
+2021-01-18	445886	Harbour Road	Ahascragh	Galway	['Harbour Road\tAhascragh\tGalway', 'Harbour Road\tBanagher\tOffaly']
+2021-01-18	445912	8 Fair Green	Ballybay	Monaghan
+2021-01-18	445968		Ballinteer	Dublin	['\tBallinteer\tDublin', '\tBallinteer\tDublin']
+2021-01-18	446021	Falduff	Louisburgh	Mayo
+2021-01-18	445932		Baldoyle	Dublin
+2021-01-18	445939	Electrical Shop	Kenagh	Longford
+2021-01-18	445872		Drogheda	Louth
+2021-01-18	446020	Killaheen, Reens	Ardagh	Limerick
+2021-01-18	445945	Horgans Buildings and lat, of Vicars Street	Cork City	Cork
+2021-01-18	445961		Dalkey	Dublin
+2021-01-18	445907	Burbank, California and formerly of Stradbally	Castlegregory	Kerry
+2021-01-18	445908		Artane	Dublin
+2021-01-18	445931	Cherry Avenue, Caherdavin Lawn	Limerick City	Limerick	['Cherry Avenue, Caherdavin Lawn\tLimerick City\tLimerick', 'Cherry Avenue, Caherdavin Lawn\tBallyporeen\tTipperary']
+2021-01-18	445999	Clonfert	Ballinasloe	Galway
+2021-01-18	445943	Howth Rd	Askeaton	Limerick	['Howth Rd\tAskeaton\tLimerick', 'Howth Rd\tDublin 3\tDublin']
+2021-01-18	445892	Lower Clanbrassil Street	Dublin 8	Dublin
+2021-01-18	445916			Waterford	['\t\tWaterford', '\tSandycove\tDublin']
+2021-01-18	445965		Churchtown	Dublin
+2021-01-18	446017	Drumfergus	Crossroads	Donegal
+2021-01-18	446012	Emmet Park	Castlefin	Donegal
+2021-01-18	446026	Crestwood	Barnatra	Mayo	['Crestwood\tBarnatra\tMayo', 'Crestwood\tBallina\tMayo']
+2021-01-18	446013	Roscommon Road	Athlone	Westmeath
+2021-01-18	445950		Beaumont	Dublin
+2021-01-18	445930		Sutton	Dublin
+2021-01-18	445752	2 The Green	Stradbally	Laois	['2 The Green\tStradbally\tLaois', '2 The Green\tPortlaoise\tLaois']
+2021-01-18	445910		Thurles	Tipperary	['\tThurles\tTipperary', '\tDunmore East\tWaterford']
+2021-01-18	445984	Assumption Place	Kilkenny City	Kilkenny
+2021-01-18	445940	16 Aonach, Dunlo Hill	Ballinasloe	Galway
+2021-01-18	445906	England and formerly of Mangerton	Kilgarvan	Kerry
+2021-01-18	445901		Bray	Wicklow	['\tBray\tWicklow', '\tBandon\tCork']
+2021-01-18	445928		Borrisokane	Tipperary	['\tBorrisokane\tTipperary', '\tMontenotte\tCork']
+2021-01-18	445923		Castlebellingham	Louth
+2021-01-18	445963	Ballyhean	Liscannor	Clare
+2021-01-18	445979	New Oak Estate	Carlow Town	Carlow
+2021-01-18	445894	Esker Hill,  Richardstown	Kildangan	Kildare
+2021-01-18	445891	Morette	Emo	Laois
+2021-01-18	445991		Leixlip	Kildare
+2021-01-18	445937	Cathal Brugha Street and formerly of McCann Street	Cashel	Tipperary
+2021-01-18	445812	Coxtown	Passage East	Waterford	['Coxtown\tPassage East\tWaterford', 'Coxtown\tDunmore East\tWaterford', 'Coxtown\tEnniscorthy\tWexford']
+2021-01-18	445927		North Strand	Dublin	['\tNorth Strand\tDublin', '\tMitchelstown\tCork']
+2021-01-18	445314		Castlebar	Mayo
+2021-01-18	446027	Rathscanlon, Ballina Road	Tubbercurry	Sligo
+2021-01-18	445971	Doon	Kilfenora	Clare
+2021-01-18	441857		Castleknock	Dublin
+2021-01-18	446005	Skeaghhard	Kilconly	Galway	['Skeaghhard\tKilconly\tGalway', 'Skeaghhard\tBallyhaunis\tMayo']
+2021-01-18	446025	Kesh Road, Oldtown	Cavan Town	Cavan
+2021-01-18	445896	Willouise	Sallins	Kildare
+2021-01-18	445942	Johnstown South & formerly of South Quay	Arklow	Wicklow
+2021-01-18	445608		Tallaght	Dublin
+2021-01-18	445842	7 Power`s Range	Oylegate	Wexford
+2021-01-18	445914	Blackrock Drive	Lough Egish	Monaghan	['Blackrock Drive\tLough Egish\tMonaghan', 'Blackrock Drive\tBallybofey\tDonegal']
+2021-01-18	446019	59 Meenacloy Road	Drumquin	Tyrone
+2021-01-18	445722		Drogheda	Louth
+2021-01-18	445909		Celbridge	Kildare
+2021-01-18	445998	Cellar Bar Church Place	Lurgan	Armagh
+2021-01-18	445995		Kilbarrack	Dublin
+2021-01-18	445934	Louth Hall	Tallanstown	Louth
+2021-01-18	445946	Hazelwood	Castlegar	Galway	['Hazelwood\tCastlegar\tGalway', 'Hazelwood\tGalway City\tGalway']
+2021-01-18	445915	Tara Court	Rush	Dublin	['Tara Court\tRush\tDublin', 'Tara Court\tBalbriggan\tDublin']
+2021-01-18	445919		Sandyford	Dublin
+2021-01-18	445888		Rathfarnham	Dublin
+2021-01-18	445903	Galvone Road	Kennedy Park	Limerick
+2021-01-18	445929	Carrick Road	Dundalk	Louth
+2021-01-18	445992	Craoibhin Close	Balbriggan	Dublin
+2021-01-18	445976	Tallow Bridge	Tallow	Waterford
+2021-01-18	445899	Farranlea Grove	Model Farm Road	Cork
+2021-01-18	445955	Cranacrower, Ballyoughter	Gorey	Wexford
+2021-01-18	445960		Finglas West	Dublin
+2021-01-18	445982	Late of Colbert Avenue	Janesboro	Limerick
+2021-01-18	446009			Dublin
+2021-01-18	445678	Old Bawn	Tallaght	Dublin
+2021-01-18	445983		Tyholland	Monaghan
+2021-01-18	445966		Sandymount	Dublin
+2021-01-18	445922	Riverdale	Castledermot	Kildare	['Riverdale\tCastledermot\tKildare', 'Riverdale\tLeixlip\tKildare']
+2021-01-18	445936	Clarke Villas	Clonmel	Tipperary	['Clarke Villas\tClonmel\tTipperary', 'Clarke Villas\tWaterford City\tWaterford']
+2021-01-18	446006	Spur Hill	Doughcloyne	Cork
+2021-01-18	445890	The Rath	Swords	Dublin
+2021-01-18	445949	Abbeyview, Campile	New Ross	Wexford
+2021-01-18	445895	St. Ronan’s	Dundalk	Louth
+2021-01-18	445990		Ballinlough	Cork
+2021-01-18	445978	Silverdale Avenue	Ballinlough	Cork
+2021-01-18	445938	Quarry Rd.	Dunmanway	Cork
+2021-01-18	445887		Shankill	Dublin
+2021-01-18	445925	Boyces Street	Cork City	Cork
+2021-01-18	446014	Killeena	Fermoy	Cork	['Killeena\tFermoy\tCork', 'Killeena\tKnockraha\tCork']
+2021-01-18	445935		Tallaght	Dublin
+2021-01-18	445644	Lakeview	Virginia	Cavan	['Lakeview\tVirginia\tCavan', 'Lakeview\tGlasnevin\tDublin']
+2021-01-18	445904		Harold's Cross	Dublin	["\tHarold's Cross\tDublin", '\t\tCork']
+2021-01-18	445973	Kilcrea Park, Magazine Road	Cork City	Cork
+2021-01-18	445885	Terramount	Rathcormac	Cork
+2021-01-18	445905	Leighlin  Road	Crumlin	Dublin
+2021-01-18	446003		Poppintree	Dublin
+2021-01-18	446023	6, Clohessy Park	Fedamore	Limerick
+2021-01-18	445996		The Donahies	Dublin	['\tThe Donahies\tDublin', '\tBelfast\tAntrim', '\tKilbarrack\tDublin']
+2021-01-18	445913	33A O`Molloy Street	Tullamore	Offaly
+2021-01-18	445967	Cloonca	Tourlestrane	Sligo
+2021-01-18	446024	44 Woodview, Killygoan	Monaghan Town	Monaghan
+2021-01-18	445972		Glasnevin	Dublin
+2021-01-18	445920	St. Mary`s Park	Navan	Meath
+2021-01-18	445954	Uam Var Drive	Crookstown	Cork	['Uam Var Drive\tCrookstown\tCork', 'Uam Var Drive\tBishopstown\tCork']
+2021-01-18	445994	Killaduff	Aughrim	Wicklow	['Killaduff\tAughrim\tWicklow', 'Killaduff\t\tLaois']
+2021-01-18	445974	Grian Ard , Ardnacassa Avenue	Longford Town	Longford
+2021-01-18	446007			Tipperary	['\t\tTipperary', '\t\tWexford']
+2021-01-18	445977	Thomondgate	Limerick City	Limerick
+2021-01-18	445987	Carrowpadden	Dunmore	Galway
+2021-01-18	445993	Carrigduff		Carlow	['Carrigduff\t\tCarlow', 'Carrigduff\tBunclody\tWexford']
+2021-01-18	445953	Coolrus	Bruree	Limerick
+2021-01-18	445926	St. Michan’s House, Greek Street	Dublin 7	Dublin
+2021-01-18	445889	Beaumont	Blackrock	Cork
+2021-01-18	445911	Cill Dara Close	Celbridge	Kildare
+2021-01-18	445941		Clondalkin	Dublin
+2021-01-18	445957	Green Road, Beaufort	Killarney	Kerry
+2021-01-18	446018		Millstreet	Cork
+2021-01-18	445921		Louisburgh	Mayo	['\tLouisburgh\tMayo', '\tLeixlip\tKildare']
+2021-01-18	446011		Glasnevin	Dublin
+2021-01-18	445975		Bray	Wicklow
+2021-01-18	445898	Dominic Place and formerly of Airmount Maternity Hospital		Waterford
+2021-01-18	445951		Glasnevin	Dublin	['\tGlasnevin\tDublin', '\tDromcollogher\tLimerick']
+2021-01-18	445924	Ardacarra	Bohola	Mayo
+2021-01-18	446010	Greenans	Glenties	Donegal
+2021-01-18	445969		Castledermot	Kildare	['\tCastledermot\tKildare', '\tCarlow Town\tCarlow', '\tTullow\tCarlow']
+2021-01-19	444529	Moyview	Kildalkey	Meath
+2021-01-19	446038	Green Road, Ballymoran	Edenderry	Offaly
+2021-01-19	445882	Derryleigh	Inchigeela	Cork
+2021-01-19	446036	Drinaghan	Ballintrillick	Sligo
+2021-01-19	446032		Clondalkin	Dublin
+2021-01-19	446029	St. Francis Terrace	Kilkenny City	Kilkenny
+2021-01-19	446037	Ballinagarde	Ballyneety	Limerick
+2021-01-19	446034		Smithfield	Dublin
+2021-01-19	446044	Ballinacarrig	Leighlinbridge	Carlow	['Ballinacarrig\tLeighlinbridge\tCarlow', 'Ballinacarrig\tTinryland\tCarlow']
+2021-01-19	446033	Sheares Street	Cork City	Cork
+2021-01-19	446045		Kilcock	Kildare
+2021-01-19	446028	Tonaneave, Magheracloone	Carrickmacross	Monaghan
+2021-01-19	446040	Church Farm	Clonbullogue	Offaly
+2021-01-19	446016	Old Park Road	Corbally	Limerick
+2021-01-19	446041	Clancoolbeg	Bandon	Cork
+2021-01-19	445703		Naas	Kildare	['\tNaas\tKildare', '\tOylegate\tWexford']
+2021-01-19	446055	The Pines, Ferns Demense	Ferns	Wexford	['The Pines, Ferns Demense\tFerns\tWexford', 'The Pines, Ferns Demense\tEnniscorthy\tWexford']
+2021-01-19	446056		Kerrykeel	Donegal
+2021-01-19	446039	Conagher	Milltown	Galway
+2021-01-19	446031	132 Branswood	Athy	Kildare	['132 Branswood\tAthy\tKildare', '132 Branswood\tDublin 2\tDublin']
+2021-01-19	446048		Turloughmore	Galway
+2021-01-19	446050	Inchintotane	Mallow	Cork	['Inchintotane\tMallow\tCork', 'Inchintotane\tNewmarket\tCork']
+2021-01-19	445893			Dublin
+2021-01-19	446035		Foxrock	Dublin
+2021-01-19	446054		Kinvara	Galway	['\tKinvara\tGalway', '\tRaheny\tDublin']
+2021-01-19	446042	Circular Road	Tuam	Galway	['Circular Road\tTuam\tGalway', 'Circular Road\tThurles\tTipperary']
+2021-01-19	446049	Brookfield Lawn	The Lough	Cork
+2021-01-19	446047	The Green, Cnoc Na Greine	Kilcullen	Kildare
+2021-01-19	446015	Clara House	Clara	Offaly	['Clara House\tClara\tOffaly', 'Clara House\t\tTyrone']
+2021-01-19	446052	Orpington, Kent, U.K & Rockhill	Woodford	Galway
+2021-01-19	446053	Clologue, Camolin	Enniscorthy	Wexford
+2021-01-19	446051		Ballymun	Dublin	['\tBallymun\tDublin', '\tBallymun\tDublin']
+2021-01-19	445746	Alleykeolaun, Kylebrack	Loughrea	Galway
+2021-01-19	446000	St. Anthony’s Park	Mallow	Cork	['St. Anthony’s Park\tMallow\tCork', 'St. Anthony’s Park\tKillavullen\tCork']
+2021-01-19	445232	Glean Na Smól	Shannon	Clare
+2021-01-19	446002	Aylesbury	Tallaght	Dublin
+2021-01-19	446043	D'Loughtane House, Clashmore	Clashmore	Waterford	["D'Loughtane House, Clashmore\tClashmore\tWaterford", "D'Loughtane House, Clashmore\tYoughal\tCork"]
+2021-01-19	446046		Ballyjamesduff	Cavan	['\tBallyjamesduff\tCavan', '\tCastleknock\tDublin']
