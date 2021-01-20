@@ -116,6 +116,6 @@ rsconnect::deployApp(
   appName = 'hamiltonRIPnew',
   forceUpdate = TRUE,
   account = 'apmuhamilton',
-  logLevel = "quiet"
+  logLevel = "normal"
 )
 
