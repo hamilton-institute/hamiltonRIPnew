@@ -29,7 +29,11 @@ rm(list = ls())
 load("RIP_rk_aggregated_data_merged_12Nov.RData")
 merged_rk_data <- merged_rk_data %>%
   group_by(Group) %>%
-  mutate(Monthly_Notices = ifelse(is.na(Monthly_Notices), Monthly_Notices[which(Month == 1 & Year == 2016)], Monthly_Notices)) %>%
+  mutate(Monthly_Notices = ifelse(is.na(Monthly_Notices), Monthly_Notices[which(Month == 1 & Year == 2016)], Monthly_Notices))
+
+last_update <- format(max(merged_rk_data$Date), "%b %d, %Y")
+
+merged_rk_data <- merged_rk_data %>%
   filter(Date != max(Date)) # Stop current day being shown as might only be fraction of postings so far
 
 eircodes <- readOGR(dsn = "eircodes", layer = "eircode_polygons")
@@ -69,7 +73,7 @@ ui <- fluidPage(
   theme = hamiltonThemes::use_bs4Dash_distill_theme(),
   titlePanel("Excess postings to RIP.ie"),
   hr(),
-  p(paste0("Last update: ", format(max(merged_rk_data$Date), "%b %d, %Y"))),
+  p(paste0("Last update: ", last_update)),
   navbarPage(
     "",
     tabPanel(
