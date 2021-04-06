@@ -48,7 +48,8 @@ jobs:
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore(repos = "https://packagemanager.rstudio.com/cran/__linux__/bionic/latest")
-
+          Rscript -e 'remove.packages("stringi")'
+          Rscript -e 'install.packages("stringi")'
       - name: Update the dataset and deploy
         run: |
           Rscript updating_data.R ${{secrets.SHINYAPPS_TOKEN}} ${{secrets.SHINYAPPS_SECRET}}
