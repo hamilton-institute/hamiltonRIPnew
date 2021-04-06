@@ -6,38 +6,49 @@ name: updateData
 # events but only for the master branch
 on:
   schedule:
-  - cron: 0 0 * * *
+  - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   deploy:
-    name: Update datasets
-    runs-on: ubuntu-latest
-    steps:
+    name: Update matches
+    runs-on: ubuntu-18.04
+
+    env:
+      RENV_PATHS_ROOT: ~/.local/share/renv
+      RSPM: ${{ matrix.config.rspm }}
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+
+      steps:
       - uses: actions/checkout@v2
+
       - name: Install libs
         run: |
           sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
           sudo apt-get update
           sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev libgit2-dev
+
       - uses: r-lib/actions/setup-r@v1
         with:
-          r-version: '4.0.3'
+          r-version: ${{ matrix.config.r }}
+          http-user-agent: ${{ matrix.config.http-user-agent }}
+
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
+
       - name: Install libgit2
         run: |
           sudo add-apt-repository ppa:cran/libgit2
           sudo apt-get update
           sudo apt-get install libgit2-dev
+
       - name: Install packages
+        shell: Rscript {0}
         run: |
-          Rscript -e 'install.packages("gert")'
-          Rscript -e 'install.packages("sf")'
-          Rscript installing_packages.R
-          Rscript -e 'install.packages("https://cran.r-project.org/src/contrib/Archive/usethis/usethis_1.6.3.tar.gz", repos=NULL, type="source")'
-          Rscript -e 'install.packages("rsconnect")'
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore(repos = "https://packagemanager.rstudio.com/cran/__linux__/bionic/latest")
+
       - name: Update the dataset and deploy
         run: |
           Rscript updating_data.R ${{secrets.SHINYAPPS_TOKEN}} ${{secrets.SHINYAPPS_SECRET}}
