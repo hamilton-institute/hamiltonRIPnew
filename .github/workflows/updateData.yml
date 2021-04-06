@@ -40,9 +40,10 @@ jobs:
       - name: Install libgit2 and sf
         run: |
           sudo add-apt-repository ppa:cran/libgit2
+          sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
           sudo apt-get update
           sudo apt-get install libgit2-dev
-          sudo apt install r-cran-sf
+          sudo apt-get install r-cran-sf
 
       - name: Install packages
         shell: Rscript {0}
