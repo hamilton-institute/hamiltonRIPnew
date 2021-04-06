@@ -11,8 +11,8 @@ on:
 
 jobs:
   deploy:
-    name: Update matches
-    runs-on: ubuntu-18.04
+    name: Update datasets
+    runs-on: ubuntu-latest
 
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
