@@ -9,7 +9,7 @@ rsconnect::setAccountInfo(
 )
 
 files <- list.files('.')
-files <- files[!stringr::str_detect(files, ".tsv$")]
+files <- files[!stringr::str_detect(files, ".tsv$|^renv")]
 
 rsconnect::deployApp(
   appFiles = files,

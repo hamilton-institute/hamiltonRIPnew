@@ -1,6 +1,5 @@
 library(dplyr)
 library(lubridate)
-library(tidyverse)
 library(reshape2)
 library(ggplot2)
 library(flipTime)

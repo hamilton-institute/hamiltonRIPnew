@@ -10,15 +10,17 @@ suppressPackageStartupMessages({
   library(dplyr)
   library(lubridate)
   library(Jmisc)
-  library(tidyverse)
   library(reshape2)
   library(ggplot2)
   library(cowplot)
   library(scales)
   library(shiny)
+  library(tidyr)
   library(shinyWidgets)
   library(plotly)
-  library("survival")
+  library(survival)
+  library(purrr)
+  library(readr)
   library(shinycssloaders)
   library(sf)
   library(reticulate)
@@ -109,7 +111,7 @@ rsconnect::setAccountInfo(
 )
 
 files <- list.files('.')
-files <- files[!str_detect(files, ".tsv$")]
+files <- files[!str_detect(files, ".tsv$|^renv")]
 
 rsconnect::deployApp(
   appFiles = files,
