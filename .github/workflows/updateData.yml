@@ -12,7 +12,7 @@ on:
 jobs:
   deploy:
     name: Update datasets
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
@@ -47,9 +47,8 @@ jobs:
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          options(renv.config.repos.override = c("https://packagemanager.rstudio.com/all/__linux__/bionic/1750752", "https://cloud.r-project.org"))
           renv::restore(repos = "https://packagemanager.rstudio.com/cran/__linux__/bionic/latest")
-          remove.packages("stringi")
-          install.packages("stringi")
       - name: Update the dataset and deploy
         run: |
           Rscript updating_data.R ${{secrets.SHINYAPPS_TOKEN}} ${{secrets.SHINYAPPS_SECRET}}
