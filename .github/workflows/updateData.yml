@@ -26,11 +26,11 @@ jobs:
         run: |
           sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
           sudo apt-get update
-          sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev libicu-dev libicu60
+          sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev libicu-dev
 
       - uses: r-lib/actions/setup-r@v1
         with:
-          r-version: ${{ matrix.config.r }}
+          r-version: '4.0.3'
           http-user-agent: ${{ matrix.config.http-user-agent }}
 
       - uses: actions/setup-python@v2
