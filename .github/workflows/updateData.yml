@@ -19,7 +19,7 @@ jobs:
       RSPM: ${{ matrix.config.rspm }}
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
 
-      steps:
+    steps:
       - uses: actions/checkout@v2
 
       - name: Install libs
